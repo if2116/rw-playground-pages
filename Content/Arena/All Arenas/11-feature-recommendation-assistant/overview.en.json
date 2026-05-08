@@ -1,0 +1,116 @@
+{
+  "highlight": "Proactive follow-up rate exceeds 95%",
+  "industry": "Information Technology,Scientific Research & Education",
+  "category": "Service,Operations",
+  "cycle": "<= 7 days",
+  "case_no": "Case251126X01",
+  "sections": [
+    {
+      "title": "1. Business Highlights",
+      "subsections": [
+        {
+          "title": "Highlight Cards",
+          "content": [
+            "- Proactive follow-up rate exceeds 95%: About 15% higher than general-purpose models",
+            "- Task success rate >=90%: Recommendations align more closely with real user needs",
+            "- Recommendation completed in an average of <=3 turns: Improves user solution-acquisition efficiency by 70%",
+            "- 80% lower startup cost: The workflow can be built with low-code tools"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Basic Information",
+      "subsections": [
+        {
+          "title": "2.1 Overview",
+          "content": [
+            "**Business Background**: In recent years, with the explosion of AI technology and the wave of intelligent transformation across industries, a large number of non-algorithm practitioners in vertical industries urgently want to find AI tools that match their needs and fit their situations, but struggle to do so through traditional methods. To address this information asymmetry in vertical industries, this case builds an intelligent guidance assistant for selecting AI tools in vertical domains. It works like expert consulting: when users provide vague or incomplete natural-language queries, such as I need a tool for writing documents, the assistant proactively asks clarifying follow-up questions and gradually arrives at precise AI tool recommendations within a limited number of dialogue turns."
+          ]
+        },
+        {
+          "title": "2.2 Classification Tags",
+          "content": [
+            "**Industry**: Information Technology, Scientific Research & Education",
+            "**Category**: Service, Operations",
+            "**Technology Category**: Agent, Large Language Model (LLM), Natural Language Processing (NLP), Knowledge Graph (KG), Intent Understanding, Retrieval-Augmented Generation (RAG)"
+          ]
+        },
+        {
+          "title": "2.3 Implementation Cycle",
+          "content": [
+            "- Demo development: <= 7 days"
+          ]
+        },
+        {
+          "title": "2.4 Team Composition",
+          "content": [
+            "- Demo phase: 1 business expert, 1 algorithm engineer"
+          ]
+        },
+        {
+          "title": "2.5 Business Pain Points",
+          "content": [
+            "- Vague intent leads to severe hallucinations: Users often cannot accurately describe technical constraints such as budget, deployment method, or specific needs. Traditional chatbots are either not flexible enough or make blind guesses and recommendations, leading to mismatched results, such as recommending expensive enterprise software to individual users, with low usability and confidence",
+            "- Passive interaction is inefficient: When traditional chatbots face inputs beyond their preset scope, they tend to output generic rejection text such as insufficient information without constructive guidance, forcing users to keep probing and refining their own wording before the bot can understand the need",
+            "- Poor conversion and user experience: Traditional chatbots are mostly passive responders and lack expert-level proactive questioning, making conversations easy to interrupt, increasing user drop-off, and making it difficult to generate effective business conversion and cross-selling opportunities"
+          ]
+        },
+        {
+          "title": "2.6 Core Functions",
+          "content": [
+            "- Follow-up guidance: When users express vague needs, the dialogue assistant does not answer directly. Instead, it refines and clarifies real user needs through 1-3 rounds of follow-up questions"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Best Practice Version",
+      "subsections": [
+        {
+          "title": "3.1.1 Reasons for Best Practice Selection",
+          "content": [
+            "- Strong follow-up capability: REQ >95%, about 15% higher than general-purpose models, effectively mitigating hallucinations in information-missing scenarios.",
+            "- More accurate recommendations: TSR >=90% and Q-ACC >92%, allowing the dialogue to converge to an actionable solution within a few turns.",
+            "- Shorter conversations: User needs are clarified in no more than 3 turns on average, improving end-to-end efficiency from question to solution by about 70%.",
+            "- Lower startup cost: A low-code workflow plus lightweight models reduces startup cost by about 80%, with inference cost reduced by another 30%."
+          ]
+        },
+        {
+          "title": "3.1.2 Version Information",
+          "content": [
+            "- **Version Type**: Private Deployment - Server Deployment Edition",
+            "- **Team Name**: Real-World AI Self-Developed and Verified",
+            "- **Chinese Name**: /",
+            "- **English Name**: Real-World AI",
+            "- **Author Website**: This site",
+            "- **Initial Release Date**: 2025-11-26",
+            "- **Last Updated**: 2026-03-10",
+            "- **Last Reviewed**: 2026-03-10",
+            "- **Key Dependencies**: Coze (by ByteDance) · GLM"
+          ]
+        },
+        {
+          "title": "3.1.3 Implementation Details",
+          "content": [
+            "To be released"
+          ]
+        },
+        {
+          "title": "3.1.4 Metrics",
+          "content": [
+            "**Core Business Metrics**",
+            "- Average number of dialogue turns <= 3: Reduces ineffective dialogue and improves user inquiry efficiency by 70%",
+            "- Task Success Rate (TSR) >= 90%: The proportion of users who ultimately receive a satisfactory recommendation, measured by completed actions such as clicking a link or leaving positive feedback",
+            "- First-character response latency < 5 seconds",
+            "**Core Technical Metrics**",
+            "- Task Success Rate (TSR) >= 90%: same as the core business metric",
+            "- First-character response latency < 5 seconds: same as the core business metric",
+            "- Request Rate (REQ) > 95%: The frequency with which the assistant proactively asks follow-up questions when facing information-missing queries; for GPT-4o this value is about 15%, and higher REQ improves task success rate",
+            "- Follow-up Accuracy (Q-ACC) > 92%: The accuracy with which follow-up questions hit the core missing information, improving user inquiry efficiency"
+          ]
+        }
+      ]
+    }
+  ]
+}

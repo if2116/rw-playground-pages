@@ -1,0 +1,119 @@
+{
+  "highlight": "90% faster review for 30-100 page documents",
+  "industry": "Information Technology,Administrative Management,Finance & Trade,Energy & Manufacturing",
+  "category": "Risk Control,Management,Operations",
+  "cycle": "3.5-5 days",
+  "case_no": "Case251119X01",
+  "sections": [
+    {
+      "title": "1. Business Highlights",
+      "subsections": [
+        {
+          "title": "Highlight Cards",
+          "content": [
+            "- 90% faster review for 30-100 page documents: Dramatically shortens processing time for each document",
+            "- Section completeness F1 >=99%: Structured inspection results are stable and reliable",
+            "- 80% lower review labor cost: Reduces repetitive verification and coordination",
+            "- General-purpose PDF risk review: Adapts to compliant documents across finance, healthcare, and other domains"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Basic Information",
+      "subsections": [
+        {
+          "title": "2.1 Overview",
+          "content": [
+            "**Business Background**: Document inspection, review, and risk identification are widely used in industries such as finance and healthcare, as well as in management and operations functions. Based on user-defined rules and standards, this solution automatically parses editable, semi-structured PDF files provided by users, checks title consistency and section completeness, evaluates risks for key items, and ultimately outputs a JSON-formatted report containing the extracted key content and assessment results."
+          ]
+        },
+        {
+          "title": "2.2 Classification Tags",
+          "content": [
+            "**Industry**: Information Technology, Administrative Management, Finance & Trade, Energy & Manufacturing",
+            "**Category**: Risk Control, Management, Operations",
+            "**Technology Category**: Natural Language Processing (NLP), Agent, Retrieval-Augmented Generation (RAG), Information Extraction"
+          ]
+        },
+        {
+          "title": "2.3 Implementation Cycle",
+          "content": [
+            "- Demo development: 3.5-5 days"
+          ]
+        },
+        {
+          "title": "2.4 Team Composition",
+          "content": [
+            "- Demo phase: 1 business expert, 1 algorithm engineer"
+          ]
+        },
+        {
+          "title": "2.5 Business Pain Points",
+          "content": [
+            "- Low efficiency and high cost of manual review: Reviewing a 30-100 page specialized document often requires business staff to assist with searching, verification, tracing, and communication, taking 3-5 hours; professional documents also demand strong domain expertise",
+            "- High error rate in manual review: Reviewing 5+ documents continuously within a day increases missed-detection risk by about 10%, which may lead to serious safety incidents and legal disputes",
+            "- Poor traceability in manual review: After an issue is found, teams may need to coordinate with operations and other departments to check logs before confirming document actions, making traceability evidence difficult and inefficient to obtain"
+          ]
+        },
+        {
+          "title": "2.6 Core Functions",
+          "content": [
+            "- Structured processing: Organizes source text written in natural language into structured text segments by chapter layout",
+            "- Intelligent section inspection: Based on preset standards and rules, the workflow automatically checks the completeness of text sections",
+            "- Intelligent risk assessment: Based on preset standards and rules, the workflow automatically evaluates risks for specified key information in the document",
+            "- Standardized output: Outputs results using preset format templates"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Best Practice Version",
+      "subsections": [
+        {
+          "title": "3.1.1 Reasons for Best Practice Selection",
+          "content": [
+            "- Higher review efficiency: Review time for 30-100 page documents is reduced by 90%, making it suitable for fast batch processing.",
+            "- More stable risk control: Section completeness F1 >=99% and text-summary Faithfulness >=0.98 significantly reduce missed detections and misjudgments.",
+            "- Lower labor input: Review process labor cost is reduced by 80%, replacing a large amount of repetitive checking work.",
+            "- Stronger generalization: Layout-aware parsing combined with rule-based workflows can be quickly migrated to PDF review scenarios across industries."
+          ]
+        },
+        {
+          "title": "3.1.2 Version Information",
+          "content": [
+            "- **Version Type**: Private Deployment - Server Deployment Edition",
+            "- **Team Name**: Real-World AI Self-Developed and Verified",
+            "- **Chinese Name**: /",
+            "- **English Name**: Real-World AI",
+            "- **Author Website**: This site",
+            "- **Initial Release Date**: 2025-11-14",
+            "- **Last Updated**: 2026-03-10",
+            "- **Last Reviewed**: 2026-03-10",
+            "- **Key Dependencies**: LangChain (by LangChain) · Pydantic (by Pydantic) · unstructured (by Unstructured.io) · Faiss (by Facebook) · GLM"
+          ]
+        },
+        {
+          "title": "3.1.3 Implementation Details",
+          "content": [
+            "[Practice Details](https://gvxnc4ekbvn.feishu.cn/wiki/BQlFwLeAfiQlMHkPg5zc10P4nKb?from=from_copylink)"
+          ]
+        },
+        {
+          "title": "3.1.4 Metrics",
+          "content": [
+            "**Core Business Metrics**",
+            "- Review time for one 30-100 page document is reduced by 90%",
+            "- Labor cost in the document review workflow is reduced by 80%",
+            "- Human error in the document review workflow is reduced by 80%",
+            "**Core Technical Metrics**",
+            "- Section completeness judgment (macro-average F1) >=99%",
+            "- Target-field similarity matching accuracy (Jaro-Winkler score) >= 0.95",
+            "- Text summary generation (Ragas Faithfulness score) >= 0.98",
+            "- JSON document format compliance >= 100%"
+          ]
+        }
+      ]
+    }
+  ]
+}

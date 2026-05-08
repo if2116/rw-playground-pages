@@ -1,0 +1,116 @@
+{
+  "highlight": "Translation across 100+ languages for global scenarios",
+  "industry": "Information Technology,Administrative Management,Finance & Trade,Scientific Research & Education,Cultural Media",
+  "category": "Service,Operations,Management",
+  "cycle": "3.5-5 days",
+  "case_no": "Case251127X01",
+  "sections": [
+    {
+      "title": "1. Business Highlights",
+      "subsections": [
+        {
+          "title": "Highlight Cards",
+          "content": [
+            "- Translation across 100+ languages for global scenarios: Meets the collaboration needs of cross-regional teams",
+            "- Translation accuracy >=98.5%: Delivers high-quality translations for professional documents reliably",
+            "- 20x-180x higher batch-processing efficiency: High-frequency translation is reduced from hours to seconds",
+            "- 80% lower total manual cost: Translation, proofreading, and typesetting workflows are significantly compressed"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Basic Information",
+      "subsections": [
+        {
+          "title": "2.1 Overview",
+          "content": [
+            "**Business Background**: Text translation is widely used in daily office work, cross-border business communication, research paper writing and reading, product localization, and multi-region distribution of operational content. It is a high-frequency, hard-demand capability in industries such as information technology, finance and trade, scientific research and education, and cultural media. Beyond fragment translation, real business workflows also require efficient translation solutions for editable document formats such as Word, PDF, and Markdown.",
+            "**Solution**: To address this, this case proposes a privately deployable intelligent translation workflow. Based on the Gemini 3 Pro large model, which is currently at the SOTA level in overall translation capability, and combined with Gemini CLI and configurable prompt files, it delivers an integrated workflow covering text input, intelligent translation, quality evaluation, and result output."
+          ]
+        },
+        {
+          "title": "2.2 Classification Tags",
+          "content": [
+            "**Industry**: Information Technology, Administrative Management, Finance & Trade, Scientific Research & Education, Cultural Media",
+            "**Category**: Service, Operations, Management",
+            "**Technology Category**: Large Language Model (LLM), Natural Language Processing (NLP), Agent, MCP Tools, Multilingual Learning, Machine Translation, API Integration"
+          ]
+        },
+        {
+          "title": "2.3 Implementation Cycle",
+          "content": [
+            "- Demo development: 3.5-5 days"
+          ]
+        },
+        {
+          "title": "2.4 Team Composition",
+          "content": [
+            "- Demo phase: 1 business expert, 1 algorithm engineer"
+          ]
+        },
+        {
+          "title": "2.5 Business Pain Points",
+          "content": [
+            "- Low efficiency: When handling documents in multiple formats manually, people often need to repeatedly copy and paste content into translation tools. Translating a 20-page document can take 30-60 minutes, offers a poor experience, and is hard to scale to high-frequency batch scenarios",
+            "- High cost: Translation experts, especially for low-resource languages, are expensive and scarce; professional translation software is costly and inflexible",
+            "- Inconsistent translation quality: Different translators have different professional backgrounds and language habits, resulting in inconsistent style and terminology, and sometimes even mistranslations or omissions"
+          ]
+        },
+        {
+          "title": "2.6 Core Functions",
+          "content": [
+            "- Flexible base model selection: The system supports switching among multiple base large models",
+            "- Multilingual translation support: The recommended candidate base large models all support multilingual translation, making setup and use convenient"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Best Practice Version",
+      "subsections": [
+        {
+          "title": "3.1.1 Reasons for Best Practice Selection",
+          "content": [
+            "- Faster translation: Batch-processing efficiency is 20x-180x higher than manual work, making it suitable for high-frequency, multi-format document translation.",
+            "- Stable quality: Translation accuracy reaches >=98.5% and terminology-base matching accuracy reaches >=99%, meeting professional scenario requirements.",
+            "- Broader coverage: Supports translation across 100+ languages and covers the vast majority of global business languages.",
+            "- Lower cost: Automated workflows reduce the total cost of translation, proofreading, and typesetting by about 80%, and Demo validation cost can be reduced by another 90%."
+          ]
+        },
+        {
+          "title": "3.1.2 Version Information",
+          "content": [
+            "- **Version Type**: Private Deployment - Server Deployment Edition",
+            "- **Team Name**: Real-World AI Self-Developed and Verified",
+            "- **Chinese Name**: /",
+            "- **English Name**: Real-World AI",
+            "- **Author Website**: This site",
+            "- **Initial Release Date**: 2025-11-27",
+            "- **Last Updated**: 2026-03-10",
+            "- **Last Reviewed**: 2026-03-10",
+            "- **Key Dependencies**: Gemini CLI · Gemini 3.1 Pro"
+          ]
+        },
+        {
+          "title": "3.1.3 Implementation Details",
+          "content": [
+            "To be released"
+          ]
+        },
+        {
+          "title": "3.1.4 Metrics",
+          "content": [
+            "**Core Business Metrics**",
+            "- Supports translation across 100+ languages, adapting to more business scenarios",
+            "- Text translation accuracy >= 98.5%, with batch-processing efficiency improved by 20x-180x",
+            "- First-token response time for a single request <=10 seconds",
+            "**Core Technical Metrics**",
+            "- Text translation accuracy >= 98.5%: same as the core business metric",
+            "- First-token response time for a single request <=10 seconds: same as the core business metric"
+          ]
+        }
+      ]
+    }
+  ]
+}

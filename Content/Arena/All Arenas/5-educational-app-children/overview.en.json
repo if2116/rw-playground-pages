@@ -1,0 +1,126 @@
+{
+  "highlight": "Build a complete education workflow with zero code",
+  "industry": "Scientific Research & Education,Culture & Sports",
+  "category": "Service",
+  "cycle": "Within 1 week",
+  "case_no": "Case251031Y01",
+  "sections": [
+    {
+      "title": "1. Business Highlights",
+      "subsections": [
+        {
+          "title": "Highlight Cards",
+          "content": [
+            "- Build a complete education workflow with zero code: A fun Q&A Demo can go live through step-by-step configuration",
+            "- Q&A response latency <1 second: Smooth and natural interaction for children",
+            "- Supports 5 consecutive interaction rounds: Delivers a complete early-learning experience",
+            "- Single-turn answer accuracy reaches 90%: Ensures question and feedback quality"
+          ]
+        },
+        {
+          "title": "Demo",
+          "content": [
+            "(Preview of expected results. This video was produced by the RWAI team using [Enterprise-Level Brief Demo Video Built in Two and a Half Days - Verified].)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Basic Information",
+      "subsections": [
+        {
+          "title": "2.1 Overview",
+          "content": [
+            "**Business Background**: Rapidly build a fun intellectual early-learning app for children, using brain teasers as an example here. AI technology is used to generate different question types, such as unconventional-thinking and logical-reasoning questions."
+          ]
+        },
+        {
+          "title": "2.2 Classification Tags",
+          "content": [
+            "**Industry**: Scientific Research & Education, Culture & Sports",
+            "**Category**: Service",
+            "**Technology Category**: Natural Language Processing, Text Generation, Intelligent Question Answering"
+          ]
+        },
+        {
+          "title": "2.3 Implementation Cycle",
+          "content": [
+            "- Demo setup: Within 1 week"
+          ]
+        },
+        {
+          "title": "2.4 Team Composition",
+          "content": [
+            "- Demo phase: 1 business expert, 1 algorithm expert"
+          ]
+        },
+        {
+          "title": "2.5 Business Pain Points",
+          "content": [
+            "- Traditional fully manual education and training usually embeds this type of Q&A into games, so it cannot be experienced independently and lacks flexibility",
+            "- Manual education and training makes it difficult for this kind of Q&A service to reach a broader potential user base",
+            "- Non-technical people with experience and knowledge in educational Q&A find it difficult to develop a complete application"
+          ]
+        },
+        {
+          "title": "2.6 Core Functions",
+          "content": [
+            "- Interaction support:",
+            "- Change the question (to keep things fresh)",
+            "- Make multiple guesses (to encourage attempts)",
+            "- Ask for the answer (for immediate feedback)",
+            "- Challenge the question (to cultivate critical thinking)",
+            "- Build a complete intellectual-training experience."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Best Practice Version",
+      "subsections": [
+        {
+          "title": "3.1.1 Reasons for Best Practice Selection",
+          "content": [
+            "- Zero-code onboarding: The app can be built through workflow platform configuration, allowing non-technical users to reuse it quickly.",
+            "- Smooth response: Q&A latency stays below 1 second and continuous interaction reaches 5 rounds, ensuring a good experience for children.",
+            "- Reliable content: Single-turn answer accuracy reaches 90%, making it suitable for early-learning Q&A and fun training scenarios.",
+            "- Good for validation: The workflow is complete and the steps are concise, so it can directly serve as a template for educational AI applications."
+          ]
+        },
+        {
+          "title": "3.1.2 Version Information",
+          "content": [
+            "- **Version Type**: Private Deployment - Server Deployment Edition",
+            "- **Team Name**: Real-World AI Reproduced and Verified",
+            "- **Chinese Name**: /",
+            "- **English Name**: zh",
+            "- **Author Website**: [Hand-Built 100 Workflows [Event]](https://dataelem.feishu.cn/wiki/OJYRwuJzZiUHhhkI4MLcMJvfnzh) (last row of the table, author is zh)",
+            "- **Initial Release Date**: 2024-12",
+            "- **Last Updated**: 2026-03-10",
+            "- **Last Reviewed**: 2026-03-10",
+            "- **Key Dependencies**: BISHENG · GLM"
+          ]
+        },
+        {
+          "title": "3.1.3 Implementation Details",
+          "content": [
+            "[Practice Details](https://gvxnc4ekbvn.feishu.cn/wiki/J4ucwrsuJiWRuWkffSpcly50n7d?from=from_copylink)"
+          ]
+        },
+        {
+          "title": "3.1.4 Metrics",
+          "content": [
+            "**Core Business Metrics**",
+            "- Q&A response latency is below 1 second",
+            "- Supports 5 consecutive rounds of interaction with users",
+            "**Core Technical Metrics**",
+            "- Average single-turn answer accuracy reaches 90%",
+            "**Other Value Returns**",
+            "- Can serve as the first workflow-building practice project for large-model enthusiasts",
+            "- Provides parents in need with a zero-threshold solution for building a fun app for personal use"
+          ]
+        }
+      ]
+    }
+  ]
+}
