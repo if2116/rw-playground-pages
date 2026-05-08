@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages Project Site
+name: Deploy GitHub Pages Site
 
 on:
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Set base path for GitHub Pages project site
+      - name: Set base path for GitHub Pages site
         run: |
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
           OWNER_SITE="${GITHUB_REPOSITORY_OWNER}.github.io"
