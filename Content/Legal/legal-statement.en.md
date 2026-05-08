@@ -1,307 +1,272 @@
-# RWAI Legal Statement-260421
+# RWAI Terms of Service v2-260506
 
-Welcome to RWAI Arena. By using our services, you agree to the following terms, policies, and statements.
+## General Provisions
 
-(Last updated: April 21, 2026)
+Welcome to access, browse, or use RWAI Arena (hereinafter referred to as “the Platform”). The Platform primarily uses websites, open-source repositories, case documents, demonstration videos, technical descriptions, and related resources to display, exchange, and share evaluation results, best practices, technical frameworks, and implementation experience for AI deployment in real-world scenarios.
 
-Please read the following terms, policies, and statements carefully. By using any service of the RWAI Arena project, you agree to these terms. If you do not agree to these terms, please do not use our services.
+Before accepting the services of the Platform, users must carefully read this Statement. Any user who accesses, browses, clicks, searches, filters, sorts, plays, downloads, quotes, sends emails, submits feedback, uploads materials, applies for cooperation, participates in a challenge, or uses accounts, APIs, online demos, or other interactive functions that may be launched in the future by any means shall be deemed to have read, understood, and agreed to accept all contents of this Statement. If you do not agree with any part of this Statement, please immediately stop using the Platform.
 
-## Privacy Policy
+This Statement is a comprehensive legal document issued by the Platform to users. It provides unified explanations of service usage rules, information processing and privacy protection rules, disclaimers, and risk warnings. Unless the Platform separately publishes special rules, this Statement applies to all content, pages, functions, and services currently available on the Platform and those that may be launched in the future.
 
-### 1. Information Collection
+## Part I Service Usage Rules
 
-#### 1.1 Information You Actively Provide
+### Article 1 Platform Nature and Service Description
 
-(1) Contact forms: name, email address, subject, and message content.
+RWAI Arena is a display, evaluation, communication, and resource indexing platform oriented toward AI deployment practice in real-world scenarios. It may provide services including but not limited to:
 
-(2) Feedback and suggestions: feedback, opinions, or suggestions you submit through any channel.
+- AI model evaluation, arena-style comparison, leaderboard display, and case descriptions;
+- display, indexing, or redirection for open-source code, documents, videos, deployment instructions, validation reports, technical configurations, and related resources;
+- information pages such as technical frameworks, implementation experience, industry cases, FAQs, and About Us;
+- browsing interactions such as search, filtering, sorting, tag redirection, multilingual switching, tab switching, and external-link redirection;
+- contact or material submission through email, forms, event registration, cooperation applications, challenge applications, and other means;
+- functions that may be launched by the Platform in the future, such as comments, communities, uploads, submissions, APIs, accounts, subscriptions, favorites, event registration, online demos, online experiment environments, image deployment guidance, and developer services.
 
-(3) Community participation: if you participate in our forums, discussion groups, or other community features.
+The content provided by the Platform is usually formed under specific times, specific business scenarios, specific task definitions, specific test samples, specific technical environments, specific resource constraints, and specific evaluation criteria, and therefore has obvious scenario dependence, time dependence, and version dependence.
 
-#### 1.2 Information Collected Automatically
+### Article 2 Acceptance of Terms
 
-(1) Usage data: page visit records, clickstream data, browser type and version, operating system, and device identifiers.
+By accessing or using the Platform, you agree to be bound by this Statement. If you do not agree with any term of this Statement, please do not access or use the Platform and its related services.
 
-(2) Log data: IP addresses, browser type, Internet service provider, referring/exit pages, and timestamps recorded in server logs.
+### Article 3 Changes to Terms
 
-(3) Cookies and similar technologies: used to remember your preferences and analyze website usage.
+We reserve the right to modify, supplement, update, or replace this Statement based on product changes, function adjustments, legal and regulatory requirements, or operational needs. The updated Statement will be published on relevant pages of the Platform and will take effect from the date of publication. In the event of major changes, we may provide reminders through page prompts, email notifications, or other reasonable means according to actual circumstances. If you continue to use the Platform after the update, you shall be deemed to have accepted the updated Statement.
 
-### 2. Use of Information
+### Article 4 User Eligibility and Code of Conduct
 
-(1) To provide, maintain, and improve our services, including developing new features and functions;
+Users undertake that they have the corresponding capacity for civil conduct and will use the Platform only for lawful, legitimate, and reasonable purposes. When using the Platform, users shall not engage in any of the following acts:
 
-(2) To process your requests, transactions, and inquiries;
+- using the Platform to conduct any illegal, non-compliant, infringing, fraudulent, harassing, defamatory, discriminatory act, or any act that endangers national security or harms public interests;
+- interfering with, attacking, damaging, bypassing, probing, or attempting to gain unauthorized access to the Platform, servers, interfaces, data, accounts, or other network environments;
+- spreading viruses, trojans, malicious scripts, automated abuse programs, crawlers, or other harmful code;
+- large-scale scraping, mirroring, batch copying, batch downloading, caching, republication, or redistribution of Platform content, or imposing an unreasonable burden on the normal operation of the Platform;
+- using Platform content for false advertising, misleading marketing, infringing training, illegal data processing, regulatory circumvention, or other improper purposes;
+- impersonating the Platform or falsely claiming any cooperation, authorization, certification, endorsement, affiliation, agency relationship, or other association with the Platform;
+- directly using Platform content for high-risk matters that should be independently reviewed by professionals without necessary review;
+- sharing, transferring, leasing, or borrowing accounts without authorization, or using accounts for fake traffic, batch registration, malicious comments, malicious submissions, interface abuse, or other acts disrupting Platform order;
+- calling, copying, scraping, mirroring, reselling, or secondarily distributing Platform interfaces, data, case collections, chart structures, leaderboard results, or other content that can be programmatically used without authorization;
+- publishing illegal, infringing, rumor-spreading, insulting, defamatory, vulgar, discriminatory, harassing, advertisement-diverting, spamming, or other improper content in future functions such as comments, Q&A, forums, messages, submissions, and event interactions;
+- conducting unauthorized calls, stress attacks, resource mining, cracking, reverse abuse, vulnerability probing, malicious file uploads, or other acts endangering the security of the Platform or third parties in future online demos, APIs, experiment environments, containers, images, or other technical services;
+- violating applicable laws and regulations, public order and good morals, or other provisions of this Statement.
 
-(3) To send technical notices, updates, security alerts, and support messages related to you;
+If a user violates the above rules, the Platform has the right, depending on the circumstances, to take measures such as warnings, access restrictions, content deletion, refusal of service, termination of cooperation, evidence preservation, and pursuit of legal liability.
 
-(4) To respond to your comments, questions, customer service requests, and provide customer support;
+### Article 5 User Submissions, Feedback, Challenges, and Cooperation Applications
 
-(5) To monitor and analyze usage trends, and optimize and improve our services;
+When a user submits any materials, content, data, code, videos, documents, opinions, suggestions, or feedback to the Platform by email, forms, upload interfaces, event registration, cooperation applications, challenge applications, APIs, online interactions, or other means, the user shall be deemed to represent and warrant that:
 
-(6) To detect, prevent, and address technical issues and security issues.
+- the user has lawful, complete, and sufficient rights to the submitted content, or has obtained necessary authorization;
+- the submitted content does not infringe any third party’s intellectual property rights, personality rights, privacy rights, data rights and interests, trade secrets, or other lawful rights and interests;
+- the submitted content does not include information prohibited by laws and regulations from dissemination, does not include state secrets, does not include trade secrets disclosed without authorization, and does not include personal information or sensitive personal information without a lawful processing basis;
+- unless otherwise expressly agreed in writing by both parties, user-submitted content does not automatically constitute confidential information, and the Platform does not assume implied confidentiality obligations for materials that are not specifically marked and confirmed in writing;
+- the user agrees that, within the scope necessary for evaluation, display, review, testing, communication, archiving, research, publicity, cooperation negotiation, product improvement, or dispute handling, the Platform may receive, store, copy, organize, summarize, adapt, internally discuss, test, display, publish, delete, or disconnect links to the submitted content.
 
-### 3. Information Sharing
+If a user wishes to submit confidential materials, restricted data, test samples, business plans, or other materials requiring the execution of a confidentiality agreement, the user shall separately confirm this in writing with the Platform in advance.
 
-We will not sell, trade, or rent your personally identifiable information. We may share your information in the following circumstances:
+The Platform has the right but not the obligation to review user submissions, feedback, challenges, contributions, comments, messages, issues, pull requests, event registration materials, or other content, and may decide whether to receive, publish, display, merge, edit, excerpt, mark, reject, delay processing, delete, remove, disconnect links to, or restrict dissemination of such content based on laws and regulations, platform rules, technical security, content quality, intellectual property rights, authenticity, completeness, suitability, or operational needs. If user-submitted content is illegal, non-compliant, infringing, untrue, misleading, low-quality, repeatedly submitted, inconsistent with the Platform’s positioning, or otherwise unsuitable for display, the user shall bear responsibility independently; the Platform has the right to dispose of such content unilaterally without obtaining the user’s prior consent.
 
-(1) With service providers: we may require third-party companies to assist us in operating the services, and such companies may access personal information only as necessary to perform their tasks;
+### Article 6 Intellectual Property
 
-(2) Legal requirements: if we believe disclosure is reasonable in order to comply with laws, regulations, court orders, or legal processes;
+The Platform’s page structures, thematic arrangements, leaderboard structures, case organization results, explanatory text, chart designs, page designs, video materials, image materials, trademarks and logos, and other content, except where they legally belong to third parties or are otherwise provided under open-source licenses, are protected by intellectual property rights law and are owned by the Platform operator or corresponding rights holders.
 
-(3) Website transfer: if we are involved in a merger, acquisition, or sale of assets, your information may be transferred;
+Users shall not remove, obscure, or modify any copyright, trademark, attribution, license, or other rights notices; shall not substantially copy, mirror, or commercially reuse the Platform’s overall page structure, case collections, leaderboard structures, or thematic organization results; shall not quote Platform content in a distorted, out-of-context, or misleading manner; and shall not claim without authorization that Platform content is their original work or publish information externally in the name of the Platform without authorization.
 
-(4) With your consent: except for the circumstances above, we will share your information only with your consent.
+### Article 7 Open-Source Licenses and Third-Party Authorization
 
-### 4. Data Security
+The code, models, data, documents, and other resources displayed, indexed, or linked by the Platform may respectively be subject to different open-source licenses, commercial licenses, or third-party authorization conditions. Before downloading, copying, modifying, distributing, deploying, commercializing, or sublicensing such resources, users shall independently verify and comply with the corresponding licenses, authorization documents, and use restrictions.
 
-We take reasonable technical and organizational measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission or storage over the Internet is 100% secure.
+Users shall bear responsibility for any disputes, losses, or liabilities arising from their violation of open-source licenses, violation of third-party authorization conditions, or infringement of third-party intellectual property rights, and the Platform assumes no responsibility.
 
-(1) HTTPS encrypted transmission;
+With respect to Platform page text, case descriptions, charts, videos, leaderboards, thematic organization results, and other non-code content, unless the Platform or relevant rights holders separately provide express written authorization, users may only read, download, excerpt, reproduce, or quote such content within lawful, reasonable, and necessary limits for personal learning, scientific research and education, internal evaluation, or non-directly-profitable technical communication purposes.
 
-(2) Regular security audits and vulnerability scans;
+The “non-commercial learning and research” mentioned in the preceding paragraph generally means activities that are not for direct or indirect profit; that do not use Platform content as externally charged services, commercial products, marketing selling points, deliverables, or substitute paid content; that do not package such content externally as “self-developed,” “original,” or “exclusively organized”; and that do not obtain commercial benefits through secondary packaging, batch republication, material sales, course sales, consulting traffic generation, advertising monetization, commercial bidding, customer delivery, or other means.
 
-(3) Access control and authentication;
+When users quote, repost, excerpt, screenshot, translate, organize, reproduce descriptions of, or publicly share Platform content, they shall comply with applicable laws and regulations and rights notices, retain necessary source identifiers, and reasonably indicate the project name, source link, and date of citation. They shall not distort, quote out of context, conceal the source, remove rights notices, or cause the public to mistakenly believe that the relevant content is the user’s original work, an official cooperation result, or specially endorsed by the Platform.
 
-(4) Data backup and disaster recovery plans.
+Without express written authorization from the Platform or relevant rights holders, users shall not conduct secondary packaging, wholesale copying, mirror-site construction, commercial resale, paid-community dissemination, database resale, disguised self-development, implicit commercial use, or other use of Platform content beyond the scope of fair use.
 
-### 5. Cookie Policy
+If users intend to use Platform content for commercial purposes, including but not limited to externally charged services, commercial product integration, marketing and promotion, customer delivery, consulting services, training courses, bidding materials, or other direct or indirect profit-making uses, they shall conduct written confirmation with the Platform or relevant rights holders in advance and obtain corresponding authorization.
 
-We use cookies and similar technologies to collect information, remember your preferences, and improve your experience. You may configure your browser to reject all cookies, but doing so may affect certain website functions.
+### Article 8 Third-Party Links, Embedded Media, and External Services
 
-(1) Necessary cookies: cookies required for the normal operation of the website;
+The Platform may contain or embed third-party content, platforms, or services, including but not limited to GitHub, Bilibili, YouTube, external OSS resources, third-party open-source repositories, model platforms, tool platforms, and other external webpages.
 
-(2) Analytics cookies: cookies that help us understand how the website is used;
+Users understand and agree that:
 
-(3) Preference cookies: cookies that remember your settings and preferences.
+- such third-party content and services are not actually controlled by the Platform, and their content, rules, availability, stability, timeliness, legality, security, and privacy processing methods are the responsibility of the third parties themselves;
+- when users access, play, download, redirect to, quote, or use third-party services, they shall also comply with the applicable terms of service, privacy policies, community rules, and relevant laws and regulations of such third-party platforms;
+- third-party platforms may independently collect cookies, device information, log information, playback behavior, or other data, and the Platform cannot control their specific processing methods;
+- the Platform assumes no responsibility for losses caused by third-party content changes, deletion, removal, invalidation, regional restrictions, network failures, platform policy adjustments, account restrictions, or security issues.
 
-### 6. Your Rights
+### Article 9 Service Changes, Suspension, and Termination
 
-You have the following rights with respect to your personal information:
+The Platform has the right, based on product adjustments, technical maintenance, content updates, resource limitations, security risks, compliance requirements, or operational arrangements, to independently decide to change, suspend, restrict, or terminate all or part of the Platform’s services, functions, pages, content, cases, links, or access permissions, without assuming liability to users for doing so, unless otherwise provided by law.
 
-(1) Right of access: you may request to view a copy of the personal information we hold about you;
+If the Platform launches accounts, comments, messages, submissions, APIs, event registration, online demos, online experiment environments, image deployment guidance, or other interactive functions in the future, then in addition to this Statement, the following general rules shall apply:
 
-(2) Right to rectification: you may request correction of inaccurate or incomplete information;
+- the Platform has the right to set registration conditions, real-name authentication requirements, call permissions, access frequency, capacity limits, review procedures, display rules, fee rules, or usage periods according to functional needs;
+- users shall properly keep accounts, keys, tokens, call credentials, and login information, and shall be responsible for operations conducted under their names;
+- based on security, compliance, operations, risk control, system stability, and resource management needs, the Platform has the right to set review, rate-limiting, rejection, deletion, suspension, banning, cancellation, or removal measures for comments, messages, submissions, forms, calls, experiment tasks, image use, or event participation;
+- content, data, programs, and results submitted, generated, uploaded, cached, run, or disseminated by users in the foregoing functions shall in principle be the responsibility of users themselves, unless otherwise provided by laws and regulations or otherwise agreed in writing by both parties;
+- with respect to online experiment environments, images, containers, demos, or interface services, the Platform does not guarantee results in circumstances such as task failures, result deviations, data loss, operation interruptions, resource release, version changes, environment recycling, access restrictions, or output errors. Users shall back up data independently, verify results independently, and bear related risks independently.
 
-(3) Right to deletion: you may request deletion of your personal information;
+If the Platform launches an account cancellation function in the future, after completing necessary identity verification, the Platform will process relevant data deletion or anonymization requests within a reasonable period in accordance with applicable laws and regulations, dispute handling, audit trails, security risk control, and technical implementation circumstances. For information that cannot be deleted immediately or must continue to be stored according to law, the Platform has the right to continue storing it within the necessary scope and necessary period, and will further publicize the specific processing mechanism in the applicable rules at that time.
 
-(4) Right to object to processing: you may object to our processing of your personal information;
+### Article 10 Indemnification and Liability
 
-(5) Right to data portability: you may request to receive your information in a structured, machine-readable format.
+If, due to a user’s violation of this Statement, defects in rights relating to submitted content, illegal or non-compliant conduct, infringement of third-party rights and interests, or improper use of the Platform, the Platform, its operator, affiliates, partners, contributors, entrusted service providers, or related personnel suffer claims, penalties, losses, liabilities, costs, or expenses, including reasonable attorneys’ fees, the user shall be responsible for indemnification and shall hold the relevant parties harmless.
 
-### 7. Children's Privacy
+## Part II Information Processing and Privacy Protection
 
-Our services are not directed to children under the age of 16. We do not knowingly collect personal information from children under the age of 16. If you are a parent or guardian and know that your child has provided us with personal information, please contact us.
+### Article 11 Scope of Information Collection
 
-### 8. Changes to This Policy
+During a user’s access to or use of the Platform, the Platform may collect or receive the following information according to service needs, operational security, communication and contact, and functional implementation:
 
-We may update this Privacy Policy from time to time. After changes are made, we will post the new policy on this page and update the “Last updated” date. Material changes will be notified to you by email or other means. Your continued use of our services indicates your acceptance of the updated policy.
+- information actively provided by users, including but not limited to name, organization, email address, contact phone number, message content, cooperation requirements, challenge materials, feedback content, uploaded files, and information actively provided by users in other ways;
+- automatically collected information, including but not limited to access time, page paths, click records, referring pages, exit pages, browser type, operating system, device information, network logs, IP address, abnormal access records, and log information related to the secure operation of the Platform;
+- relevant information generated through interactions with embedded media, third-party links, or third-party services, although such information may also be independently collected and processed by third parties;
+- other information necessary for maintaining website operation, security protection, troubleshooting, data statistics, service optimization, and user support.
 
-## Terms of Service
+The Platform will process information within the scope necessary to achieve relevant service purposes and will endeavor to follow the principles of lawfulness, legitimacy, necessity, and minimization.
 
-### 1. Acceptance of Terms
+### Article 12 Purposes of Information Use
 
-By accessing or using the RWAI Arena project, you agree to be bound by these Terms of Service. If you do not agree to any part of these terms, please do not access or use our services. This project is an open-source project operated by the Artificial Intelligence Innovation Research Center of the Yangtze Delta Region Institute of Tsinghua University, Zhejiang, and is intended to build an open platform for real-world AI evaluation and exchange.
+The Platform may use relevant information for the following purposes:
 
-### 2. Changes to Terms
+- providing, maintaining, optimizing, and updating Platform services;
+- processing user inquiries, feedback, cooperation applications, challenge applications, and other contact matters;
+- conducting security protection, anomaly detection, risk identification, troubleshooting, log analysis, and operations management;
+- counting Platform access, improving page content, improving case display, and optimizing user experience;
+- fulfilling legal obligations, cooperating with regulatory requirements, or handling disputes within the scope permitted or required by laws and regulations;
+- contacting users regarding service changes, important notices, cooperation matters, or risk warnings.
 
-We reserve the right to modify these terms at any time. The modified terms will be posted on this page. Material changes will be notified to you by email or other means. Your continued use of our services indicates your acceptance of the modified terms.
+If the Platform launches forms, accounts, event registration, submissions, comments, APIs, online experiments, or other new functions in the future, the Platform may also process information submitted or generated by users for registration, registration review, notification, identity verification, permission allocation, interaction management, risk-control review, call statistics, resource scheduling, and troubleshooting within the scope necessary to implement such functions.
 
-### 3. Description of Services
+### Article 13 Information Sharing and Disclosure
 
-RWAI Arena is an open-source project that provides the following services:
+The Platform will not sell users’ personal information. Except under the following circumstances, the Platform will not provide user information to unrelated third parties without cause:
 
-(1) AI model evaluation and arena comparison: providing AI model performance evaluation, leaderboard display, and comparative analysis in real-world scenarios;
+- providing information to necessary entrusted service providers for the purpose of implementing functions such as website hosting, email communication, storage, security protection, and operations support;
+- where it is necessary to provide information according to laws and regulations or requirements of judicial, administrative, or regulatory authorities;
+- where disclosure is necessary to protect the lawful rights and interests of the Platform, other users, or the public;
+- with the user’s prior consent or authorization;
+- where necessary transfer or disclosure occurs within the scope permitted by law in circumstances such as merger, division, asset transfer, project adjustment, or other arrangements that may affect the Platform entity.
 
-(2) Indexing and display of open-source code, documentation, and related resources;
+### Article 14 Information Storage and Security Protection
 
-(3) A platform for sharing and exchanging technical frameworks and implementation experience;
+The Platform will adopt reasonable technical and management measures appropriate to its business scale to protect the security of relevant information, including but not limited to access control, log audit, security monitoring, transmission protection, backup, and necessary operations management measures.
 
-(4) Related technical discussions, frequently asked questions, and community exchange;
+However, users understand that no internet transmission, electronic storage, or system protection measure can achieve absolute security. The Platform does not provide an absolute guarantee against information leakage, tampering, loss, illegal acquisition, or access failure beyond its reasonable control, nor does it assume absolute liability therefor.
 
-(5) Multilingual support services.
+The Platform will store relevant information for the shortest period necessary to achieve processing purposes, unless otherwise provided by laws and regulations or otherwise agreed by both parties.
 
-We reserve the right to modify, suspend, or terminate all or part of the services at any time without prior notice.
+For information submitted or generated by users through future functions such as forms, submissions, event registration, account registration, comment interactions, API calls, or online experiments, the Platform will also store it for the period necessary to achieve the corresponding purpose and may extend the necessary retention period in accordance with laws and regulations, dispute handling, audit trails, security evidence preservation, and operations management needs.
 
-### 4. User Responsibilities
+### Article 15 Cookies, Logs, and Similar Technologies
 
-As a user of this project, you agree to:
+To ensure basic website operation, save necessary preferences, analyze visits, optimize page experience, and conduct security protection, the Platform and relevant technical services may use cookies, local storage, log records, or similar technologies.
 
-(1) Use the services only for lawful purposes and not for any illegal or unauthorized purpose;
+Users may manage or restrict certain cookies or similar technologies according to their browser settings, but such restrictions may cause some pages, videos, language switching, preference memory, or other functions to fail to operate properly.
 
-(2) Not interfere with or disrupt the operation of the services or the servers or networks connected to the services;
+For cookies or similar technologies used by third-party embedded content, their settings and management rules are determined by the corresponding third parties.
 
-(3) Not transmit viruses, malicious code, or any destructive code that may damage the services or other persons’ computers;
+### Article 16 Users’ Information Rights
 
-(4) Not attempt to gain unauthorized access to any part of the services, other accounts, computer systems, or networks;
+Within the scope provided by applicable laws and regulations, users may assert rights to access, correct, delete, withdraw consent, restrict processing, or object with respect to information for which they lawfully enjoy such rights. Users may submit requests through the contact information specified in this Statement.
 
-(5) If you submit AI models or related data to the arena, ensure that you have the lawful rights to do so and that the content does not infringe any third-party rights;
+After verifying the user’s identity, the Platform will process relevant requests in accordance with applicable laws and regulations, technical feasibility, and management costs. However, if laws and regulations provide otherwise, if necessary for the Platform to fulfill legal obligations, if necessary for dispute handling, if necessary for retaining logs and evidence, or if technically difficult to implement, the Platform has the right to refuse or restrict response within the scope permitted by law.
 
-(6) Comply with all applicable laws and regulations.
+### Article 17 Protection of Minors
 
-**Users who violate these responsibilities:** If you violate these responsibilities, we reserve the right to suspend or terminate your access to the services and take appropriate legal action.
+In principle, the Platform does not proactively provide complex services requiring submission of personal information to minors under the age of sixteen. If minors need to use relevant Platform functions, they shall do so under the guidance of their guardians.
 
-### 5. Intellectual Property
+If the Platform discovers that user-submitted information involves personal information of minors and cannot prove that there is a lawful processing basis, the Platform has the right to delete or block such information or require supplementary explanations. If a guardian discovers that a minor has provided information to the Platform without consent, the guardian may contact the Platform in a timely manner for handling.
 
-#### 5.1 Open-Source License
+### Article 18 Data Processing by Third-Party Platforms
 
-This project is released under an open-source license. You may use, modify, and distribute the code within the scope permitted by the license. For the specific license terms, please refer to: https://github.com/THU-ZJAI/Real-World-AI_Source
+When users access Platform embedded content or redirect to external pages through third-party platforms, they shall also pay attention to the privacy rules of such third-party platforms. The Platform does not assume the responsibility of data controller or processor for information independently collected and processed by third parties, unless otherwise provided by law or expressly undertaken by the Platform.
 
-#### 5.2 Usage Restrictions
+## Part III Disclaimers and Risk Warnings
 
-(1) You may not remove or alter any copyright, trademark, or other proprietary rights notices;
+### Article 19 Nature of Platform Content
 
-(2) You may not use the content for commercial purposes unless expressly authorized;
+The cases, evaluation results, leaderboards, status labels, indicator data, document descriptions, charts, deployment paths, demonstration videos, code links, and other content provided by the Platform are mainly used for technical communication, learning and research, product exploration, business reference, and experience sharing.
 
-(3) You may not claim the content as your own or falsely imply any association with us.
+Unless otherwise expressly committed by the Platform in writing, no Platform content constitutes:
 
-#### 5.3 User Contributions
+- investment advice, procurement commitment, performance commitment, or commercial guarantee for any product, model, solution, supplier, tool, or service;
+- formal opinions on any legal, compliance, audit, medical, financial, credit, tax, engineering, safety production, or other professional matters;
+- guarantees for any user’s business objectives, launch results, commercial returns, compliance approval, controllable risks, or continuous availability.
 
-If you submit content to the project, such as code, documentation, models, or suggestions, you confirm that:
+### Article 20 Special Statement on Evaluation Results, Case Status, and Display Conclusions
 
-(1) You own all rights to the submitted content or have the right to authorize us to use it;
+The Platform may display labels, statuses, indicators, rankings, orders, summaries, or recommendation-style statements such as “validated,” “under validation,” “arena leader,” “under challenge,” “best practice,” “quality/speed/security/cost,” and similar expressions. Users understand and agree that:
 
-(2) The content does not infringe any third party's intellectual property rights;
+- the above information only represents phased display results formed under corresponding specific test conditions, specific time points, and specific evaluation frameworks, and does not represent universal conclusions, final conclusions, or guarantees of future performance;
+- differences in models, prompts, data sources, degree of human participation, software and hardware environments, deployment methods, compliance requirements, and budget conditions may all lead to significant result differences;
+- “validated” only means that the corresponding solution has completed validation within the specific scope disclosed by the Platform, and does not mean that it is applicable to all industries, all institutions, all data, all time points, all regulatory requirements, or all production environments;
+- “under validation,” “under challenge,” or similar expressions do not represent recognition, endorsement, or guarantee by the Platform with respect to the relevant solution;
+- any leaderboard, score, star rating, comparison chart, title, marketing expression, or recommendation-style summary is only for the convenience of communication and display and should not be understood as a binding professional conclusion.
 
-(3) You grant us a non-exclusive, royalty-free license to use, modify, display, and distribute the content.
+Users shall not directly use Platform display content as the sole basis for procurement, project approval, launch, risk control, credit granting, legal review, audit, investment, medical, engineering, safety production, or other major decisions. Users shall independently complete testing, review, due diligence, and professional demonstration in combination with their own scenarios, and shall independently bear all resulting responsibilities and risks.
 
-### 6. Disclaimer
+The testing scope, evaluation dimensions, display caliber, and update frequency used by the Platform for arena-style comparison, case validation, status labeling, indicator display, and best-practice screening may be adjusted based on technical iteration, scenario needs, sample changes, resource conditions, compliance requirements, or operational arrangements. Relevant adjustments may be publicized through the official website, case pages, document descriptions, or other reasonable means. If users continue to use the Platform, they shall be deemed to understand and accept such dynamic adjustments.
 
-The services are provided on an “as is” and “as available” basis, without any express or implied warranties of any kind. We expressly disclaim the following warranties:
+### Article 21 Special Notice for High-Risk Scenarios
 
-(1) That the services will be uninterrupted, timely, secure, or error-free;
+The Platform may display cases such as contract review, document review, risk control, credit reports, research reports, SQL generation, and object detection. Such content is used only to illustrate the possible implementation of technical paths in specific scenarios and does not constitute formal legal opinions, compliance review conclusions, credit opinions, credit judgments, due diligence conclusions, tax opinions, medical advice, engineering opinions, or other professional opinions.
 
-(2) That the services or servers will be free of viruses or other harmful components;
+For matters involving law, compliance, audit, finance, medical care, public safety, industrial control, services for minors, processing of sensitive personal information, processing of important data, state secrets, trade secrets, or other high-risk matters, users shall introduce personnel with statutory qualifications or professional capabilities for independent review. The Platform assumes no responsibility for any consequences caused by users’ direct reliance on relevant cases.
 
-(3) That the results of use will meet your requirements or expectations;
+### Article 22 “As Is” Provision and Disclaimer of Warranties
 
-(4) The accuracy, reliability, or completeness of information.
+To the maximum extent permitted by law, the Platform, its operator, affiliates, partners, contributors, entrusted service providers, and related personnel make no express or implied warranties with respect to the following matters:
 
-**Important notice:** The AI model evaluation results, leaderboard data, and technical cases provided by this project are for reference and technical exchange only, and do not constitute any form of advice or warranty. Evaluation results may vary due to factors such as testing environment, data version, and evaluation metrics. Before use in a production environment, you should conduct your own evaluation and testing. We are not responsible for any loss or damage arising from the use of or reliance on such evaluation results.
+- that Platform services will always be continuous, stable, error-free, uninterrupted, delay-free, virus-free, or absolutely secure;
+- that Platform content, evaluation results, case descriptions, technical configurations, video demonstrations, external links, charts, or downloadable resources are completely accurate, complete, timely, reliable, or suitable for any particular purpose;
+- that users will obtain any specific results after making procurement, deployment, project approval, launch, risk control, credit granting, legal review, business, investment, R&D, or other decisions based on Platform content;
+- that third-party content, third-party platforms, third-party resources, or third-party services will always be accessible, playable, downloadable, adaptable, or legally valid.
 
-### 7. Limitation of Liability
+All content provided by the Platform is in principle provided on an “as is” and “as available” basis.
 
-To the maximum extent permitted by law, we shall not be liable for:
+### Article 23 Network, Technical, and Force Majeure Risks
 
-(1) Direct, indirect, incidental, special, consequential, or punitive damages;
+The Platform assumes no responsibility for service interruptions, access failures, information losses, resource invalidation, link invalidation, content changes, media playback failure, or other adverse consequences caused by hacker attacks, virus intrusions, system failures, communication line failures, equipment failures, cloud service abnormalities, third-party platform abnormalities, policy changes, regulatory requirements, regional access restrictions, natural disasters, government actions, social events, or other force majeure events or causes not attributable to the Platform.
 
-(2) Loss of profits, data loss, loss of goodwill, or other intangible losses;
+### Article 24 User Responsibility for Independent Decisions
 
-(3) Any damage caused by service interruption or errors;
+Users shall independently determine whether to rely on Platform content and shall independently bear all risks and consequences arising from the use, quotation, deployment, reproduction, procurement, modification, distribution, or commercialization of Platform-related content, including but not limited to compatibility risks, security risks, compliance risks, business risks, intellectual property risks, data risks, and decision-making risks.
 
-(4) Any damage caused by user conduct or content.
+If users independently conduct reproduction experiments, engineering implementation, model deployment, image running, system integration, external demonstrations, customer delivery, training dissemination, community exchanges, or private sharing based on Platform content, the relevant acts and consequences shall be the responsibility of the users themselves. The Platform assumes no responsibility for engineering accidents, service failures, data leakage, infringement disputes, regulatory risks, customer claims, or other losses caused by reproduction, dissemination, modification, deployment, or transfer of use of Platform content.
 
-The above limitations apply regardless of whether we have been advised of the possibility of such damages.
+### Article 25 Limitation of Liability
 
-### 8. Indemnification
+To the maximum extent permitted by law, the Platform and relevant parties shall not be liable for any direct, indirect, incidental, special, punitive, or consequential damages arising from or related to access to or use of the Platform, including but not limited to loss of profits, loss of goodwill, data loss, business interruption, equipment damage, decision-making errors, compliance risks, loss of opportunities, or other economic losses.
 
-You agree to indemnify and hold us and the relevant parties harmless from any claims, losses, liabilities, costs, and expenses, including reasonable attorneys' fees, arising from: your use or misuse of the services; your violation of these terms; your infringement of any third-party rights; or any claims arising from content you submit.
+If there is an upper limit to the scope in which liability may be limited under law, the Platform’s liability shall be limited to the minimum scope and minimum amount permitted by law.
 
-### 9. Termination
+### Article 26 User Content and Infringement Handling
 
-We reserve the right to suspend or terminate your access to the services without prior notice for the following reasons:
+If any natural person, legal person, or other organization believes that Platform content infringes their lawful rights and interests, they may submit a written notice and necessary supporting materials to the Platform. The Platform has the right to conduct a preliminary review in accordance with laws, regulations, and platform rules, and may, depending on the circumstances, take measures such as deletion, link disconnection, blocking, access restriction, or transfer for handling.
 
-(1) Violation of any provision of these terms;
+For users who use the Platform to conduct illegal, non-compliant, or infringing acts, the Platform has the right, depending on the circumstances, to take measures such as deletion, blocking, functional restriction, service termination, evidence preservation, and reporting to relevant authorities.
 
-(2) Engagement in fraudulent or illegal activities;
+## Part IV General Terms
 
-(3) Causing harm or risk to other users or to us;
+### Article 27 Entire Agreement and Severability
 
-(4) Other circumstances that we deem appropriate.
+This Statement constitutes the complete legal document reached between users and the Platform regarding access to and use of the Platform. If any term of this Statement is held invalid, illegal, or unenforceable, the validity of the other terms shall not be affected.
 
-After termination, your right to access the services will immediately cease, and we will assume no liability.
+### Article 28 Governing Law and Dispute Resolution
 
-### 10. Governing Law and Dispute Resolution
+The formation, validity, interpretation, performance, and dispute resolution of this Statement shall be governed by the laws of the People’s Republic of China.
 
-These terms are governed by and interpreted in accordance with the laws of the People's Republic of China. Any dispute arising from these terms shall first be resolved through friendly consultation between the parties. If consultation fails, either party may bring a lawsuit before the people's court with jurisdiction at the location of the project operator.
+Any dispute arising from access to or use of the Platform shall first be resolved by friendly negotiation between the parties. If negotiation fails, either party may file a lawsuit with the competent people’s court at the place where the Platform operator is located.
 
-### 11. Severability
+### Article 29 Contact Us
 
-If any provision of these terms is found to be unenforceable or invalid, that provision will be limited or deleted to the minimum extent necessary, and the remaining provisions will remain in full force and effect.
+If you have any questions regarding this Statement, infringement complaints, information processing, material submission, cooperation negotiation, or other legal matters, please contact us through the following means:
 
-### 12. Entire Agreement
-
-These terms constitute the entire agreement between you and us regarding the use of the services and supersede any prior agreements or understandings.
-
-### 13. Third-Party Services
-
-This website is hosted by GitHub Pages and may contain links to third-party services such as GitHub. Such third-party services are governed by their respective terms and privacy policies. We are not responsible for the availability, security, or content of third-party services.
-
-## Disclaimer
-
-### 1. Nature of Services and Risks of Use
-
-All materials, data, charts, and AI model evaluation results published by this project are for reference and technical exchange only, and do not constitute any form of advice, warranty, or commitment. Users expressly agree that all risks arising from their use of this project’s online services shall be borne solely by themselves; all consequences arising from their use of this project’s online services shall also be borne solely by themselves, and this project shall not assume any responsibility to users.
-
-**Important notice:** The AI model evaluation results, leaderboard data, and technical cases provided by this project are for reference and technical exchange only, and do not constitute any form of advice or warranty. Evaluation results may vary due to factors such as testing environment, data version, evaluation metrics, and hardware configuration. Before use in a production environment, you should conduct your own evaluation and testing. We are not responsible for any loss or damage arising from the use of or reliance on such evaluation results.
-
-### 2. Open-Source Project Statement
-
-RWAI Arena is an open-source project released under an open-source license. You may use, modify, and distribute the code within the scope permitted by the license. For the specific license terms, please refer to the project’s open-source repository.
-
-(1) This project assumes no legal liability for any accident, negligence, contractual damage, defamation, copyright or intellectual property infringement, or any losses caused thereby, including but not limited to direct, indirect, incidental, or consequential losses, arising from any entity’s or individual’s downloading or use of this project’s open-source code;
-
-(2) Users shall legally publish, disseminate, and use the project within the scope permitted by the open-source license. If any legal liability, including but not limited to civil compensation and criminal liability, is caused by violation of the open-source license terms or violation of laws and regulations, such liability shall be borne by the breaching party;
-
-(3) This project owns intellectual property rights in the open-source code, including but not limited to trademark rights, patent rights, copyrights, and trade secrets, and the foregoing content is protected by relevant laws and regulations.
-
-### 3. Third-Party Services
-
-This website is hosted by GitHub Pages and may contain links to third-party services such as GitHub.
-
-(1) This project does not guarantee the accuracy or completeness of external links provided for users’ convenience;
-
-(2) This project assumes no responsibility for the content of any webpages that are linked externally and are not actually controlled by this project;
-
-(3) This project shall be exempt from liability for any disclosure of personal data caused by other websites linked to this project and any legal disputes or consequences arising therefrom.
-
-### 4. User Conduct and Content Responsibility
-
-When using this project’s services and data in various ways, including but not limited to browsing, reposting, or using this project or content published by users of this project, users shall not use this project in any manner to directly or indirectly engage in conduct that violates Chinese laws or public morality.
-
-(1) Content posted by users in this project, including but not limited to content in the project’s current features, represents only the personal position and views of the individual user and does not represent the position or views of this project. As the publisher of such content, the user shall be solely responsible for the content posted, and any disputes arising from such content shall be borne entirely by the publisher, including all legal and joint liabilities;
-
-(2) If a user submits AI models or related data to the arena, the user shall ensure that they have the lawful rights to do so and that the content does not infringe any third-party rights. If a user publishes content on this project that infringes another person’s intellectual property rights or other lawful rights and interests, this project has the right to delete such content and reserves the right to transfer the matter to judicial authorities for handling;
-
-(3) If any individual or entity believes that content in this project infringes its lawful rights and interests, it should prepare legally valid supporting materials and contact this project in a timely manner so that this project may promptly handle the matter.
-
-### 5. Force Majeure and Service Interruption
-
-(1) This project does not warrant that the online services will necessarily meet users’ requirements, nor does it warrant that the online services will not be interrupted. This project also makes no warranties regarding the timeliness, security, or accuracy of the online services;
-
-(2) If this project needs to suspend services due to system maintenance or upgrades, it will make an announcement in advance. If suspension of services occurs due to line failures, hardware failures outside the control of this project, or other force majeure events, this project shall not be liable for any inconvenience or loss caused during the suspension period;
-
-(3) This project shall be exempt from liability for any personal data disclosure, loss, theft, or tampering caused by force majeure events affecting normal network operations, such as hacker attacks, computer virus intrusion or outbreaks, or temporary shutdowns caused by government control;
-
-(4) This project shall not be liable for network service interruptions or other defects caused by force majeure or reasons beyond the control of this project, but it will endeavor to reduce the losses and impacts caused to users as a result.
-
-### 6. Governing Law
-
-(1) If a user of this project violates the provisions of this statement and thereby violates the laws of the People's Republic of China, all consequences shall be borne by the user, and this project shall not assume any liability;
-
-(2) Anyone who accesses this project in any manner or directly or indirectly uses materials from this project shall be deemed to have voluntarily accepted the constraints of this statement;
-
-(3) Matters not covered by this statement shall be governed by relevant national laws and regulations. In the event of any conflict between this statement and national laws and regulations, the national laws and regulations shall prevail.
-
-### 7. Severability
-
-If any part of this statement is deemed invalid or unenforceable, that part shall be interpreted to reflect the original intent of this project, and the remaining parts shall remain in full force and effect. An unenforceable part of this statement does not constitute our waiver of the right to enforce that statement.
-
-### 8. Changes to This Statement
-
-This project has the right to unilaterally change the content of the terms of this statement at any time and publish such changes by website announcement or other means. The changes shall automatically take effect immediately upon publication, without separate notice. If you continue to use the project after changes to this statement have been announced, you indicate that you have fully read, understood, and accepted the modified statement.
-
-## Contact Us
-
-If you have any questions about this Disclaimer, please contact us through the following methods:
-
-Email: xuyuyao@tsinghua-zj.edu.cn
-
-Project name: RWAI Arena (Real-World AI Arena)
-
-Operator: Artificial Intelligence Innovation Research Center, Yangtze Delta Region Institute of Tsinghua University, Zhejiang (THU-ZJAI)
-
-Address: No. 705 Yatai Road, Nanhu District, Jiaxing, Zhejiang Province, China
-
-## Supplementary Provisions
-
-The right to interpret, modify, and update the Disclaimer belongs to the RWAI Arena project.
+- **Email:** [xuyuyao@tsinghua-zj.edu.cn](mailto:xuyuyao@tsinghua-zj.edu.cn)
+- **Project Name:** RWAI Arena (Real-World AI Arena)
+- **Operator:** Artificial Intelligence Innovation Research Center, Yangtze Delta Region Institute of Tsinghua University, Zhejiang (THU-ZJAI)
+- **Address:** No. 705 Yatai Road, Nanhu District, Jiaxing, Zhejiang Province, China

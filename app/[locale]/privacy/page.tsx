@@ -12,12 +12,12 @@ export default async function PrivacyPolicyPage({
       <meta httpEquiv="refresh" content={`0;url=${termsHref}`} />
       <div>
         <h1 className="mb-3 text-2xl font-semibold text-slate-900">
-          {locale === 'zh' ? '服务条款已合并' : 'Legal Terms Updated'}
+          {locale === 'zh' ? '服务条款已更新' : 'Terms of Service Updated'}
         </h1>
         <p className="mb-6 text-slate-600">
           {locale === 'zh'
-            ? '隐私政策和法律声明已合并到服务条款页面。'
-            : 'The privacy policy and legal statement have been consolidated into the Terms of Service page.'}
+            ? '隐私政策、服务使用规则和免责声明已合并到服务条款页面。'
+            : 'The privacy policy, service usage rules, and disclaimers have been consolidated into the Terms of Service page.'}
         </p>
         <a className="font-medium text-primary hover:underline" href={termsHref}>
           {locale === 'zh' ? '前往服务条款' : 'Go to Terms of Service'}

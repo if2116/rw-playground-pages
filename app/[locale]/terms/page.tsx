@@ -44,7 +44,7 @@ export default async function TermsOfServicePage({
                 : 'Welcome to RWAI Arena. By using our services, you agree to the following terms, policies, and statements.'}
             </p>
             <p className="mt-4 text-sm text-slate-500">
-              {isChina ? '最后更新：2026年4月21日' : 'Last updated: April 21, 2026'}
+              {isChina ? '最后更新：2026年5月6日' : 'Last updated: May 6, 2026'}
             </p>
           </div>
         </div>
@@ -55,6 +55,19 @@ export default async function TermsOfServicePage({
           <article className="markdown-content legal-markdown">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{legalStatement}</ReactMarkdown>
           </article>
+        </div>
+      </section>
+
+      <section className="border-t border-slate-200 bg-slate-50 py-12">
+        <div className="mx-auto max-w-4xl px-6 text-center lg:px-8">
+          <p className="mb-2 text-sm text-slate-600">
+            {isChina ? '感谢您使用 RWAI Arena。' : 'Thank you for using RWAI Arena.'}
+          </p>
+          <p className="text-sm text-slate-500">
+            {isChina
+              ? '本条款最后更新于 2026年5月6日，并可能会不时更新。'
+              : 'These terms were last updated on May 6, 2026, and may be updated from time to time.'}
+          </p>
         </div>
       </section>
     </div>

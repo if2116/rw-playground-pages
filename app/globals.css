@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --font-manrope: 'Manrope', sans-serif;
-  --font-noto-sans-sc: 'Noto Sans SC', sans-serif;
-  --font-ibm-plex-mono: 'IBM Plex Mono', monospace;
+  --font-manrope: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-noto-sans-sc: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+  --font-ibm-plex-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
 @layer base {
@@ -197,10 +197,55 @@
   @apply sr-only;
 }
 
+.legal-markdown {
+  @apply text-slate-700;
+}
+
 .legal-markdown h2 {
-  @apply border-t border-gray-200 pt-10;
+  @apply mt-8 mb-5 text-3xl font-bold tracking-normal text-slate-900;
 }
 
 .legal-markdown h2:first-of-type {
-  @apply border-t-0 pt-0;
+  @apply mt-0 border-t-0 pt-0;
+}
+
+.legal-markdown h3 {
+  @apply mt-9 mb-4 text-2xl font-semibold tracking-normal text-slate-900;
+}
+
+.legal-markdown h2 + h3 {
+  @apply mt-2;
+}
+
+.legal-markdown p {
+  @apply mb-4 text-base leading-7 text-slate-700;
+}
+
+.legal-markdown ul,
+.legal-markdown ol {
+  @apply mb-5 space-y-2;
+}
+
+.legal-markdown li {
+  @apply text-base leading-7 text-slate-700;
+}
+
+.legal-markdown li > strong {
+  @apply text-slate-900;
+}
+
+.legal-markdown a {
+  @apply text-blue-600 hover:text-blue-700;
+}
+
+.legal-markdown h3:last-of-type + p + ul {
+  @apply ml-0 mt-4 list-none rounded-lg border border-slate-200 bg-slate-50 p-6;
+}
+
+.legal-markdown h3:last-of-type + p + ul li {
+  @apply mb-2 text-slate-700;
+}
+
+.legal-markdown h3:last-of-type + p + ul li:last-child {
+  @apply mb-0;
 }
