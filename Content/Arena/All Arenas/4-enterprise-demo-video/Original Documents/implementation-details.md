@@ -78,7 +78,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>相关资源</strong></td>
-<td style="text-align: left;">模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink">初步验证需求文档模板</a></td>
+<td style="text-align: left;">模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx">初步验证需求文档模板</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
@@ -138,7 +138,7 @@
 <p>funasr GitHub：https://github.com/modelscope/FunASR</p>
 <p>paddle-speech GitHub：https://github.com/PaddlePaddle/PaddleSpeech</p>
 <p>SongGeneration GitHub：https://github.com/tencent-ailab/SongGeneration</p>
-<p>模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink">初步验证报告模板</a></p></td>
+<p>模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">初步验证报告模板</a></p></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>

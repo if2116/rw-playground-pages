@@ -152,7 +152,7 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -198,7 +198,7 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -251,8 +251,8 @@
                   "- Tavily安装文档：https://docs.tavily.com/documentation/mcp",
                   "- Metaso安装文档：https://www.modelscope.cn/mcp/servers/metasota/metaso-search",
                   "- mcp-python-sdk GitHub：https://github.com/modelcontextprotocol/python-sdk",
-                  "- 模板：[初步验证报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)",
-                  "- 模板：[立项报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/R0jrwxeDfiBpsEkqZdYcZtgJncd?from=from_copylink)"
+                  "- 模板：[初步验证报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)",
+                  "- 模板：[立项报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E7%AB%8B%E9%A1%B9%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -591,9 +591,9 @@
                   "mcp>=1.0.0",
                   "```",
                   "- 创建相关服务 python 文件：",
-                  "[github_server.py]",
-                  "[hf_server.py]",
-                  "[arxiv_server.py]",
+                  "[github_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/code_github_mcp/github_server.py)",
+                  "[hf_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/model_huggingface_mcp/hf_server.py)",
+                  "[arxiv_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/paper_arxiv_mcp/arxiv_server.py)",
                   "安装依赖并启动：",
                   "```bash",
                   "pip install -r requirements.txt",
@@ -669,9 +669,9 @@
                   "└── 深度研究报告生成全流程.md # 生成调研文档的流程图 (必须)",
                   "```",
                   "深度研究报告生成全流程.md 文件如下",
-                  "[深度研究报告生成全流程.md]",
+                  "[深度研究报告生成全流程.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)",
                   "skill.md 文件如下",
-                  "[SKILL.md]",
+                  "[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)",
                   "在项目根目录启动 Claude Code 来生成调研报告",
                   "```bash",
                   "# 启动 claude，请确保项目根目录下除了 files、skill.md、流程图外无其他文件",
@@ -852,7 +852,7 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Preliminary Verification Requirement Document Template](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- Template: [Preliminary Verification Requirement Document Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -898,7 +898,7 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Preliminary Verification Requirement Document Template](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- Template: [Preliminary Verification Requirement Document Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -951,8 +951,8 @@
                   "- Tavily Installation Documentation：https://docs.tavily.com/documentation/mcp",
                   "- Metaso Installation Documentation：https://www.modelscope.cn/mcp/servers/metasota/metaso-search",
                   "- mcp-python-sdk GitHub：https://github.com/modelcontextprotocol/python-sdk",
-                  "- Template: [Preliminary Verification Report Template](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)",
-                  "- Template: [Project Initiation Report Template](https://gvxnc4ekbvn.feishu.cn/wiki/R0jrwxeDfiBpsEkqZdYcZtgJncd?from=from_copylink)"
+                  "- Template: [Preliminary Verification Report Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)",
+                  "- Template: [Project Initiation Report Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E7%AB%8B%E9%A1%B9%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -1291,9 +1291,9 @@
                   "mcp>=1.0.0",
                   "```",
                   "- Create related service python files:",
-                  "[github_server.py]",
-                  "[hf_server.py]",
-                  "[arxiv_server.py]",
+                  "[github_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/code_github_mcp/github_server.py)",
+                  "[hf_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/model_huggingface_mcp/hf_server.py)",
+                  "[arxiv_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/paper_arxiv_mcp/arxiv_server.py)",
                   "Install dependencies and start:",
                   "```bash",
                   "pip install -r requirements.txt",
@@ -1371,7 +1371,7 @@
                   "deep_research_report_generation_full_workflow.md file is as follows",
                   "[deep_research_report_generation_full_workflow.md]",
                   "skill.md file is as follows",
-                  "[SKILL.md]",
+                  "[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)",
                   "Start Claude Code in the project root directory to generate research reports",
                   "```bash",
                   "# Start claude, please ensure there are no other files in the project root directory except files, skill.md, and flowchart",
@@ -1544,8 +1544,8 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[项目合作需求问询书模板](https://gvxnc4ekbvn.feishu.cn/wiki/TXOqw6LDKiN1FrkhRtvcT6JdnVc?from=from_copylink)",
-                  "- 模板：[子任务算法需求模板](https://gvxnc4ekbvn.feishu.cn/wiki/Z4U4wXExviT9UOkeJIGc8EnKnAh?from=from_copylink)"
+                  "- 模板：[项目合作需求问询书模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%E9%9C%80%E6%B1%82%E9%97%AE%E8%AF%A2%E4%B9%A6%E6%A8%A1%E6%9D%BF.docx)",
+                  "- 模板：[子任务算法需求模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%AD%90%E4%BB%BB%E5%8A%A1%E7%AE%97%E6%B3%95%E9%9C%80%E6%B1%82%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -1591,7 +1591,7 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -1644,7 +1644,7 @@
                   "- BIRD评测集（含训练集和验证集）Github：https://bird-bench.github.io/",
                   "- Bird bench评测脚本 GitHub：https://github.com/arcwisedata/bird-sql",
                   "- BIRD评测集文献 arXiv：https://arxiv.org/abs/2507.04701",
-                  "- 模板：[初步验证报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- 模板：[初步验证报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -2065,8 +2065,8 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Project Cooperation Requirement Inquiry Form Template](https://gvxnc4ekbvn.feishu.cn/wiki/TXOqw6LDKiN1FrkhRtvcT6JdnVc?from=from_copylink)",
-                  "- Template: [Sub-task Algorithm Requirement Template](https://gvxnc4ekbvn.feishu.cn/wiki/Z4U4wXExviT9UOkeJIGc8EnKnAh?from=from_copylink)"
+                  "- Template: [Project Cooperation Requirement Inquiry Form Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%E9%9C%80%E6%B1%82%E9%97%AE%E8%AF%A2%E4%B9%A6%E6%A8%A1%E6%9D%BF.docx)",
+                  "- Template: [Sub-task Algorithm Requirement Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%AD%90%E4%BB%BB%E5%8A%A1%E7%AE%97%E6%B3%95%E9%9C%80%E6%B1%82%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -2112,7 +2112,7 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Preliminary Verify Requirement Document Template](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- Template: [Preliminary Verify Requirement Document Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -2165,7 +2165,7 @@
                   "- BIRD evaluation set (including training set and validation set) Github: https://bird-bench.github.io/",
                   "- Bird bench evaluation script GitHub: https://github.com/arcwisedata/bird-sql",
                   "- BIRD evaluation set literature arXiv: https://arxiv.org/abs/2507.04701",
-                  "- Template: [Preliminary Verify Report Template](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- Template: [Preliminary Verify Report Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -3396,7 +3396,7 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -3444,7 +3444,7 @@
                 "content": [
                   "- Claude Code GitHub：https://github.com/anthropics/claude-code",
                   "- Lovable：https://lovable.dev/",
-                  "- 模板：[初步验证报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- 模板：[初步验证报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -3875,7 +3875,7 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Preliminary Verification Requirement Document Template](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- Template: [Preliminary Verification Requirement Document Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -3923,7 +3923,7 @@
                 "content": [
                   "- Claude Code GitHub: https://github.com/anthropics/claude-code",
                   "- Lovable: https://lovable.dev/",
-                  "- Template: [Preliminary Verification Report Template](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- Template: [Preliminary Verification Report Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -4301,8 +4301,8 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[项目合作需求问询书模板](https://gvxnc4ekbvn.feishu.cn/wiki/TXOqw6LDKiN1FrkhRtvcT6JdnVc?from=from_copylink)",
-                  "- 模板：[子任务算法需求模板](https://gvxnc4ekbvn.feishu.cn/wiki/Z4U4wXExviT9UOkeJIGc8EnKnAh?from=from_copylink)"
+                  "- 模板：[项目合作需求问询书模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%E9%9C%80%E6%B1%82%E9%97%AE%E8%AF%A2%E4%B9%A6%E6%A8%A1%E6%9D%BF.docx)",
+                  "- 模板：[子任务算法需求模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%AD%90%E4%BB%BB%E5%8A%A1%E7%AE%97%E6%B3%95%E9%9C%80%E6%B1%82%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -4348,7 +4348,7 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -4402,7 +4402,7 @@
                   "- sentence-transformers Github: https://github.com/huggingface/sentence-transformers",
                   "- unstructured Github : https://github.com/Unstructured-IO/unstructured",
                   "- Faiss Github: https://github.com/facebookresearch/faiss",
-                  "- 模板：[初步验证报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- 模板：[初步验证报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -4829,8 +4829,8 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Project Collaboration Requirement Inquiry Template](https://gvxnc4ekbvn.feishu.cn/wiki/TXOqw6LDKiN1FrkhRtvcT6JdnVc?from=from_copylink)",
-                  "- Template: [Subtask Algorithm Requirement Template](https://gvxnc4ekbvn.feishu.cn/wiki/Z4U4wXExviT9UOkeJIGc8EnKnAh?from=from_copylink)"
+                  "- Template: [Project Collaboration Requirement Inquiry Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%E9%9C%80%E6%B1%82%E9%97%AE%E8%AF%A2%E4%B9%A6%E6%A8%A1%E6%9D%BF.docx)",
+                  "- Template: [Subtask Algorithm Requirement Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%AD%90%E4%BB%BB%E5%8A%A1%E7%AE%97%E6%B3%95%E9%9C%80%E6%B1%82%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -4876,7 +4876,7 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Preliminary Verify Requirement Document Template](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- Template: [Preliminary Verify Requirement Document Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -4930,7 +4930,7 @@
                   "- sentence-transformers Github: https://github.com/huggingface/sentence-transformers",
                   "- unstructured Github: https://github.com/Unstructured-IO/unstructured",
                   "- Faiss Github: https://github.com/facebookresearch/faiss",
-                  "- Template: [Preliminary Verify Report Template](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- Template: [Preliminary Verify Report Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -5408,7 +5408,7 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -5471,7 +5471,7 @@
                   "- funasr GitHub：https://github.com/modelscope/FunASR",
                   "- paddle-speech GitHub：https://github.com/PaddlePaddle/PaddleSpeech",
                   "- SongGeneration GitHub：https://github.com/tencent-ailab/SongGeneration",
-                  "- 模板：[初步验证报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- 模板：[初步验证报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -7621,7 +7621,7 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Preliminary Verification Requirements Document Template](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- Template: [Preliminary Verification Requirements Document Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -7684,7 +7684,7 @@
                   "- funasr GitHub: https://github.com/modelscope/FunASR",
                   "- paddle-speech GitHub: https://github.com/PaddlePaddle/PaddleSpeech",
                   "- SongGeneration GitHub: https://github.com/tencent-ailab/SongGeneration",
-                  "- Template: [Preliminary Verification Report Template](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- Template: [Preliminary Verification Report Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -8442,8 +8442,8 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[项目合作需求问询书模板](https://gvxnc4ekbvn.feishu.cn/wiki/TXOqw6LDKiN1FrkhRtvcT6JdnVc?from=from_copylink)",
-                  "- 模板：[子任务算法需求模板](https://gvxnc4ekbvn.feishu.cn/wiki/Z4U4wXExviT9UOkeJIGc8EnKnAh?from=from_copylink)"
+                  "- 模板：[项目合作需求问询书模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%E9%9C%80%E6%B1%82%E9%97%AE%E8%AF%A2%E4%B9%A6%E6%A8%A1%E6%9D%BF.docx)",
+                  "- 模板：[子任务算法需求模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%AD%90%E4%BB%BB%E5%8A%A1%E7%AE%97%E6%B3%95%E9%9C%80%E6%B1%82%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -8489,7 +8489,7 @@
               {
                 "title": "相关资源",
                 "content": [
-                  "- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -8543,7 +8543,7 @@
                   "- 硅基流动官网大模型页面：https://cloud.siliconflow.cn/me/models",
                   "- 毕昇官方搭建工作流教程：[BISHENG workflow](https://dataelem.feishu.cn/wiki/R7HZwH5ZGiJUDrkHZXicA9pInif)",
                   "- 毕昇官方对外发布工作流的API教程：[工作流对外发布 API](https://dataelem.feishu.cn/wiki/ZjIywYGZliClIgkg2jFcP4xunjh)",
-                  "- 模板：[初步验证报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- 模板：[初步验证报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -8744,7 +8744,7 @@
                   "- 输入介绍：在毕昇平台新建一个空白工作流，并在其中导入准备好的 json 文件",
                   "- 输入示例：",
                   "以下是该json文件的样例：",
-                  "[01-脑筋急转弯互动版.json]",
+                  "[01-脑筋急转弯互动版.json](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E5%84%BF%E7%AB%A5%E6%95%99%E8%82%B2%E8%B6%A3%E5%91%B3%E5%BA%94%E7%94%A8/%E6%93%82%E4%B8%BB/01-%E8%84%91%E7%AD%8B%E6%80%A5%E8%BD%AC%E5%BC%AF%E4%BA%92%E5%8A%A8%E7%89%88.json)",
                   "- 资源链接：",
                   "毕昇社区-工作流精选（最后一行，作者为zh）：手搓100个Workflow【活动】"
                 ]
@@ -9135,8 +9135,8 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Project Cooperation Requirements Inquiry Form Template](https://gvxnc4ekbvn.feishu.cn/wiki/TXOqw6LDKiN1FrkhRtvcT6JdnVc?from=from_copylink)",
-                  "- Template: [Subtask Algorithm Requirements Template](https://gvxnc4ekbvn.feishu.cn/wiki/Z4U4wXExviT9UOkeJIGc8EnKnAh?from=from_copylink)"
+                  "- Template: [Project Cooperation Requirements Inquiry Form Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%E9%9C%80%E6%B1%82%E9%97%AE%E8%AF%A2%E4%B9%A6%E6%A8%A1%E6%9D%BF.docx)",
+                  "- Template: [Subtask Algorithm Requirements Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%AD%90%E4%BB%BB%E5%8A%A1%E7%AE%97%E6%B3%95%E9%9C%80%E6%B1%82%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -9182,7 +9182,7 @@
               {
                 "title": "Related Resources",
                 "content": [
-                  "- Template: [Preliminary Verification Requirements Document Template](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)"
+                  "- Template: [Preliminary Verification Requirements Document Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -9236,7 +9236,7 @@
                   "- Silicon Flow Official Website Large Model Page: https://cloud.siliconflow.cn/me/models",
                   "- Bisheng Official Workflow Tutorial: [BISHENG workflow](https://dataelem.feishu.cn/wiki/R7HZwH5ZGiJUDrkHZXicA9pInif)",
                   "- Bisheng Official Workflow API Publishing Tutorial: [Workflow External Publishing API](https://dataelem.feishu.cn/wiki/ZjIywYGZliClIgkg2jFcP4xunjh)",
-                  "- Template: [Preliminary Verification Report Template](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)"
+                  "- Template: [Preliminary Verification Report Template](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)"
                 ]
               },
               {
@@ -9437,7 +9437,7 @@
                   "- Input Description: Create a new blank workflow in Bisheng platform, and import the prepared json file into it",
                   "- Input Example:",
                   "Here is a sample of the json file:",
-                  "[01-脑筋急转弯互动版.json]",
+                  "[01-脑筋急转弯互动版.json](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E5%84%BF%E7%AB%A5%E6%95%99%E8%82%B2%E8%B6%A3%E5%91%B3%E5%BA%94%E7%94%A8/%E6%93%82%E4%B8%BB/01-%E8%84%91%E7%AD%8B%E6%80%A5%E8%BD%AC%E5%BC%AF%E4%BA%92%E5%8A%A8%E7%89%88.json)",
                   "- Resource Links:",
                   "Bisheng Community - Featured Workflows (last line, author zh): Hand-crafted 100 Workflows [Activity]"
                 ]

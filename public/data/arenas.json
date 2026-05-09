@@ -13,8 +13,8 @@
     "verificationStatus": "已验证",
     "champion": "私部署版：Claude Code + GLM 5 + Metaso",
     "championEn": "Private Deployment: Claude Code + GLM 5 + Metaso",
-    "challenger": "私部署版：Claude Code +Kimi K2.5/Minimax M2.5/Qwen 3.5 + Metaso",
-    "challengerEn": "Private Deployment: Claude Code +Kimi K2.5/Minimax M2.5/Qwen 3.5 + Metaso",
+    "challenger": "私部署版：Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6+ Metaso",
+    "challengerEn": "Private Deployment: Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6 + Metaso",
     "highlights": "一周构建1个包含资料搜集、知识整合、报告生成功能的智能调研系统Demo",
     "highlightsEn": "Build an intelligent research system demo with data collection, knowledge integration, and report generation capabilities in one week",
     "metrics": {
@@ -25,7 +25,6 @@
     },
     "videoUrlZh": "https://www.bilibili.com/video/BV1FxFYzyEk8",
     "videoUrlGlobal": "https://www.bilibili.com/video/BV1FxFYzyEk8",
-    "videoCoverImageUrl": "https://rwai-dev.oss-cn-shanghai.aliyuncs.com/1.JPG",
     "hasContent": true
   },
   {
@@ -42,8 +41,8 @@
     "verificationStatus": "已验证",
     "champion": "云端版：Lovable + Kimi K2.5 + Claude Code",
     "championEn": "Cloud Version: Lovable + Kimi K2.5 + Claude Code",
-    "challenger": "云端版：Lovable + GLM-5/Minimax M2.5/Qwen 3.5 + Claude Code",
-    "challengerEn": "Cloud Version: Lovable + GLM-5/Minimax M2.5/Qwen 3.5 + Claude Code",
+    "challenger": "云端版：Lovable + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7 + Claude Code",
+    "challengerEn": "Cloud Version: Lovable + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7 + Claude Code",
     "highlights": "0技术门槛1-2日内搭建出1个有基础互动能力的业务看板或网站Demo",
     "highlightsEn": "Build a business dashboard or website demo with basic interactive capabilities in 1-2 days with zero technical threshold",
     "metrics": {
@@ -52,9 +51,8 @@
       "security": "较低",
       "cost": "较优"
     },
-    "videoUrlZh": "https://rwai-dev.oss-cn-shanghai.aliyuncs.com/2.mp4",
-    "videoUrlGlobal": "https://rwai-dev.oss-cn-shanghai.aliyuncs.com/2.mp4",
-    "videoCoverImageUrl": "https://rwai-dev.oss-cn-shanghai.aliyuncs.com/2.JPG",
+    "videoUrlZh": "https://www.bilibili.com/video/BV1qxwXzAEME",
+    "videoUrlGlobal": "https://www.bilibili.com/video/BV1qxwXzAEME",
     "hasContent": true
   },
   {
@@ -71,8 +69,8 @@
     "verificationStatus": "已验证",
     "champion": "私部署版：LangChain + GLM 5+ Pydantic + unstructured + Faiss",
     "championEn": "Private Deployment: LangChain + GLM 5+ Pydantic + unstructured + Faiss",
-    "challenger": "私部署版：LangChain + Kimi K2.5/Minimax M2.5/Qwen 3.5  + Pydantic + unstructured + Faiss",
-    "challengerEn": "Private Deployment: LangChain + Kimi K2.5/Minimax M2.5/Qwen 3.5  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
+    "challengerEn": "Private Deployment: LangChain + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
     "highlights": "一周构建1个完整性检查与风险评估的文档解析系统Demo",
     "highlightsEn": "Build a document parsing system demo with completeness checks and risk assessment in one week",
     "metrics": {
@@ -81,7 +79,6 @@
       "security": "较高",
       "cost": "较优"
     },
-    "videoUrlGlobal": "https://www.youtube.com/watch?v=gqsZGxuymTk",
     "hasContent": true
   },
   {
@@ -98,8 +95,8 @@
     "verificationStatus": "已验证",
     "champion": "私部署版：Claude Code + Claude Opus 4.6 + FFmpeg + FunASR + PaddleSpeech",
     "championEn": "Private Deployment: Claude Code + Claude Opus 4.6 + FFmpeg + FunASR + PaddleSpeech",
-    "challenger": "私部署版：OpenClaw + Claude Opus 4.6  + FFmpeg + Qwen3-ASR + Qwen3-TTS",
-    "challengerEn": "Private Deployment: OpenClaw + Claude Opus 4.6  + FFmpeg + Qwen3-ASR + Qwen3-TTS",
+    "challenger": "私部署版：OpenClaw + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6  + FFmpeg + Qwen3-ASR + Qwen3-TTS",
+    "challengerEn": "Private Deployment: OpenClaw + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6  + FFmpeg + Qwen3-ASR + Qwen3-TTS",
     "highlights": "最快2.5日内生成1个企业级产品或功能简要演示视频",
     "highlightsEn": "Generate an enterprise-level product or feature demo video within 2.5 days at fastest",
     "metrics": {
@@ -124,8 +121,8 @@
     "verificationStatus": "已验证",
     "champion": "私部署版：BISHENG + GLM 5",
     "championEn": "Private Deployment: BISHENG + GLM 5",
-    "challenger": "私部署版：BISHENG + Kimi K2.5/Minimax M2.5/Qwen 3.5",
-    "challengerEn": "Private Deployment: BISHENG + Kimi K2.5/Minimax M2.5/Qwen 3.5",
+    "challenger": "私部署版：BISHENG + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7",
+    "challengerEn": "Private Deployment: BISHENG + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7",
     "highlights": "一周搭建一个儿童教育应用Demo",
     "highlightsEn": "Build a children's education app demo in one week",
     "metrics": {
@@ -176,8 +173,8 @@
     "verificationStatus": "已验证",
     "champion": "私部署版：Gemini CLI + Gemini 3.1 Pro",
     "championEn": "Private Deployment: Gemini CLI + Gemini 3.1 Pro",
-    "challenger": "寻找攻擂者",
-    "challengerEn": "Looking for Challengers",
+    "challenger": "私部署版：Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6",
+    "challengerEn": "Private Deployment: Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6",
     "highlights": "一周快速构建1个智能文档翻译Demo",
     "highlightsEn": "Rapidly build an intelligent document translation demo in one week",
     "metrics": {
@@ -280,8 +277,8 @@
     "verificationStatus": "验证中",
     "champion": "私部署版：Coze + GLM 5",
     "championEn": "Private Deployment: Coze + GLM 5",
-    "challenger": "私部署版：Coze + Kimi K2.5/Minimax M2.5/Qwen 3.5",
-    "challengerEn": "Private Deployment: Coze + Kimi K2.5/Minimax M2.5/Qwen 3.5",
+    "challenger": "私部署版：Coze +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6",
+    "challengerEn": "Private Deployment: Coze +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6",
     "highlights": "一周基于低代码构建一个具备主动追问与推荐能力的对话式助手Demo",
     "highlightsEn": "Build a conversational assistant demo with active questioning and recommendation capabilities using low-code in one week",
     "metrics": {
@@ -306,8 +303,8 @@
     "verificationStatus": "验证中",
     "champion": "私部署版：LangChain + GLM 5",
     "championEn": "Private Deployment: LangChain + GLM 5",
-    "challenger": "私部署版：LangChain + Kimi K2.5/GLM-5/Minimax M2.5/Qwen 3.5  + Pydantic + unstructured + Faiss",
-    "challengerEn": "Private Deployment: LangChain + Kimi K2.5/GLM-5/Minimax M2.5/Qwen 3.5  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
+    "challengerEn": "Private Deployment: LangChain +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
     "highlights": "一周低代码构建具备多源数据整合、合规校验、信贷报告一键生成能力的银行智能信贷系统Demo",
     "highlightsEn": "Build a banking intelligent credit system demo with multi-source data integration, compliance verification, and one-click credit report generation using low-code in one week",
     "metrics": {
@@ -332,8 +329,8 @@
     "verificationStatus": "验证中",
     "champion": "私部署版：LangChain + GLM 5",
     "championEn": "Private Deployment: LangChain + GLM 5",
-    "challenger": "私部署版：LangChain + Kimi K2.5/Minimax M2.5/Qwen 3.5  + Pydantic + unstructured + Faiss",
-    "challengerEn": "Private Deployment: LangChain + Kimi K2.5/Minimax M2.5/Qwen 3.5  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
+    "challengerEn": "Private Deployment: LangChain +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
     "highlights": "一周低代码完成单条全国产业链图谱全流程构建",
     "highlightsEn": "Complete the full-process construction of a single national industrial chain graph using low-code in one week",
     "metrics": {

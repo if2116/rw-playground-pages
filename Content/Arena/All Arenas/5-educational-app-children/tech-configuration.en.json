@@ -136,7 +136,7 @@
             "- Input Description: Create a new blank workflow in Bisheng platform, and import the prepared json file into it",
             "- Input Example:",
             "Here is a sample of the json file:",
-            "[01-脑筋急转弯互动版.json]",
+            "[01-脑筋急转弯互动版.json](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E5%84%BF%E7%AB%A5%E6%95%99%E8%82%B2%E8%B6%A3%E5%91%B3%E5%BA%94%E7%94%A8/%E6%93%82%E4%B8%BB/01-%E8%84%91%E7%AD%8B%E6%80%A5%E8%BD%AC%E5%BC%AF%E4%BA%92%E5%8A%A8%E7%89%88.json)",
             "- Resource Links:",
             "Bisheng Community - Featured Workflows (last line, author zh): Hand-crafted 100 Workflows [Activity]"
           ]

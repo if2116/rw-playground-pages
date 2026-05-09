@@ -15,7 +15,7 @@
 5. 算法对接人协调自己团队，根据双方会议内容及反馈的文档和材料，展开需求评估
 
 ### 相关资源
-- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)
+- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)
 
 ### 结果产出
 1. 成立工作组，明确对接人与联络方式
@@ -42,7 +42,7 @@
 5. 重复以上步骤直至初步验证需求文档定稿
 
 ### 相关资源
-- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)
+- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)
 
 ### 结果产出
 1. 初步验证需求文档：[初步验证需求文档](https://gvxnc4ekbvn.feishu.cn/wiki/UK3nwnHFuiZtxzkhAhvczfDDn5g?from=from_copylink)
@@ -76,8 +76,8 @@
 - Tavily安装文档：https://docs.tavily.com/documentation/mcp
 - Metaso安装文档：https://www.modelscope.cn/mcp/servers/metasota/metaso-search
 - mcp-python-sdk GitHub：https://github.com/modelcontextprotocol/python-sdk
-- 模板：[初步验证报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)
-- 模板：[立项报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/R0jrwxeDfiBpsEkqZdYcZtgJncd?from=from_copylink)
+- 模板：[初步验证报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)
+- 模板：[立项报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E7%AB%8B%E9%A1%B9%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)
 
 ### 结果产出
 1. 定稿并交付初步验证报告：[初步验证报告](https://gvxnc4ekbvn.feishu.cn/wiki/EpdnwqYsri1TZDkRYNVcgE1TnYe?from=from_copylink)

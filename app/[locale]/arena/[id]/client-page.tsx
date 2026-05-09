@@ -2594,7 +2594,7 @@ function TechConfigurationSection({ content, locale }: { content: ArenaTabConten
                               href={linkMatch[2]}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium"
+                              className="flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium"
                             >
                               <span>🔗</span>
                               {linkMatch[1]}

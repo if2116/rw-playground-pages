@@ -34,8 +34,8 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>相关资源</strong></td>
-<td style="text-align: left;"><p>模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/TXOqw6LDKiN1FrkhRtvcT6JdnVc?from=from_copylink">项目合作需求问询书模板</a></p>
-<p>模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/Z4U4wXExviT9UOkeJIGc8EnKnAh?from=from_copylink">子任务算法需求模板</a></p></td>
+<td style="text-align: left;"><p>模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%E9%9C%80%E6%B1%82%E9%97%AE%E8%AF%A2%E4%B9%A6%E6%A8%A1%E6%9D%BF.docx">项目合作需求问询书模板</a></p>
+<p>模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%AD%90%E4%BB%BB%E5%8A%A1%E7%AE%97%E6%B3%95%E9%9C%80%E6%B1%82%E6%A8%A1%E6%9D%BF.docx">子任务算法需求模板</a></p></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
@@ -78,7 +78,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>相关资源</strong></td>
-<td style="text-align: left;">模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink">初步验证需求文档模板</a></td>
+<td style="text-align: left;">模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx">初步验证需求文档模板</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
@@ -129,7 +129,7 @@
 <p>硅基流动官网大模型页面：https://cloud.siliconflow.cn/me/models</p>
 <p>毕昇官方搭建工作流教程：<a href="https://dataelem.feishu.cn/wiki/R7HZwH5ZGiJUDrkHZXicA9pInif">BISHENG workflow</a></p>
 <p>毕昇官方对外发布工作流的API教程：<a href="https://dataelem.feishu.cn/wiki/ZjIywYGZliClIgkg2jFcP4xunjh">工作流对外发布 API</a></p>
-<p>模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink">初步验证报告模板</a></p></td>
+<p>模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">初步验证报告模板</a></p></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
@@ -376,7 +376,7 @@ docker ps | grep bisheng<br />
 <p>输入介绍：在毕昇平台新建一个空白工作流，并在其中导入准备好的 json 文件</p>
 <p>输入示例：</p>
 <p>以下是该json文件的样例：</p>
-<p><strong>[01-脑筋急转弯互动版.json]</strong></p>
+<p><strong>[01-脑筋急转弯互动版.json](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E5%84%BF%E7%AB%A5%E6%95%99%E8%82%B2%E8%B6%A3%E5%91%B3%E5%BA%94%E7%94%A8/%E6%93%82%E4%B8%BB/01-%E8%84%91%E7%AD%8B%E6%80%A5%E8%BD%AC%E5%BC%AF%E4%BA%92%E5%8A%A8%E7%89%88.json)</strong></p>
 <p>资源链接：</p>
 <p>毕昇社区-工作流精选（最后一行，作者为zh）：<a href="https://dataelem.feishu.cn/wiki/OJYRwuJzZiUHhhkI4MLcMJvfnzh">手搓100个Workflow【活动】</a></p></td>
 <td style="text-align: left;"></td>

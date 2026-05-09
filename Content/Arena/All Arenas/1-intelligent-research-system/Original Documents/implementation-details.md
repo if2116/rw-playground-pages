@@ -34,7 +34,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>相关资源</strong></td>
-<td style="text-align: left;">模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink">初步验证需求文档模板</a></td>
+<td style="text-align: left;">模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx">初步验证需求文档模板</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
@@ -77,7 +77,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>相关资源</strong></td>
-<td style="text-align: left;">模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink">初步验证需求文档模板</a></td>
+<td style="text-align: left;">模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx">初步验证需求文档模板</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
@@ -127,8 +127,8 @@
 <p>Tavily安装文档：https://docs.tavily.com/documentation/mcp</p>
 <p>Metaso安装文档：https://www.modelscope.cn/mcp/servers/metasota/metaso-search</p>
 <p>mcp-python-sdk GitHub：https://github.com/modelcontextprotocol/python-sdk</p>
-<p>模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink">初步验证报告模板</a></p>
-<p>模板：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/R0jrwxeDfiBpsEkqZdYcZtgJncd?from=from_copylink">立项报告模板</a></p></td>
+<p>模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">初步验证报告模板</a></p>
+<p>模板：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E7%AB%8B%E9%A1%B9%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">立项报告模板</a></p></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
@@ -597,9 +597,9 @@ mcp&gt;=1.0.0</td>
 <blockquote>
 <p>创建相关服务 python 文件：</p>
 </blockquote>
-<p><strong>[github_server.py]</strong></p>
-<p><strong>[hf_server.py]</strong></p>
-<p><strong>[arxiv_server.py]</strong></p>
+<p><strong>[github_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/code_github_mcp/github_server.py)</strong></p>
+<p><strong>[hf_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/model_huggingface_mcp/hf_server.py)</strong></p>
+<p><strong>[arxiv_server.py](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/MCP/paper_arxiv_mcp/arxiv_server.py)</strong></p>
 <blockquote>
 <p>安装依赖并启动：</p>
 </blockquote>
@@ -718,11 +718,11 @@ claude mcp add -s user -t sse model-huggingface <a href="http://127.0.0.1:4003/s
 <blockquote>
 <p>深度研究报告生成全流程.md 文件如下</p>
 </blockquote>
-<p><strong>[深度研究报告生成全流程.md]</strong></p>
+<p><strong>[深度研究报告生成全流程.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)</strong></p>
 <blockquote>
 <p>skill.md 文件如下</p>
 </blockquote>
-<p><strong>[SKILL.md]</strong></p>
+<p><strong>[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)</strong></p>
 <blockquote>
 <p>在项目根目录启动 Claude Code 来生成调研报告</p>
 </blockquote>

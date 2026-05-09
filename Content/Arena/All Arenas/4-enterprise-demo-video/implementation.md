@@ -43,7 +43,7 @@
 5. 重复以上步骤直至初步验证需求文档定稿
 
 ### 相关资源
-- 模板：[初步验证需求文档模板](https://gvxnc4ekbvn.feishu.cn/wiki/PC8FwObgwiMwVPkM0i4cYkr2nYf?from=from_copylink)
+- 模板：[初步验证需求文档模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3%E6%A8%A1%E6%9D%BF.docx)
 
 ### 结果产出
 1. 初步验证需求文档：应包含目标视频的明确要求、规划、呈现效果等内容
@@ -87,7 +87,7 @@
 - funasr GitHub：https://github.com/modelscope/FunASR
 - paddle-speech GitHub：https://github.com/PaddlePaddle/PaddleSpeech
 - SongGeneration GitHub：https://github.com/tencent-ailab/SongGeneration
-- 模板：[初步验证报告模板](https://gvxnc4ekbvn.feishu.cn/wiki/HKZGwXetBije9HklRQmcAe94nZE?from=from_copylink)
+- 模板：[初步验证报告模板](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/Template/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx)
 
 ### 结果产出
 1. 定稿并交付初步验证报告
