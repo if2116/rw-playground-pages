@@ -52,7 +52,4 @@ __pycache__/
 
 # custom
 /run.sh
-/run_pull.sh
-/run_push.sh
-/push.sh
 !lib
