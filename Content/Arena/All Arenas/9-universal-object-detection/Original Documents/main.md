@@ -92,8 +92,8 @@
 <p>Perf Analyzer （by NVIDIA） GitHub: https://github.com/triton-inference-server/perf_analyzer</p>
 <p>版本状态</p>
 <p>首发日期：2025-11-25</p>
-<p>最近更新：2026-03-10</p>
-<p>最近审阅：2026-03-10</p></td>
+<p>最近更新：2026-05-11</p>
+<p>最近审阅：2026-05-11</p></td>
 </tr>
 </tbody>
 </table>

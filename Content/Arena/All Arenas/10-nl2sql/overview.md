@@ -59,8 +59,8 @@
 - **英文名称**: Alibaba Cloud XGenerationLab
 - **作者网站**: https://cn.aliyun.com/product/bailian/xiyan
 - **首发日期**: 2025-03
-- **最近更新**: 2025-10-31
-- **最近审阅**: 2025-11-09
+- **最近更新**: 2026-05-11
+- **最近审阅**: 2026-05-11
 - **关键依赖**: XiYan-SQL · XiYanSQL-QwenCoder
 
 ### 3.1.3 实施详情
