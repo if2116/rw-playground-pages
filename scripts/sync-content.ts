@@ -271,6 +271,17 @@ function parseFAQPage(content: string, locale: 'en' | 'zh'): string {
   result.push(locale === 'en' ? '# FAQ - Frequently Asked Questions' : '# FAQ - 常见问题');
 
   let currentAnswer: string[] = [];
+  let collectingAnswer = false;
+
+  const flushAnswer = () => {
+    const answer = currentAnswer.join('\n').trim();
+    if (answer) {
+      result.push(answer);
+      result.push('');
+    }
+    currentAnswer = [];
+    collectingAnswer = false;
+  };
 
   for (let i = 1; i < lines.length; i++) {
     const line = lines[i];
@@ -287,21 +298,14 @@ function parseFAQPage(content: string, locale: 'en' | 'zh'): string {
 
     // Contact Section header - skip it, we'll use the subsections
     if (line.includes('## Contact Section')) {
-      if (currentAnswer.length > 0) {
-        result.push(currentAnswer.join(' ').trim());
-        currentAnswer = [];
-      }
+      flushAnswer();
       result.push('');
       continue;
     }
 
     // Category headers (### Category X: Name（中文名）)
     if (line.match(/^###\s+Category/)) {
-      if (currentAnswer.length > 0) {
-        result.push(currentAnswer.join(' ').trim());
-        result.push('');
-        currentAnswer = [];
-      }
+      flushAnswer();
 
       if (locale === 'en') {
         // Extract "About RWAI Arena" from "Category 1: About RWAI Arena（关于RWAI Arena）"
@@ -322,11 +326,7 @@ function parseFAQPage(content: string, locale: 'en' | 'zh'): string {
 
     // Question headers (#### Q1: Question?)
     if (line.match(/^####\s+[A-Z]\d+:/)) {
-      if (currentAnswer.length > 0) {
-        result.push(currentAnswer.join(' ').trim());
-        result.push('');
-        currentAnswer = [];
-      }
+      flushAnswer();
 
       if (locale === 'en') {
         const enMatch = line.match(/[A-Z]\d+:\s*(.+)/);
@@ -349,23 +349,40 @@ function parseFAQPage(content: string, locale: 'en' | 'zh'): string {
 
     // Answer markers
     if (line.match(/^\*\*English Answer\*\*[:：]/)) {
+      flushAnswer();
       if (locale === 'en') {
         const answer = line.replace(/^\*\*English Answer\*\*[:：]\s*/, '').trim();
-        currentAnswer = [answer];
+        currentAnswer = answer ? [answer] : [];
+        collectingAnswer = true;
+      } else {
+        collectingAnswer = false;
       }
       continue;
     }
 
     if (line.match(/^\*\*中文回答\*\*[:：]/)) {
+      flushAnswer();
       if (locale === 'zh') {
         const answer = line.replace(/^\*\*中文回答\*\*[:：]\s*/, '').trim();
-        currentAnswer = [answer];
+        currentAnswer = answer ? [answer] : [];
+        collectingAnswer = true;
+      } else {
+        collectingAnswer = false;
       }
+      continue;
+    }
+
+    if (
+      collectingAnswer &&
+      line.match(/^\*\*(English Answer|中文回答|English|Chinese|中文)\*\*[:：]/)
+    ) {
+      flushAnswer();
       continue;
     }
 
     // Subsection headers (###) - for contact section
     if (line.match(/^###\s+/) && !line.includes('Category')) {
+      flushAnswer();
       const headerText = line.replace(/^###\s+/, '').trim();
 
       if (headerText === 'Still Have Questions?') {
@@ -409,24 +426,17 @@ function parseFAQPage(content: string, locale: 'en' | 'zh'): string {
 
     // Divider - finalize answer
     if (line.trim() === '---' && currentAnswer.length > 0) {
-      result.push(currentAnswer.join(' ').trim());
-      result.push('');
-      currentAnswer = [];
+      flushAnswer();
       continue;
     }
 
-    // Empty line - finalize answer
-    if (line.trim() === '' && currentAnswer.length > 0) {
-      result.push(currentAnswer.join(' ').trim());
-      result.push('');
-      currentAnswer = [];
+    if (collectingAnswer) {
+      currentAnswer.push(line);
     }
   }
 
   // Don't forget the last answer
-  if (currentAnswer.length > 0) {
-    result.push(currentAnswer.join(' ').trim());
-  }
+  flushAnswer();
 
   return result.join('\n').replace(/\n{3,}/g, '\n\n');
 }

@@ -193,6 +193,19 @@
   @apply text-primary font-semibold;
 }
 
+.faq-markdown p {
+  @apply mb-3;
+}
+
+.faq-markdown ul,
+.faq-markdown ol {
+  @apply mb-4;
+}
+
+.faq-markdown li {
+  @apply leading-relaxed;
+}
+
 .legal-markdown h1:first-child {
   @apply sr-only;
 }

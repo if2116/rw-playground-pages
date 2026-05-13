@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { HelpCircle, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { getContentFile } from '@/lib/content';
 import { notFound } from 'next/navigation';
 
@@ -26,37 +28,50 @@ function parseFAQContent(markdown: string): FAQCategory[] {
   let currentCategory: FAQCategory | null = null;
   let currentQuestion: string | null = null;
   let currentAnswer: string[] = [];
-  let inContactSection = false;
+
+  const saveCurrentQuestion = () => {
+    if (!currentCategory || !currentQuestion) {
+      return;
+    }
+
+    const answer = currentAnswer.join('\n').trim();
+    if (answer) {
+      currentCategory.items.push({ q: currentQuestion, a: answer });
+    }
+
+    currentQuestion = null;
+    currentAnswer = [];
+  };
+
+  const saveCurrentCategory = () => {
+    if (currentCategory && currentCategory.items.length > 0) {
+      categories.push(currentCategory);
+    }
+  };
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
+    const trimmedLine = line.trim();
 
     // Detect contact section
     if (line.includes('### Still Have Questions?') || line.includes('### 仍有疑问？')) {
-      inContactSection = true;
+      saveCurrentQuestion();
       break; // Stop parsing, contact section is handled separately in UI
     }
 
     // Skip title and empty lines at start
-    if (line.startsWith('# FAQ') || line.trim() === '') {
+    if (line.startsWith('# FAQ') || (!currentQuestion && trimmedLine === '')) {
+      continue;
+    }
+
+    if (trimmedLine === '---') {
       continue;
     }
 
     // Category headers (###)
     if (line.match(/^###\s+/)) {
-      // Save previous question if any
-      if (currentQuestion && currentAnswer.length > 0) {
-        if (currentCategory) {
-          currentCategory.items.push({ q: currentQuestion, a: currentAnswer.join(' ') });
-        }
-        currentQuestion = null;
-        currentAnswer = [];
-      }
-
-      // Save previous category if any
-      if (currentCategory && currentCategory.items.length > 0) {
-        categories.push(currentCategory);
-      }
+      saveCurrentQuestion();
+      saveCurrentCategory();
 
       const categoryTitle = line.replace(/^###\s+/, '').trim();
       currentCategory = { category: categoryTitle, items: [] };
@@ -65,42 +80,22 @@ function parseFAQContent(markdown: string): FAQCategory[] {
 
     // Question headers (####)
     if (line.match(/^####\s+/)) {
-      // Save previous question if any
-      if (currentQuestion && currentAnswer.length > 0) {
-        if (currentCategory) {
-          currentCategory.items.push({ q: currentQuestion, a: currentAnswer.join(' ') });
-        }
-      }
+      saveCurrentQuestion();
 
       currentQuestion = line.replace(/^####\s+/, '').trim();
       currentAnswer = [];
       continue;
     }
 
-    // Answer content (non-empty lines after a question)
-    if (currentQuestion && line.trim() !== '') {
-      currentAnswer.push(line.trim());
-    }
-
-    // Empty line - finalize answer
-    if (line.trim() === '' && currentQuestion && currentAnswer.length > 0) {
-      if (currentCategory) {
-        currentCategory.items.push({ q: currentQuestion, a: currentAnswer.join(' ') });
-      }
-      currentQuestion = null;
-      currentAnswer = [];
+    // Answer content after a question. Preserve blank lines so Markdown lists and
+    // paragraphs render correctly.
+    if (currentQuestion) {
+      currentAnswer.push(line);
     }
   }
 
-  // Don't forget the last answer
-  if (currentQuestion && currentAnswer.length > 0 && currentCategory) {
-    currentCategory.items.push({ q: currentQuestion, a: currentAnswer.join(' ') });
-  }
-
-  // Add the last category
-  if (currentCategory && currentCategory.items.length > 0) {
-    categories.push(currentCategory);
-  }
+  saveCurrentQuestion();
+  saveCurrentCategory();
 
   return categories;
 }
@@ -166,8 +161,26 @@ export default async function FAQPage({
                       <AccordionTrigger className="text-left font-semibold text-gray-900 hover:text-blue-600 py-5 text-lg">
                         {faq.q}
                       </AccordionTrigger>
-                      <AccordionContent className="text-gray-700 pb-5 leading-relaxed">
-                        {faq.a}
+                      <AccordionContent className="pb-5">
+                        <div className="markdown-content faq-markdown text-gray-700 leading-relaxed">
+                          <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            components={{
+                              a: ({ href, children, ...props }) => (
+                                <a
+                                  href={href}
+                                  target={href?.startsWith('http') ? '_blank' : undefined}
+                                  rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined}
+                                  {...props}
+                                >
+                                  {children}
+                                </a>
+                              ),
+                            }}
+                          >
+                            {faq.a}
+                          </ReactMarkdown>
+                        </div>
                       </AccordionContent>
                     </AccordionItem>
                   </div>

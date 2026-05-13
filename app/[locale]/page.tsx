@@ -460,6 +460,9 @@ async function PartnersCarouselSection({ locale }: { locale: string }) {
     { id: '6', name: 'Partner 6', logo: withBasePath('/partners/logo6.png') },
     { id: '7', name: 'Partner 7', logo: withBasePath('/partners/logo7.jpg') },
     { id: '8', name: 'Partner 8', logo: withBasePath('/partners/logo8.jpg') },
+    { id: '9', name: 'Oxford Institute for Advanced Research, Suzhou', logo: withBasePath('/partners/logo9.png') },
+    { id: '10', name: 'CICAS', logo: withBasePath('/partners/logo10.png') },
+    { id: '11', name: 'Zhi Xiang Huan Yu', logo: withBasePath('/partners/logo11.jpg') },
   ];
 
   return (
@@ -473,7 +476,7 @@ async function PartnersCarouselSection({ locale }: { locale: string }) {
             <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-transparent to-transparent z-10"></div>
 
             {/* Scrolling Track */}
-            <div className="flex animate-scroll">
+            <div className="flex w-max animate-scroll">
               {/* First set of logos */}
               {partners.map((partner) => (
                 <div
@@ -524,7 +527,7 @@ async function PartnersCarouselSection({ locale }: { locale: string }) {
         }
 
         .animate-scroll {
-          animation: scroll 40s linear infinite;
+          animation: scroll 160s linear infinite;
         }
 
         .animate-scroll:hover {
@@ -533,7 +536,7 @@ async function PartnersCarouselSection({ locale }: { locale: string }) {
 
         @media (max-width: 768px) {
           .animate-scroll {
-            animation-duration: 30s;
+            animation-duration: 120s;
           }
         }
       `}</style>

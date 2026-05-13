@@ -2,31 +2,61 @@
 ### About RWAI Arena
 
 #### What is Real-World AI?
-Real-World AI is an academic open-source project focused on AI implementation in real-world scenarios. Currently, it primarily shares best practice cases for solving various AI implementation problems in real-world scenarios through open-source code, documentation, and associated resource links. The project is currently in beta, and we welcome your trial and feedback.
+Real-World AI is an academic open-source project focused on **real-world AI adoption**. We share best-practice cases for solving real-world AI adoption problems through open-source code, documentation, and related resources. The project is currently in beta.
 
-#### What is the Real-World AI Arena? Why evaluate best practices through an "Arena"?
-In the process of AI implementation, we most often encounter two questions: How can I solve the problem in my scenario with AI, and how to quickly verify the results? What solution is best/most suitable for me? We take some common scenarios of AI implementation as "Arenas", continuously searching for best practices (SOTA) amid evolving AI technologies and applications, and selecting "champions" for specific scenarios. Through "Tsinghua Select", we solve the problems of technology selection and trial-and-error costs. Real-world AI implementation evaluation criteria are complex and difficult to have absolute scores like academic benchmarks, so we don't rank, only comprehensively evaluate best practices.
+#### What is the Arena? Why evaluate best practices through "Arenas"?
+Two of the most common questions in AI adoption are:
 
-#### What problems does Real-World AI solve? How is it different from other open-source projects like GitHub and Huggingface?
-Currently, AI-related open-source communities have rich open-source ecosystems, mainly focusing on code open-sourcing and practice sharing. However, AI implementation is a complex and enormous project, with core difficulties in human-AI interaction and practice, including: business requirement guidance and refinement, expert knowledge input, technical solution design, business application processes, etc. Therefore, having only AI technology or code is not enough. We attempt to model and restore the "Human-in-the-Loop" (HITL) system of AI implementation, ensuring verifiability, practicability, and replicability, completing the "last mile" of AI implementation.
+* **How can I solve my scenario's problem with AI, and how can I quickly validate the results?**
+* **What is the best / most suitable solution for me?**
+
+We treat common real-world scenarios as "Arenas," continuously searching for best practices (SOTA) and crowning "Champions" for specific scenarios amid ever-evolving AI technologies. Through **Tsinghua Curation**, we reduce the cost of **technology selection and trial-and-error**.
+
+Real-world AI adoption criteria are complex; unlike academic benchmarks, there is no absolute score, so we do not rank; we only recognize best practices through comprehensive evaluation. Due to different deployment environments, a single arena may have multiple champions, such as an on-premise version and a cloud-service version.
+
+#### What problem does Real-World AI solve? How is it different from GitHub, Hugging Face, and other open-source communities?
+The current AI open-source ecosystem is rich with code and experience sharing. However, real-world AI adoption is a complex and massive engineering effort. The core challenge lies in **human-AI interaction and practice**, including:
+
+* Guiding and refining business requirements
+* Injecting expert knowledge
+* Designing technical solutions
+* Operational workflows
+
+Therefore, AI technology and code alone are not enough. **Talk is cheap, code is not enough, PRACTICE is all we need.**
+
+We model and restore the **Human-in-the-Loop (HITL)** system in AI adoption, ensuring solutions are **verifiable, practical, and reproducible,** bridging the **last mile** of AI adoption. From an academic perspective, Real-World AI aims to work with the community on modelling real-world human-AI interactions (Modelling of Real-World HI-AI Interactions) and task datasets (Task Set), ultimately achieving intelligent real-world AI practice generation (NL2Practice).
 
 ### Resources and Users
 
 #### What resources can I get from Real-World AI?
-You can understand, participate in, and share various best practice solutions for real-world scenarios based on the latest AI technologies in Real-World AI.
+You can learn about, participate in, and share best-practice solutions for various real-world scenarios based on the latest AI technologies.
 
-#### Who are the user groups of Real-World AI? Can I use it if I'm not a programmer or don't understand algorithms?
-Real-World AI aims to help as many partners as possible related to AI implementation get help and participate in co-construction. Leaders and decision-makers can understand the latest technology development trends and real cases in industrial applications. Business experts can understand, reference, and practice the full process of rapid AI implementation in their own industries. Technical developers can understand and replicate the actual effects and best cases of latest technologies applied in different scenarios. Even without understanding algorithms or knowing how to write code, you can find many low-barrier, zero/low-code practice solutions.
+#### Who are the users of Real-World AI? Can non-programmers use it?
+Real-World AI is designed to help as many people involved in AI adoption as possible and invite them to co-build.
+
+* **Decision-makers** can learn about the latest technology trends and real-world industry cases.
+* **Business experts** can learn, reference, and practice the full AI adoption workflow in their own industries.
+* **Developers** can learn and replicate the actual effects and best cases of applying the latest technologies in different scenarios.
+
+Even without algorithm knowledge or coding skills, you can find many low-barrier, low-/no-code practice solutions. Each solution notes the skills and knowledge required for different user roles to help you understand how to quickly build an AI solution for your team.
 
 ### Best Practices
 
-#### How do you define and evaluate "best practices"?
-As a team that has been doing industrial AI practice work for a long time, we believe that best practices for real-world AI should first start from the goals of real-world scenarios, clearly defining the value that AI implementation can bring to the industry, such as: compliance and security, organizational adaptability, system adaptability as basic requirements, and of course business effect, implementation cost, implementation cycle as effect indicators. In industrial AI practice, we will choose some representative and universal scenarios with clear interfaces to common systems, define the business effect indicators of this scenario, and look for best practices.
+#### How do you define and evaluate "best practice"?
+As a team with long-term experience in industrial AI practice, we believe that the best practice for real-world AI should start from the goals of the real-world scenario, clearly defining the value AI adoption can bring to the industry, for example: safety and compliance, organizational fit, and system fit as basic requirements, as well as business effectiveness, implementation cost, and implementation cycle as effectiveness metrics.
+
+In industrial AI practice, we select representative and generalizable scenarios with clear interfaces to common systems, define business-effectiveness metrics for the scenario, and search for best practices. In different practices, we evaluate each metric through an open and verifiable process. As AGI evolves, we will increasingly try to use AI to solve this problem, and our current work is valuable data accumulation for future NL2Solution.
+
+Industrial AI application scenarios are long-tailed enough that their best practices differ from the single measurable metric SOTA in the academic sense. Industrial SOTA must be validated through practice in the industry, prioritizing practicality and stability over novelty. Therefore, in the early stages, we invite industry partner experts to test, select, and validate best practices with us, acting as a "referee" that is not absolutely correct but strives to be professional, fair, and grounded.
 
 ### Participation
 
-#### I want to participate in building Real-World AI, what can I do?
-We welcome your interest and willingness! Currently, there are three ways to cooperate with us: 1. You can submit your work - please see our submission guidelines. 2. If you have highly customized requirements or willingness for deep cooperation, please contact us. 3. You can also submit feedback, suggestions, and opinions to us - please contact us.
+#### I want to contribute to Real-World AI. How can I get involved?
+There are currently three ways to collaborate with us:
+
+1. Submit your work. See [Submit & Feedback](https://realworld-ai.io/en/about/) for details.
+2. If you have highly customized needs or a desire for deep collaboration, please [contact us](https://realworld-ai.io/en/about/).
+3. Submit feedback and suggestions. See [contact us](https://realworld-ai.io/en/about/) for details.
 
 ### Still Have Questions?
 If you couldn't find the answer you're looking for, feel free to reach out to us.

@@ -17,6 +17,9 @@ export default function AboutPage() {
     { name: 'Oxford University', nameZh: '牛津大学', logo: withBasePath('/partners/logo4.png') },
     { name: 'CFA Institute', nameZh: 'CFA协会', logo: withBasePath('/partners/logo5.png') },
     { name: 'Yangtze Delta Region Institute', nameZh: '浙江清华长三角研究院', logo: withBasePath('/partners/logo6.png') },
+    { name: 'Oxford Institute for Advanced Research, Suzhou', nameZh: '牛津大学高等研究院(苏州)', logo: withBasePath('/partners/logo9.png') },
+    { name: 'CICAS', nameZh: 'CICAS', logo: withBasePath('/partners/logo10.png') },
+    { name: 'Zhi Xiang Huan Yu', nameZh: '智向寰宇', logo: withBasePath('/partners/logo11.jpg') },
   ];
 
   return (
