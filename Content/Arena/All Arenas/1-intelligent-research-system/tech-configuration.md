@@ -247,9 +247,9 @@ claude mcp add -s user -t sse model-huggingface http://127.0.0.1:4003/sse
 └── 深度研究报告生成全流程.md # 生成调研文档的流程图 (必须)
 ```
 深度研究报告生成全流程.md 文件如下
-[深度研究报告生成全流程.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)
+[深度研究报告生成全流程.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E4%BB%A3%E7%A0%81/%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90%E5%85%A8%E6%B5%81%E7%A8%8B.md)
 skill.md 文件如下
-[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)
+[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E4%BB%A3%E7%A0%81/SKILL.md)
 在项目根目录启动 Claude Code 来生成调研报告
 ```bash
 # 启动 claude，请确保项目根目录下除了 files、skill.md、流程图外无其他文件

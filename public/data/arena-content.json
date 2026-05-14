@@ -99,8 +99,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2025-11-20",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: Claude Code · Metaso MCP · GLM"
                 ]
               },
@@ -204,7 +204,7 @@
               {
                 "title": "结果产出",
                 "content": [
-                  "1. 初步验证需求文档：[初步验证需求文档](https://gvxnc4ekbvn.feishu.cn/wiki/UK3nwnHFuiZtxzkhAhvczfDDn5g?from=from_copylink)",
+                  "1. 初步验证需求文档：[初步验证需求文档](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3.docx)",
                   "2. PoC相关事项确认，如启动时间、验收时间、验收方案等"
                 ]
               },
@@ -258,9 +258,9 @@
               {
                 "title": "结果产出",
                 "content": [
-                  "1. 定稿并交付初步验证报告：[初步验证报告](https://gvxnc4ekbvn.feishu.cn/wiki/EpdnwqYsri1TZDkRYNVcgE1TnYe?from=from_copylink)",
+                  "1. 定稿并交付初步验证报告：[初步验证报告](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A.docx)",
                   "2. 完成Demo构建，准备并最终通过PoC",
-                  "3. 撰写并交付立项报告：[立项报告](https://gvxnc4ekbvn.feishu.cn/wiki/EioZwicWhiWcfek81q9cCl7bnGb?from=from_copylink)",
+                  "3. 撰写并交付立项报告：[立项报告](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E7%AB%8B%E9%A1%B9%E6%8A%A5%E5%91%8A.docx)",
                   "4. 立项协议（附件应包含正式上线版本的交付、验收、排期、资源等内容）"
                 ]
               },
@@ -669,9 +669,9 @@
                   "└── 深度研究报告生成全流程.md # 生成调研文档的流程图 (必须)",
                   "```",
                   "深度研究报告生成全流程.md 文件如下",
-                  "[深度研究报告生成全流程.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)",
+                  "[深度研究报告生成全流程.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E4%BB%A3%E7%A0%81/%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90%E5%85%A8%E6%B5%81%E7%A8%8B.md)",
                   "skill.md 文件如下",
-                  "[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)",
+                  "[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E4%BB%A3%E7%A0%81/SKILL.md)",
                   "在项目根目录启动 Claude Code 来生成调研报告",
                   "```bash",
                   "# 启动 claude，请确保项目根目录下除了 files、skill.md、流程图外无其他文件",
@@ -799,8 +799,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2025-11-20",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: Claude Code · Metaso MCP · GLM"
                 ]
               },
@@ -904,7 +904,7 @@
               {
                 "title": "Deliverables",
                 "content": [
-                  "1. Preliminary verification requirement document: [Preliminary Verification Requirement Document](https://gvxnc4ekbvn.feishu.cn/wiki/UK3nwnHFuiZtxzkhAhvczfDDn5g?from=from_copylink)",
+                  "1. Preliminary verification requirement document: [Preliminary Verification Requirement Document](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3.docx)",
                   "2. Confirmation of PoC-related matters, such as start time, acceptance time, and acceptance plan"
                 ]
               },
@@ -958,9 +958,9 @@
               {
                 "title": "Deliverables",
                 "content": [
-                  "1. Finalize and deliver the preliminary verification report: [Preliminary Verification Report](https://gvxnc4ekbvn.feishu.cn/wiki/EpdnwqYsri1TZDkRYNVcgE1TnYe?from=from_copylink)",
+                  "1. Finalize and deliver the preliminary verification report: [Preliminary Verification Report](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A.docx)",
                   "2. Complete Demo development, prepare for PoC, and ultimately pass PoC",
-                  "3. Draft and deliver the project initiation report: [Project Initiation Report](https://gvxnc4ekbvn.feishu.cn/wiki/EioZwicWhiWcfek81q9cCl7bnGb?from=from_copylink)",
+                  "3. Draft and deliver the project initiation report: [Project Initiation Report](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E7%AB%8B%E9%A1%B9%E6%8A%A5%E5%91%8A.docx)",
                   "4. Project initiation agreement (attachments should include delivery, acceptance, timeline, resources, and related details for the official launch version)"
                 ]
               },
@@ -1369,9 +1369,9 @@
                   "└── deep_research_report_generation_full_workflow.md # Flowchart for generating research documents (required)",
                   "```",
                   "deep_research_report_generation_full_workflow.md file is as follows",
-                  "[deep_research_report_generation_full_workflow.md]",
+                  "[deep_research_report_generation_full_workflow.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E4%BB%A3%E7%A0%81/%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90%E5%85%A8%E6%B5%81%E7%A8%8B.md)",
                   "skill.md file is as follows",
-                  "[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)",
+                  "[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E4%BB%A3%E7%A0%81/SKILL.md)",
                   "Start Claude Code in the project root directory to generate research reports",
                   "```bash",
                   "# Start claude, please ensure there are no other files in the project root directory except files, skill.md, and flowchart",
@@ -1491,8 +1491,8 @@
                   "- **英文名称**: Alibaba Cloud XGenerationLab",
                   "- **作者网站**: https://cn.aliyun.com/product/bailian/xiyan",
                   "- **首发日期**: 2025-03",
-                  "- **最近更新**: 2025-10-31",
-                  "- **最近审阅**: 2025-11-09",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: XiYan-SQL · XiYanSQL-QwenCoder"
                 ]
               },
@@ -2012,8 +2012,8 @@
                   "- **English Name**: Alibaba Cloud XGenerationLab",
                   "- **Author Website**: https://cn.aliyun.com/product/bailian/xiyan",
                   "- **Initial Release Date**: 2025-03",
-                  "- **Last Updated**: 2025-10-31",
-                  "- **Last Reviewed**: 2025-11-09",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: XiYan-SQL · XiYanSQL-QwenCoder"
                 ]
               },
@@ -2534,8 +2534,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2025-11-26",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: Coze （by 字节跳动） · GLM"
                 ]
               },
@@ -2652,8 +2652,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2025-11-26",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: Coze (by ByteDance) · GLM"
                 ]
               },
@@ -2777,8 +2777,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2026-01-07",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: LangChain（by LangChain） · GLM"
                 ]
               },
@@ -2903,8 +2903,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2026-01-07",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: LangChain (by LangChain) · GLM"
                 ]
               },
@@ -3031,8 +3031,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2026-01-13",
-                  "- **最近更新**: 2026-02-02",
-                  "- **最近审阅**: 2026-02-02",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **版本编号**: Case260113X01",
                   "- **关键依赖**: LangChain（by LangChain） · GLM"
                 ]
@@ -3158,8 +3158,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2026-01-13",
-                  "- **Last Updated**: 2026-02-02",
-                  "- **Last Reviewed**: 2026-02-02",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Version Number**: Case260113X01",
                   "- **Key Dependencies**: LangChain (by LangChain) · GLM"
                 ]
@@ -3293,8 +3293,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2025-11-07",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: Lovable · Claude Code · Kimi-K2.5"
                 ]
               },
@@ -3772,8 +3772,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2025-11-07",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: Lovable · Claude Code · Kimi-K2.5"
                 ]
               },
@@ -4245,8 +4245,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2025-11-14",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: LangChain（by LangChain） · Pydantic（by Pydantic） · unstructured（by Unstructured.io） · Faiss（by Facebook） · GLM"
                 ]
               },
@@ -4773,8 +4773,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2025-11-14",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: LangChain (by LangChain) · Pydantic (by Pydantic) · unstructured (by Unstructured.io) · Faiss (by Facebook) · GLM"
                 ]
               },
@@ -5304,8 +5304,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2025-11-07",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: Claude Code · FFmpeg · FunASR · PaddleSpeech · Claude Opus 4.6"
                 ]
               },
@@ -7517,8 +7517,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2025-11-07",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: Claude Code · FFmpeg · FunASR · PaddleSpeech · Claude Opus 4.6"
                 ]
               },
@@ -8387,8 +8387,8 @@
                   "- **英文名称**: zh",
                   "- **作者网站**: [手搓100个Workflow【活动】](https://dataelem.feishu.cn/wiki/OJYRwuJzZiUHhhkI4MLcMJvfnzh)（表格最后一行，作者为zh）",
                   "- **首发日期**: 2024-12",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: BISHENG · GLM"
                 ]
               },
@@ -9080,8 +9080,8 @@
                   "- **English Name**: zh",
                   "- **Author Website**: [Hand-Built 100 Workflows [Event]](https://dataelem.feishu.cn/wiki/OJYRwuJzZiUHhhkI4MLcMJvfnzh) (last row of the table, author is zh)",
                   "- **Initial Release Date**: 2024-12",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: BISHENG · GLM"
                 ]
               },
@@ -9766,8 +9766,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2025-11-25",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: Autogluon （by AWS AI） · Neuralforecast （by Nixtla） · ETT数据集SOTA 模型"
                 ]
               },
@@ -9883,8 +9883,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2025-11-25",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: AutoGluon (by AWS AI) · NeuralForecast (by Nixtla) · ETT Dataset SOTA Models"
                 ]
               },
@@ -10002,8 +10002,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2025-11-27",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: Gemini CLI · Gemini 3.1 Pro"
                 ]
               },
@@ -10120,8 +10120,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2025-11-27",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: Gemini CLI · Gemini 3.1 Pro"
                 ]
               },
@@ -10244,8 +10244,8 @@
                   "- **英文名称**: BISHENG",
                   "- **作者网站**: https://www.bisheng.ai/",
                   "- **首发日期**: 2026-01-09",
-                  "- **最近更新**: 2026-01-09",
-                  "- **最近审阅**: 2026-01-09"
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11"
                 ]
               },
               {
@@ -10371,8 +10371,8 @@
                   "- **English Name**: BISHENG",
                   "- **Author Website**: https://www.bisheng.ai/",
                   "- **Initial Release Date**: 2026-01-09",
-                  "- **Last Updated**: 2026-01-09",
-                  "- **Last Reviewed**: 2026-01-09"
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11"
                 ]
               },
               {
@@ -10497,8 +10497,8 @@
                   "- **英文名称**: Real-World AI",
                   "- **作者网站**: 本站",
                   "- **首发日期**: 2025-11-25",
-                  "- **最近更新**: 2026-03-10",
-                  "- **最近审阅**: 2026-03-10",
+                  "- **最近更新**: 2026-05-11",
+                  "- **最近审阅**: 2026-05-11",
                   "- **关键依赖**: Ultralytics YOLO （by Ultralytics） · Triton （by NVIDIA） · Perf Analyzer （by NVIDIA）"
                 ]
               },
@@ -10615,8 +10615,8 @@
                   "- **English Name**: Real-World AI",
                   "- **Author Website**: This site",
                   "- **Initial Release Date**: 2025-11-25",
-                  "- **Last Updated**: 2026-03-10",
-                  "- **Last Reviewed**: 2026-03-10",
+                  "- **Last Updated**: 2026-05-11",
+                  "- **Last Reviewed**: 2026-05-11",
                   "- **Key Dependencies**: Ultralytics YOLO (by Ultralytics) · Triton (by NVIDIA) · Perf Analyzer (by NVIDIA)"
                 ]
               },

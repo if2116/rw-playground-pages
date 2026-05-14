@@ -81,7 +81,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
-<td style="text-align: left;"><p>初步验证需求文档：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/UK3nwnHFuiZtxzkhAhvczfDDn5g?from=from_copylink">初步验证需求文档</a></p>
+<td style="text-align: left;"><p>初步验证需求文档：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3.docx">初步验证需求文档</a></p>
 <p>PoC相关事项确认，如启动时间、验收时间、验收方案等</p></td>
 </tr>
 <tr>
@@ -132,9 +132,9 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>结果产出</strong></td>
-<td style="text-align: left;"><p>定稿并交付初步验证报告：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/EpdnwqYsri1TZDkRYNVcgE1TnYe?from=from_copylink">初步验证报告</a></p>
+<td style="text-align: left;"><p>定稿并交付初步验证报告：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A.docx">初步验证报告</a></p>
 <p>完成Demo构建，准备并最终通过PoC</p>
-<p>撰写并交付立项报告：<a href="https://gvxnc4ekbvn.feishu.cn/wiki/EioZwicWhiWcfek81q9cCl7bnGb?from=from_copylink">立项报告</a></p>
+<p>撰写并交付立项报告：<a href="https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E7%AB%8B%E9%A1%B9%E6%8A%A5%E5%91%8A.docx">立项报告</a></p>
 <p>立项协议（附件应包含正式上线版本的交付、验收、排期、资源等内容）</p></td>
 </tr>
 <tr>
@@ -718,11 +718,11 @@ claude mcp add -s user -t sse model-huggingface <a href="http://127.0.0.1:4003/s
 <blockquote>
 <p>深度研究报告生成全流程.md 文件如下</p>
 </blockquote>
-<p><strong>[深度研究报告生成全流程.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)</strong></p>
+<p><strong>[深度研究报告生成全流程.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E4%BB%A3%E7%A0%81/%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90%E5%85%A8%E6%B5%81%E7%A8%8B.md)</strong></p>
 <blockquote>
 <p>skill.md 文件如下</p>
 </blockquote>
-<p><strong>[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/SKILL.md)</strong></p>
+<p><strong>[SKILL.md](https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E4%BB%A3%E7%A0%81/SKILL.md)</strong></p>
 <blockquote>
 <p>在项目根目录启动 Claude Code 来生成调研报告</p>
 </blockquote>
@@ -761,4 +761,4 @@ claude<br />
 </table>
 
   [一周构建智能调研和报告生成系统Demo]: https://gvxnc4ekbvn.feishu.cn/wiki/DbbUwFE8FiYjupki6uzcRqT0nEe?from=from_copylink
-  [初步验证报告]: https://gvxnc4ekbvn.feishu.cn/wiki/EpdnwqYsri1TZDkRYNVcgE1TnYe?from=from_copylink
+  [初步验证报告]: https://github.com/THU-ZJAI/Real-World-AI_Source/blob/main/SOTA%20Repository/%E6%99%BA%E8%83%BD%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90/%E6%93%82%E4%B8%BB/%E6%96%87%E6%A1%A3/%E5%88%9D%E6%AD%A5%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A.docx
