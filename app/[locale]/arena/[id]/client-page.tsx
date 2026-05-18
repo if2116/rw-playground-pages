@@ -29,7 +29,6 @@ import {
   Tag,
   Clock,
   Calendar,
-  ExternalLink,
   Code,
 } from 'lucide-react';
 import 'highlight.js/styles/github-dark.css';
@@ -1420,12 +1419,6 @@ function OverviewSection({ arena, content, locale, activeTab, setActiveTab }: {
     );
     const dependencies = getNormalizedDependencies(isChina ? arena.champion : arena.championEn);
 
-    // Extract implementation link
-    const implementationLink = (detailsContent.length > 0 ? detailsContent : allSectionLines).find(c => c.includes('http'));
-    const linkMatch = implementationLink?.match(/\[([^\]]+)\]\(([^)]+)\)/);
-    const fallbackUrlMatch = implementationLink?.match(/https?:\/\/\S+/);
-    const detailLink = linkMatch ? linkMatch[2] : (fallbackUrlMatch ? fallbackUrlMatch[0] : null);
-
     return (
       <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl p-8 border-2 border-gray-200 hover:border-blue-300 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300">
         {/* Header - Standardized */}
@@ -1547,18 +1540,6 @@ function OverviewSection({ arena, content, locale, activeTab, setActiveTab }: {
                 </div>
               </div>
 
-              {/* External Link */}
-              {detailLink && (
-                <a
-                  href={detailLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-5 inline-flex items-center gap-2 px-4 py-2 text-sm text-blue-600 hover:text-blue-700 font-semibold hover:bg-blue-50 rounded-lg transition-colors"
-                >
-                  {isChina ? '外部文档' : 'External Docs'}
-                  <ExternalLink className="h-4 w-4" />
-                </a>
-              )}
             </div>
           </div>
         </div>
