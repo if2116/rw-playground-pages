@@ -11,18 +11,18 @@ export default function AboutPage() {
   const withBasePath = (path: string) => `${basePath}${path}`;
 
   const partners = [
-    { name: 'Yangtze Delta Region Institute', nameZh: '长三院', logo: withBasePath('/partners/logo1.png') },
-    { name: 'Tsinghua University', nameZh: '清华大学', logo: withBasePath('/partners/logo2.jpg') },
-    { name: 'Shenghong', nameZh: '盛虹', logo: withBasePath('/partners/logo3.png') },
-    { name: 'Bi Sheng', nameZh: '毕昇', logo: withBasePath('/partners/logo4.png') },
-    { name: 'Ping An', nameZh: '平安', logo: withBasePath('/partners/logo5.png') },
-    { name: 'Small and Medium Banks Alliance', nameZh: '中小银行联盟', logo: withBasePath('/partners/logo6.png') },
-    { name: 'China Southern Power Grid', nameZh: '南方电网', logo: withBasePath('/partners/logo7.png') },
-    { name: 'Oxford Institute for Advanced Research, Suzhou', nameZh: '牛津大学高等研究院（苏州）', logo: withBasePath('/partners/logo8.png') },
-    { name: 'OXValue.AI', nameZh: 'OXValue.AI', logo: withBasePath('/partners/logo9.png') },
-    { name: 'Zhuke Digital Intelligence', nameZh: '珠科数智', logo: withBasePath('/partners/logo10.png') },
-    { name: 'Zhi Xiang Huan Yu', nameZh: '智向寰宇', logo: withBasePath('/partners/logo11.jpg') },
-    { name: 'CICAS', nameZh: 'CICAS', logo: withBasePath('/partners/logo12.png') },
+    { name: 'Yangtze Delta Region Institute', nameZh: '长三院', logo: withBasePath('/partners/001.png') },
+    { name: 'Tsinghua University', nameZh: '清华大学', logo: withBasePath('/partners/002.jpg') },
+    { name: 'Shenghong', nameZh: '盛虹', logo: withBasePath('/partners/003.png') },
+    { name: 'Bi Sheng', nameZh: '毕昇', logo: withBasePath('/partners/004.png') },
+    { name: 'Ping An', nameZh: '平安', logo: withBasePath('/partners/005.png') },
+    { name: 'Small and Medium Banks Alliance', nameZh: '中小银行联盟', logo: withBasePath('/partners/006.png') },
+    { name: 'China Southern Power Grid', nameZh: '南方电网', logo: withBasePath('/partners/007.png') },
+    { name: 'Oxford Institute for Advanced Research, Suzhou', nameZh: '牛津大学高等研究院（苏州）', logo: withBasePath('/partners/008.png') },
+    { name: 'OXValue.AI', nameZh: 'OXValue.AI', logo: withBasePath('/partners/009.png') },
+    { name: 'Zhuke Digital Intelligence', nameZh: '珠科数智', logo: withBasePath('/partners/010.png') },
+    { name: 'Zhi Xiang Huan Yu', nameZh: '智向寰宇', logo: withBasePath('/partners/011.jpg') },
+    { name: 'CICAS', nameZh: 'CICAS', logo: withBasePath('/partners/012.png') },
   ];
 
   return (
