@@ -452,17 +452,18 @@ async function PartnersCarouselSection({ locale }: { locale: string }) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const withBasePath = (path: string) => `${basePath}${path}`;
   const partners = [
-    { id: '1', name: 'Partner 1', logo: withBasePath('/partners/logo1.png') },
-    { id: '2', name: 'Partner 2', logo: withBasePath('/partners/logo2.png') },
-    { id: '3', name: 'Partner 3', logo: withBasePath('/partners/logo3.png') },
-    { id: '4', name: 'Partner 4', logo: withBasePath('/partners/logo4.png') },
-    { id: '5', name: 'Partner 5', logo: withBasePath('/partners/logo5.png') },
-    { id: '6', name: 'Partner 6', logo: withBasePath('/partners/logo6.png') },
-    { id: '7', name: 'Partner 7', logo: withBasePath('/partners/logo7.jpg') },
-    { id: '8', name: 'Partner 8', logo: withBasePath('/partners/logo8.jpg') },
-    { id: '9', name: 'Oxford Institute for Advanced Research, Suzhou', logo: withBasePath('/partners/logo9.png') },
-    { id: '10', name: 'CICAS', logo: withBasePath('/partners/logo10.png') },
+    { id: '1', name: 'Yangtze Delta Region Institute', logo: withBasePath('/partners/logo1.png') },
+    { id: '2', name: 'Tsinghua University', logo: withBasePath('/partners/logo2.jpg') },
+    { id: '3', name: 'Shenghong', logo: withBasePath('/partners/logo3.png') },
+    { id: '4', name: 'Bi Sheng', logo: withBasePath('/partners/logo4.png') },
+    { id: '5', name: 'Ping An', logo: withBasePath('/partners/logo5.png') },
+    { id: '6', name: 'Small and Medium Banks Alliance', logo: withBasePath('/partners/logo6.png') },
+    { id: '7', name: 'China Southern Power Grid', logo: withBasePath('/partners/logo7.png') },
+    { id: '8', name: 'Oxford Institute for Advanced Research, Suzhou', logo: withBasePath('/partners/logo8.png') },
+    { id: '9', name: 'OXValue.AI', logo: withBasePath('/partners/logo9.png') },
+    { id: '10', name: 'Zhuke Digital Intelligence', logo: withBasePath('/partners/logo10.png') },
     { id: '11', name: 'Zhi Xiang Huan Yu', logo: withBasePath('/partners/logo11.jpg') },
+    { id: '12', name: 'CICAS', logo: withBasePath('/partners/logo12.png') },
   ];
 
   return (

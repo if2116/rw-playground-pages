@@ -11,15 +11,18 @@ export default function AboutPage() {
   const withBasePath = (path: string) => `${basePath}${path}`;
 
   const partners = [
-    { name: 'Tsinghua University', nameZh: '清华大学', logo: withBasePath('/partners/logo1.png') },
-    { name: 'Microsoft', nameZh: '微软', logo: withBasePath('/partners/logo2.png') },
-    { name: 'Columbia University', nameZh: '哥伦比亚大学', logo: withBasePath('/partners/logo3.png') },
-    { name: 'Oxford University', nameZh: '牛津大学', logo: withBasePath('/partners/logo4.png') },
-    { name: 'CFA Institute', nameZh: 'CFA协会', logo: withBasePath('/partners/logo5.png') },
-    { name: 'Yangtze Delta Region Institute', nameZh: '浙江清华长三角研究院', logo: withBasePath('/partners/logo6.png') },
-    { name: 'Oxford Institute for Advanced Research, Suzhou', nameZh: '牛津大学高等研究院(苏州)', logo: withBasePath('/partners/logo9.png') },
-    { name: 'CICAS', nameZh: 'CICAS', logo: withBasePath('/partners/logo10.png') },
+    { name: 'Yangtze Delta Region Institute', nameZh: '长三院', logo: withBasePath('/partners/logo1.png') },
+    { name: 'Tsinghua University', nameZh: '清华大学', logo: withBasePath('/partners/logo2.jpg') },
+    { name: 'Shenghong', nameZh: '盛虹', logo: withBasePath('/partners/logo3.png') },
+    { name: 'Bi Sheng', nameZh: '毕昇', logo: withBasePath('/partners/logo4.png') },
+    { name: 'Ping An', nameZh: '平安', logo: withBasePath('/partners/logo5.png') },
+    { name: 'Small and Medium Banks Alliance', nameZh: '中小银行联盟', logo: withBasePath('/partners/logo6.png') },
+    { name: 'China Southern Power Grid', nameZh: '南方电网', logo: withBasePath('/partners/logo7.png') },
+    { name: 'Oxford Institute for Advanced Research, Suzhou', nameZh: '牛津大学高等研究院（苏州）', logo: withBasePath('/partners/logo8.png') },
+    { name: 'OXValue.AI', nameZh: 'OXValue.AI', logo: withBasePath('/partners/logo9.png') },
+    { name: 'Zhuke Digital Intelligence', nameZh: '珠科数智', logo: withBasePath('/partners/logo10.png') },
     { name: 'Zhi Xiang Huan Yu', nameZh: '智向寰宇', logo: withBasePath('/partners/logo11.jpg') },
+    { name: 'CICAS', nameZh: 'CICAS', logo: withBasePath('/partners/logo12.png') },
   ];
 
   return (
