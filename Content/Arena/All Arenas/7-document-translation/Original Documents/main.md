@@ -91,8 +91,8 @@
 <p>Gemini 3.1 Pro(by Google) 官网：https://deepmind.google/models/gemini/pro/</p>
 <p>版本状态</p>
 <p>首发日期：2025-11-27</p>
-<p>最近更新：2026-05-11</p>
-<p>最近审阅：2026-05-11</p></td>
+<p>最近更新：2026-05-18</p>
+</td>
 </tr>
 </tbody>
 </table>

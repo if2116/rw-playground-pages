@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-更新所有擂台 overview.zh.json 和 overview.en.json 中的日期字段
-将"最近更新"和"最近审阅"更新为当天日期
+更新所有擂台 overview.zh.json 和 overview.en.json 中的更新日期字段
+将"最近更新"和"Last Updated"更新为当天日期
 """
 
 import json
@@ -28,28 +28,24 @@ def update_overview_dates(file_path, today_date):
     updated = False
 
     if is_chinese:
-        # 中文：最近更新、最近审阅
+        # 中文：最近更新
         # 匹配 "- **最近更新**: YYYY-MM-DD"
         pattern_update = r'(- \*\*最近更新\*\*: )(\d{4}-\d{2}-\d{2})'
-        pattern_review = r'(- \*\*最近审阅\*\*: )(\d{4}-\d{2}-\d{2})'
 
         new_content, count1 = re.subn(pattern_update, rf'\g<1>{today_date}', content)
-        new_content, count2 = re.subn(pattern_review, rf'\g<1>{today_date}', new_content)
 
-        if count1 > 0 or count2 > 0:
+        if count1 > 0:
             updated = True
-            print(f"  ✓ 更新中文日期: 最近更新 ({count1}), 最近审阅 ({count2})")
+            print(f"  ✓ 更新中文日期: 最近更新 ({count1})")
     else:
-        # 英文：Last Updated、Last Reviewed
+        # 英文：Last Updated
         pattern_update = r'(- \*\*Last Updated\*\*: )(\d{4}-\d{2}-\d{2})'
-        pattern_review = r'(- \*\*Last Reviewed\*\*: )(\d{4}-\d{2}-\d{2})'
 
         new_content, count1 = re.subn(pattern_update, rf'\g<1>{today_date}', content)
-        new_content, count2 = re.subn(pattern_review, rf'\g<1>{today_date}', new_content)
 
-        if count1 > 0 or count2 > 0:
+        if count1 > 0:
             updated = True
-            print(f"  ✓ 更新英文日期: Last Updated ({count1}), Last Reviewed ({count2})")
+            print(f"  ✓ 更新英文日期: Last Updated ({count1})")
 
     if updated:
         with open(file_path, 'w', encoding='utf-8') as f:

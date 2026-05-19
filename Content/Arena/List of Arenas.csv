@@ -1,7 +1,7 @@
 ﻿arena_no,title,champion,related_references,verification_status,highlights,industry,category,speed,quality,security,cost,challenger,video_url_zh,video_url_global,video_cover_image_url,homepage_display_order
-1,智能调研报告生成,私部署版：Claude Code + GLM 5 + Metaso,"Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code
-Metaso MCP (by 秘塔科技) 文档：https://www.modelscope.cn/mcp/servers/metasota/metaso-search
-GLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",已验证,一周构建1个包含资料搜集、知识整合、报告生成功能的智能调研系统Demo,"信息技术, 金融贸易, 科研教育","服务, 运营, 管理",一周,较高,较高,较优,私部署版：Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6+ Metaso,https://www.bilibili.com/video/BV1FxFYzyEk8,https://www.bilibili.com/video/BV1FxFYzyEk8,,2
+1,智能调研报告生成,私部署版：Claude Code + DeepSeek V4 Pro + StepSearch,"Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code
+StepSearch MCP (by 阶跃星辰) 文档：https://platform.stepfun.com/docs/zh/step-plan/integrations/search-mcp
+DeepSeek-V4-Pro(by 深度求索) Hugging Face：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",已验证,一周构建1个包含资料搜集、知识整合、报告生成功能的智能调研系统Demo,"信息技术, 金融贸易, 科研教育","服务, 运营, 管理",一周,较高,较高,较优,私部署版：Hermes Agent + MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6+ Metaso,https://www.bilibili.com/video/BV1FxFYzyEk8,https://www.bilibili.com/video/BV1FxFYzyEk8,,2
 2,业务看板搭建,云端版：Lovable + Kimi K2.5 + Claude Code,"Lovable首页：https://lovable.dev/
 Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code
 Kimi-K2.5(by 月之暗面) GitHub：https://github.com/MoonshotAI/Kimi-K2.5",已验证,0技术门槛1-2日内搭建出1个有基础互动能力的业务看板或网站Demo,通用,"服务, 运营, 营销",1~2天,很高,较低,较优,云端版：Lovable + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7 + Claude Code,https://www.bilibili.com/video/BV1qxwXzAEME,https://www.bilibili.com/video/BV1qxwXzAEME,,1

@@ -2,8 +2,8 @@
   {
     "arena_no": "1",
     "title": "智能调研报告生成",
-    "champion": "私部署版：Claude Code + GLM 5 + Metaso",
-    "related_references": "Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code\nMetaso MCP (by 秘塔科技) 文档：https://www.modelscope.cn/mcp/servers/metasota/metaso-search\nGLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",
+    "champion": "私部署版：Claude Code + DeepSeek V4 Pro + StepSearch",
+    "related_references": "Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code\nStepSearch MCP (by 阶跃星辰) 文档：https://platform.stepfun.com/docs/zh/step-plan/integrations/search-mcp\nDeepSeek-V4-Pro(by 深度求索) Hugging Face：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
     "verification_status": "已验证",
     "highlights": "一周构建1个包含资料搜集、知识整合、报告生成功能的智能调研系统Demo",
     "industry": "信息技术, 金融贸易, 科研教育",
@@ -12,7 +12,7 @@
     "quality": "较高",
     "security": "较高",
     "cost": "较优",
-    "challenger": "私部署版：Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6+ Metaso"
+    "challenger": "私部署版：Hermes Agent + MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6+ Metaso"
   },
   {
     "arena_no": "2",

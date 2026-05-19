@@ -188,7 +188,7 @@
     },
     {
       "number": 4,
-      "title": "metaso-mcp Service Build and Start",
+      "title": "metaso-mcp Service Build and Start (Optional)",
       "subsections": [
         {
           "title": "Step Definition",
@@ -342,6 +342,10 @@
             "- Input Name: Generate research report using Claude Code",
             "- Input Description: Interact with Claude Code to confirm input information for generating research videos",
             "- Input Example:",
+            "Configure StepSearch MCP",
+            "```markdown",
+            "claude mcp add -s user -t http web-search https://api.stepfun.com/step_plan/v1/mcp/web_search/mcp --header \"Authorization: Bearer your_api_key\"",
+            "```",
             "Pass in existing research report template.md, research report generation workflow document skill.md, and flowchart.md",
             "```python",
             "# Material requirements are as follows",

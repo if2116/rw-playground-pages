@@ -129,7 +129,7 @@ claude mcp list
 ### 预估时间
 0.5-1 日
 
-## 步骤 4：metaso-mcp 服务构建、启动
+## 步骤 4：metaso-mcp 服务构建、启动（可选）
 
 ### 步骤定义
 构建 metaso-mcp 服务，支持网络搜索、内容读取和智能问答能力
@@ -237,6 +237,10 @@ claude mcp add -s user -t sse model-huggingface http://127.0.0.1:4003/sse
 - 输入名称：使用 Claude Code 生成调研报告
 - 输入介绍：和 Claude Code 交互确认输入信息来生成调研视频
 - 输入示例：
+配置 StepSearch MCP
+```markdown
+claude mcp add -s user -t http web-search https://api.stepfun.com/step_plan/v1/mcp/web_search/mcp --header "Authorization: Bearer your_api_key"
+```
 传入已有调研报告模板.md、调研报告生成流程文档 skill.md 和 流程图.md
 ```python
 # 素材要求如下

@@ -2,7 +2,7 @@
 
 |  |
 |:---|
-| 这是擂台[一周构建智能调研和报告生成系统Demo]（编号Case251120Y01）的实践详情。 |
+| 这是擂台[一周构建智能调研和报告生成系统Demo](https://gvxnc4ekbvn.feishu.cn/wiki/DbbUwFE8FiYjupki6uzcRqT0nEe?from=from_copylink)（编号Case251120Y01）的实践详情。 |
 
 1\. **方案概览**
 
@@ -469,7 +469,7 @@ claude mcp list<br />
 <td style="text-align: center;"><strong>步骤序号</strong></td>
 <td style="text-align: left;">4</td>
 <td style="text-align: center;"><strong>步骤名称</strong></td>
-<td style="text-align: left;">metaso-mcp 服务构建、启动</td>
+<td style="text-align: left;">metaso-mcp 服务构建、启动（可选）</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>步骤定义</strong></td>
@@ -696,6 +696,20 @@ claude mcp add -s user -t sse model-huggingface <a href="http://127.0.0.1:4003/s
 <td style="text-align: left;"><p>输入名称：使用 Claude Code 生成调研报告</p>
 <p>输入介绍：和 Claude Code 交互确认输入信息来生成调研视频</p>
 <p>输入示例：</p>
+<blockquote>
+<p>配置 StepSearch MCP</p>
+</blockquote>
+<table style="width:70%;">
+<colgroup>
+<col style="width: 70%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: left;">Markdown<br />
+claude mcp add -s user -t http web-search https://api.stepfun.com/step_plan/v1/mcp/web_search/mcp --header "Authorization: Bearer your_api_key"</td>
+</tr>
+</tbody>
+</table>
 <blockquote>
 <p>传入已有调研报告模板.md、调研报告生成流程文档 skill.md 和 流程图.md</p>
 </blockquote>

@@ -49,7 +49,7 @@
 <p>单篇文档审阅时间：缩短至15分钟以内（人工需1周），支持大规模、稳定的批量生成</p>
 <p>单篇文档人力投入成本：结合上述提效指标与下述技术指标，可减少人工操作与复核成本达95%、提升用户体验</p>
 <p><strong>核心技术指标</strong></p>
-<p>单篇文档调研性能综合评估：DeepResearch Bench综合得分≥51，确保生成报告可信度</p></td>
+<p>单篇文档调研性能综合评估：DeepResearch Bench综合得分≥53，确保生成报告可信度</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,10 +66,10 @@
 <tr>
 <td style="text-align: left;"><p><strong>入选最佳实践理由</strong></p>
 <p>指标提升</p>
-<p>该方案在Deep Research评测基准DeepResearch Bench上跑测综合得分为51.86，在该榜单截止12月24日全部开源可用方案中排名第2位（与第1位方案tavily-research（51.97）综合得分差距小于1.5%，确保生成报告准确、可信，提升用户体验。</p>
+<p>该方案在Deep Research评测基准DeepResearch Bench上跑测综合得分为53.54，在该榜单截止5月18日全部开源可用方案中排名第3位（与开源第1位方案nvidia-aiq（53.91）综合得分差距小于1%，确保生成报告准确、可信，提升用户体验。</p>
 <p>该方案的报告平均生成时间≤15分钟，比salesforce-air-deep-research（平均约为20分钟）快33%，提升调研效率。</p>
 <p>成本优化</p>
-<p>该方案支持以GLM-5等API收费相对更低的高性能大模型为基座，从而节省近60%运营成本。</p>
+<p>该方案支持以DeepSeek V4 Pro等API收费相对更低的高性能大模型为基座，从而节省近60%运营成本。</p>
 <p>该方案生成报告模板的契合度≥95%，格式规范度≥99%，相比人工方案（约1周，需沟通、调研、专家咨询、校对、排版等流程），人力成本降低约95%。</p>
 <p>——实践者</p></td>
 </tr>
@@ -91,12 +91,12 @@
 <p>作者网站：本站</p>
 <p>关联引用</p>
 <p>Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code</p>
-<p>Metaso MCP (by 秘塔科技) 文档：https://www.modelscope.cn/mcp/servers/metasota/metaso-search</p>
-<p>GLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5</p>
+<p>StepSearch MCP (by 阶跃星辰) 文档：https://platform.stepfun.com/docs/zh/step-plan/integrations/search-mcp</p>
+<p>DeepSeek-V4-Pro(by 深度求索) Hugging Face：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro</p>
 <p>版本状态</p>
 <p>首发日期：2025-11-20</p>
-<p>最近更新：2026-05-11</p>
-<p>最近审阅：2026-05-11</p></td>
+<p>最近更新：2026-05-18</p>
+</td>
 </tr>
 </tbody>
 </table>

@@ -2,8 +2,8 @@
   {
     "arena_no": "1",
     "title": "Enterprise-Level Intelligent Research Report Generation System Demo",
-    "champion": "Private Deployment: Claude Code + GLM 5 + Metaso",
-    "related_references": "Claude Code (by Anthropic) GitHub: https://github.com/anthropics/claude-code\nMetaso MCP (by MetaSota) Docs: https://www.modelscope.cn/mcp/servers/metasota/metaso-search\nGLM-5 (by Zhipu AI) GitHub: https://github.com/zai-org/GLM-5",
+    "champion": "Private Deployment: Claude Code + DeepSeek V4 Pro + StepSearch",
+    "related_references": "Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code\nStepSearch MCP (by StepFun) Docs：https://platform.stepfun.com/docs/zh/step-plan/integrations/search-mcp\nDeepSeek-V4-Pro(by DeepSeek) Hugging Face：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
     "verification_status": "Verified",
     "highlights": "Build an intelligent research system demo with data collection, knowledge integration, and report generation capabilities in one week",
     "industry": "Information Technology, Finance & Trade, Science & Education",
@@ -12,7 +12,7 @@
     "quality": "Relatively High",
     "security": "Relatively High",
     "cost": "Optimal",
-    "challenger": "Private Deployment: Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6 + Metaso"
+    "challenger": "Private Deployment: Hermes Agent + MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6+ Metaso"
   },
   {
     "arena_no": "2",

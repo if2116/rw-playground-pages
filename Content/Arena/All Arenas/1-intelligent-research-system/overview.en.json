@@ -1,5 +1,5 @@
 {
-  "highlight": "Ranked No. 2 on DeepResearch Bench",
+  "highlight": "Ranked No. 3 on DeepResearch Bench",
   "industry": "Information Technology,Scientific Research & Education,Finance & Trade",
   "category": "Service,Operations,Management",
   "cycle": "3.5-5 days",
@@ -11,10 +11,10 @@
         {
           "title": "Highlight Cards",
           "content": [
-            "- Ranked #2 in DeepResearch Bench: Score 51.86 on authoritative benchmark, <1.5% gap from #1",
+            "- Ranked #3 in DeepResearch Bench: Score 53.54 on authoritative benchmark, <1% gap from #1 open-source solution",
             "- Reduce 95% Manual Research Workload: Automated data collection and integration, greatly improving efficiency",
             "- Generate Reports in <=15 Minutes: Quickly output high-quality structured research documents, support batch generation",
-            "- Support Open-Source LLMs: Save 90% cost, support open-source models like GLM-5"
+            "- Support Open-Source LLMs: Save nearly 60% in operating costs, supporting common base models such as DeepSeek V4 Pro"
           ]
         },
         {
@@ -81,9 +81,9 @@
         {
           "title": "3.1.1 Reasons for Best Practice Selection",
           "content": [
-            "- Quality Leadership: Ranked #2 on DeepResearch Bench. Stable, trustworthy output for business decisions.",
+            "- Quality Leadership: Ranked #3 on DeepResearch Bench. Stable, trustworthy output for business decisions.",
             "- ⚡ Faster Generation: ≤15 min per report, significantly faster than alternatives (typically ≥20 min).",
-            "- 💰 Lower Cost: Supports high-performance & cost-effective models (e.g., GLM series), 60%+ cost reduction while maintaining quality.",
+            "- 💰 Lower Cost: Supports high-performance & cost-effective models (e.g., DeepSeek V4 Pro), 60%+ cost reduction while maintaining quality.",
             "- ✓ Enterprise Ready: ≥95% template match, ≥99% format compliance. Ready for internal and external use."
           ]
         },
@@ -96,9 +96,8 @@
             "- **English Name**: Real-World AI",
             "- **Author Website**: This site",
             "- **Initial Release Date**: 2025-11-20",
-            "- **Last Updated**: 2026-05-11",
-            "- **Last Reviewed**: 2026-05-11",
-            "- **Key Dependencies**: Claude Code · Metaso MCP · GLM"
+            "- **Last Updated**: 2026-05-18",
+            "- **Key Dependencies**: Claude Code · StepSearch MCP · DeepSeek V4 Pro"
           ]
         },
         {
@@ -115,7 +114,7 @@
             "- Single-document review time: Reduced to within 15 minutes (manual work requires 1 week), supporting large-scale and stable batch generation",
             "- Single-document labor cost: Combined with the efficiency indicators above and the technical indicators below, manual operation and review costs can be reduced by 95%, improving user experience",
             "**Core Technical Metrics**",
-            "- Comprehensive evaluation of single-document research performance: DeepResearch Bench comprehensive score >=51, ensuring the credibility of generated reports"
+            "- Comprehensive evaluation of single-document research performance: DeepResearch Bench comprehensive score >=53, ensuring the credibility of generated reports"
           ]
         }
       ]
