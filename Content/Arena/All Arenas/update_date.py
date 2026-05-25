@@ -1,14 +1,28 @@
 #!/usr/bin/env python3
 """
-更新所有擂台 overview.zh.json 和 overview.en.json 中的更新日期字段
-将"最近更新"和"Last Updated"更新为当天日期
+更新所有擂台中的更新日期字段
+将 overview.raw.json、overview.zh.json、overview.en.json 和 Original Documents/main.md 中的
+"最近更新"和"Last Updated"更新为当天日期
 """
 
-import json
-import os
 import re
 from datetime import datetime
 from pathlib import Path
+
+DATE_PATTERN = r"\d{4}-\d{2}-\d{2}"
+
+OVERVIEW_ZH_PATTERNS = (
+    ("最近更新", rf"(- \*\*最近更新\*\*: )({DATE_PATTERN})"),
+)
+
+OVERVIEW_EN_PATTERNS = (
+    ("Last Updated", rf"(- \*\*Last Updated\*\*: )({DATE_PATTERN})"),
+)
+
+ORIGINAL_DOC_PATTERNS = (
+    ("最近更新", rf"(最近更新[：:]\s*)({DATE_PATTERN})"),
+    ("Last Updated", rf"(Last Updated[:：]\s*)({DATE_PATTERN})"),
+)
 
 
 def get_today_date():
@@ -16,44 +30,51 @@ def get_today_date():
     return datetime.now().strftime("%Y-%m-%d")
 
 
-def update_overview_dates(file_path, today_date):
-    """更新单个 overview JSON 文件的日期"""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+def replace_dates(content, today_date, patterns):
+    """按给定模式更新日期，返回更新后的内容和匹配结果。"""
+    new_content = content
+    matches = []
 
-    # 检测是中文还是英文文件
-    is_chinese = 'overview.zh.json' in file_path
+    for label, pattern in patterns:
+        new_content, count = re.subn(pattern, rf"\g<1>{today_date}", new_content)
+        if count > 0:
+            matches.append((label, count))
 
-    # 记录是否有更新
-    updated = False
+    return new_content, matches
 
-    if is_chinese:
-        # 中文：最近更新
-        # 匹配 "- **最近更新**: YYYY-MM-DD"
-        pattern_update = r'(- \*\*最近更新\*\*: )(\d{4}-\d{2}-\d{2})'
 
-        new_content, count1 = re.subn(pattern_update, rf'\g<1>{today_date}', content)
+def update_file_dates(file_path, today_date, patterns):
+    """更新单个文件的日期"""
+    content = file_path.read_text(encoding="utf-8")
+    new_content, matches = replace_dates(content, today_date, patterns)
 
-        if count1 > 0:
-            updated = True
-            print(f"  ✓ 更新中文日期: 最近更新 ({count1})")
-    else:
-        # 英文：Last Updated
-        pattern_update = r'(- \*\*Last Updated\*\*: )(\d{4}-\d{2}-\d{2})'
-
-        new_content, count1 = re.subn(pattern_update, rf'\g<1>{today_date}', content)
-
-        if count1 > 0:
-            updated = True
-            print(f"  ✓ 更新英文日期: Last Updated ({count1})")
-
-    if updated:
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(new_content)
-        return True
-    else:
-        print(f"  ⚠ 未找到日期字段或无需更新")
+    if not matches:
+        print("  ⚠ 未找到日期字段")
         return False
+
+    if new_content == content:
+        labels = ", ".join(f"{label} ({count})" for label, count in matches)
+        print(f"  - 日期已是最新: {labels}")
+        return False
+
+    file_path.write_text(new_content, encoding="utf-8")
+    labels = ", ".join(f"{label} ({count})" for label, count in matches)
+    print(f"  ✓ 更新日期: {labels}")
+    return True
+
+
+def update_if_exists(file_path, today_date, patterns, missing_message):
+    """文件存在时更新，不存在时输出提示。"""
+    if not file_path.exists():
+        print(f"  ⚠ {missing_message}")
+        return False, False
+
+    try:
+        print(f"  📄 {file_path.name if file_path.name == 'main.md' else file_path.name}")
+        return update_file_dates(file_path, today_date, patterns), False
+    except Exception as e:
+        print(f"  ✗ 错误: {e}")
+        return False, True
 
 
 def main():
@@ -84,31 +105,30 @@ def main():
 
         print(f"\n📁 处理擂台: {item.name}")
 
-        # 处理中文文件
-        zh_file = item / 'overview.zh.json'
-        if zh_file.exists():
-            try:
-                print(f"  📄 {zh_file.name}")
-                if update_overview_dates(str(zh_file), today_date):
-                    updated_count += 1
-            except Exception as e:
-                print(f"  ✗ 错误: {e}")
-                error_count += 1
-        else:
-            print(f"  ⚠ 未找到中文文件")
+        raw_file = item / 'overview.raw.json'
+        updated, errored = update_if_exists(raw_file, today_date, OVERVIEW_ZH_PATTERNS, "未找到 raw 文件")
+        updated_count += int(updated)
+        error_count += int(errored)
 
-        # 处理英文文件
+        zh_file = item / 'overview.zh.json'
+        updated, errored = update_if_exists(zh_file, today_date, OVERVIEW_ZH_PATTERNS, "未找到中文文件")
+        updated_count += int(updated)
+        error_count += int(errored)
+
         en_file = item / 'overview.en.json'
-        if en_file.exists():
-            try:
-                print(f"  📄 {en_file.name}")
-                if update_overview_dates(str(en_file), today_date):
-                    updated_count += 1
-            except Exception as e:
-                print(f"  ✗ 错误: {e}")
-                error_count += 1
-        else:
-            print(f"  ⚠ 未找到英文文件")
+        updated, errored = update_if_exists(en_file, today_date, OVERVIEW_EN_PATTERNS, "未找到英文文件")
+        updated_count += int(updated)
+        error_count += int(errored)
+
+        original_main = item / 'Original Documents' / 'main.md'
+        updated, errored = update_if_exists(
+            original_main,
+            today_date,
+            ORIGINAL_DOC_PATTERNS,
+            "未找到原始文档 main.md",
+        )
+        updated_count += int(updated)
+        error_count += int(errored)
 
     print(f"\n" + "=" * 60)
     print(f"完成！")

@@ -82,7 +82,7 @@
 <p>XiYanSQL-QwenCoder(by 阿里) GitHub：https://github.com/XGenerationLab/XiYanSQL-QwenCoder</p>
 <p>版本状态</p>
 <p>首发日期：2025-03-xx</p>
-<p>最近更新：2026-05-18</p>
+<p>最近更新：2026-05-25</p>
 </td>
 </tr>
 </tbody>

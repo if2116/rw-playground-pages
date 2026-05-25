@@ -94,7 +94,7 @@
 <p>Claude Opus 4.6(by Anthropic) GitHub：https://www.anthropic.com/claude/opus</p>
 <p>版本状态</p>
 <p>首发日期：2025-11-07</p>
-<p>最近更新：2026-05-18</p>
+<p>最近更新：2026-05-25</p>
 </td>
 </tr>
 </tbody>

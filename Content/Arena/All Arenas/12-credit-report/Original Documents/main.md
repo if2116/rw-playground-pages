@@ -97,7 +97,7 @@
 <p>GLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5</p>
 <p>版本状态</p>
 <p>首发日期：2026-01-07</p>
-<p>最近更新：2026-05-18</p>
+<p>最近更新：2026-05-25</p>
 </td>
 </tr>
 </tbody>
