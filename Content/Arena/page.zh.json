@@ -2,7 +2,6 @@
   {
     "arena_no": "1",
     "title": "智能调研报告生成",
-    "champion": "私部署版：Claude Code + DeepSeek V4 Pro + StepSearch",
     "related_references": "Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code\nStepSearch MCP (by 阶跃星辰) 文档：https://platform.stepfun.com/docs/zh/step-plan/integrations/search-mcp\nDeepSeek-V4-Pro(by 深度求索) Hugging Face：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
     "verification_status": "已验证",
     "highlights": "一周构建1个包含资料搜集、知识整合、报告生成功能的智能调研系统Demo",
@@ -11,13 +10,11 @@
     "speed": "一周",
     "quality": "较高",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "私部署版：Hermes Agent + MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6+ Metaso"
+    "cost": "较优"
   },
   {
     "arena_no": "2",
     "title": "业务看板搭建",
-    "champion": "云端版：Lovable + Kimi K2.5 + Claude Code",
     "related_references": "Lovable首页：https://lovable.dev/\nClaude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code\nKimi-K2.5(by 月之暗面) GitHub：https://github.com/MoonshotAI/Kimi-K2.5",
     "verification_status": "已验证",
     "highlights": "0技术门槛1-2日内搭建出1个有基础互动能力的业务看板或网站Demo",
@@ -26,13 +23,11 @@
     "speed": "1~2天",
     "quality": "很高",
     "security": "较低",
-    "cost": "较优",
-    "challenger": "云端版：Lovable + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7 + Claude Code"
+    "cost": "较优"
   },
   {
     "arena_no": "3",
     "title": "文档审核与风控",
-    "champion": "私部署版：LangChain + GLM 5+ Pydantic + unstructured + Faiss",
     "related_references": "LangChain（by LangChain） GitHub：https://github.com/langchain-ai/langchain\nPydantic（by Pydantic） Github: https://github.com/pydantic/pydantic\nunstructured（by Unstructured.io） Github : https://github.com/Unstructured-IO/unstructured\nFaiss（by Facebook） Github: https://github.com/facebookresearch/faiss\nGLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",
     "verification_status": "已验证",
     "highlights": "一周构建1个完整性检查与风险评估的文档解析系统Demo",
@@ -41,13 +36,11 @@
     "speed": "一周",
     "quality": "较高",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "私部署版：LangChain + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss"
+    "cost": "较优"
   },
   {
     "arena_no": "4",
     "title": "企业演示视频",
-    "champion": "私部署版：Claude Code + Claude Opus 4.6 + FFmpeg + FunASR + PaddleSpeech",
     "related_references": "Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code\nFFmpeg 官网：https://www.ffmpeg.org/\nFunASR(by 阿里) GitHub：https://github.com/modelscope/FunASR\nPaddleSpeech(by 百度) GitHub：https://github.com/PaddlePaddle/PaddleSpeech\nClaude Opus 4.6(by Anthropic) GitHub：https://www.anthropic.com/claude/opus",
     "verification_status": "已验证",
     "highlights": "最快2.5日内生成1个企业级产品或功能简要演示视频",
@@ -56,13 +49,11 @@
     "speed": "1~2天",
     "quality": "中等",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "私部署版：OpenClaw + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6  + FFmpeg + Qwen3-ASR + Qwen3-TTS"
+    "cost": "较优"
   },
   {
     "arena_no": "5",
     "title": "儿童教育趣味应用",
-    "champion": "私部署版：BISHENG + GLM 5",
     "related_references": "BISHENG(by 毕昇) GitHub：https://github.com/dataelement/bisheng\nGLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",
     "verification_status": "已验证",
     "highlights": "一周搭建一个儿童教育应用Demo",
@@ -71,13 +62,11 @@
     "speed": "一周",
     "quality": "中等",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "私部署版：BISHENG + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7"
+    "cost": "较优"
   },
   {
     "arena_no": "6",
     "title": "长时间序列预测系统",
-    "champion": "私部署版：Autogluon + Neuralforecast + EMTSF",
     "related_references": "Autogluon （by AWS AI） GitHub: https://github.com/autogluon/autogluon\nNeuralforecast （by Nixtla） GitHub: https://github.com/Nixtla/neuralforecast\nETT数据集SOTA 模型：https://arxiv.org/pdf/2510.23396",
     "verification_status": "已验证",
     "highlights": "一周用低代码快速构建并验证一个面向能源领域的长时间序列预测系统Demo",
@@ -86,13 +75,11 @@
     "speed": "一周",
     "quality": "中等",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "寻找攻擂者"
+    "cost": "较优"
   },
   {
     "arena_no": "7",
     "title": "智能文档翻译系统",
-    "champion": "私部署版：Gemini CLI + Gemini 3.1 Pro",
     "related_references": "Gemini CLI(by Google) GitHub：https://github.com/google-gemini/gemini-cli\nGemini 3.1 Pro(by Google) 官网：https://deepmind.google/models/gemini/pro/",
     "verification_status": "已验证",
     "highlights": "一周快速构建1个智能文档翻译Demo",
@@ -101,13 +88,11 @@
     "speed": "一周",
     "quality": "中等",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "私部署版：Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6"
+    "cost": "较优"
   },
   {
     "arena_no": "8",
     "title": "智能合同法审系统",
-    "champion": "私部署版：BISHENG",
     "related_references": "BISHENG GitHub：https://github.com/dataelement/bisheng",
     "verification_status": "验证中",
     "highlights": "一天搭建出基于要素抽取与跨合同规则校验、可配置与溯源的智能合同法审系统Demo",
@@ -116,13 +101,11 @@
     "speed": "1~2天",
     "quality": "中等",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "寻找攻擂者"
+    "cost": "较优"
   },
   {
     "arena_no": "9",
     "title": "通用目标检测系统",
-    "champion": "私部署版：Ultralytics YOLO （YOLO 11）+ Triton + Perf Analyzer",
     "related_references": "Ultralytics YOLO （by Ultralytics） : https://docs.ultralytics.com/models/yolo11/\nTriton （by NVIDIA） GitHub : https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_configuration.md\nPerf Analyzer （by NVIDIA） GitHub: https://github.com/triton-inference-server/perf_analyzer",
     "verification_status": "验证中",
     "highlights": "一周构建1个高精度、含数据流闭环、具备自进化能力的通用目标检测系统Demo",
@@ -131,13 +114,11 @@
     "speed": "一周",
     "quality": "中等",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "寻找攻擂者"
+    "cost": "较优"
   },
   {
     "arena_no": "10",
     "title": "SQL语言智能生成",
-    "champion": "私部署版：XiYan-SQL（QwenCoder-32B）",
     "related_references": "XiYan-SQL(by 阿里) Github：https://github.com/XGenerationLab/XiYan-SQL\nXiYanSQL-QwenCoder(by 阿里) GitHub：https://github.com/XGenerationLab/XiYanSQL-QwenCoder",
     "verification_status": "验证中",
     "highlights": "快速搭建一个大模型，通过对话生成SQL脚本",
@@ -146,13 +127,11 @@
     "speed": "一周",
     "quality": "较高",
     "security": "较高",
-    "cost": "中等",
-    "challenger": "私部署版：Agentar-Scale-SQL（Agentar-Scale-SQL-Generation-32B）"
+    "cost": "中等"
   },
   {
     "arena_no": "11",
     "title": "功能推荐助手",
-    "champion": "私部署版：Coze + GLM 5",
     "related_references": "Coze （by 字节跳动） : https://www.coze.cn/\nGLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",
     "verification_status": "验证中",
     "highlights": "一周基于低代码构建一个具备主动追问与推荐能力的对话式助手Demo",
@@ -161,13 +140,11 @@
     "speed": "一周",
     "quality": "较低",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "私部署版：Coze +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6"
+    "cost": "较优"
   },
   {
     "arena_no": "12",
     "title": "智能信贷报告生成系统",
-    "champion": "私部署版：LangChain + GLM 5",
     "related_references": "LangChain（by LangChain） GitHub：https://github.com/langchain-ai/langchain\nGLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",
     "verification_status": "验证中",
     "highlights": "一周低代码构建具备多源数据整合、合规校验、信贷报告一键生成能力的银行智能信贷系统Demo",
@@ -176,13 +153,11 @@
     "speed": "一周",
     "quality": "中等",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "私部署版：LangChain +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss"
+    "cost": "较优"
   },
   {
     "arena_no": "13",
     "title": "单条产业链图谱",
-    "champion": "私部署版：LangChain + GLM 5",
     "related_references": "LangChain（by LangChain） GitHub：https://github.com/langchain-ai/langchain\nGLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",
     "verification_status": "验证中",
     "highlights": "一周低代码完成单条全国产业链图谱全流程构建",
@@ -191,7 +166,6 @@
     "speed": "一周",
     "quality": "中等",
     "security": "较高",
-    "cost": "较优",
-    "challenger": "私部署版：LangChain +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss"
+    "cost": "较优"
   }
 ]

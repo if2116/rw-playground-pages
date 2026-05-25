@@ -2,7 +2,6 @@
   {
     "arena_no": "1",
     "title": "Enterprise-Level Intelligent Research Report Generation System Demo",
-    "champion": "Private Deployment: Claude Code + DeepSeek V4 Pro + StepSearch",
     "related_references": "Claude Code (by Anthropic) GitHub：https://github.com/anthropics/claude-code\nStepSearch MCP (by StepFun) Docs：https://platform.stepfun.com/docs/zh/step-plan/integrations/search-mcp\nDeepSeek-V4-Pro(by DeepSeek) Hugging Face：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
     "verification_status": "Verified",
     "highlights": "Build an intelligent research system demo with data collection, knowledge integration, and report generation capabilities in one week",
@@ -11,13 +10,11 @@
     "speed": "1 week",
     "quality": "Relatively High",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Private Deployment: Hermes Agent + MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6+ Metaso"
+    "cost": "Optimal"
   },
   {
     "arena_no": "2",
     "title": "Business Dashboard & Website Demo",
-    "champion": "Cloud Version: Lovable + Kimi K2.5 + Claude Code",
     "related_references": "Lovable Homepage: https://lovable.dev/\nClaude Code (by Anthropic) GitHub: https://github.com/anthropics/claude-code\nKimi-K2.5 (by Moonshot AI) GitHub: https://github.com/MoonshotAI/Kimi-K2.5",
     "verification_status": "Verified",
     "highlights": "Build a business dashboard or website demo with basic interactive capabilities in 1-2 days with zero technical threshold",
@@ -26,13 +23,11 @@
     "speed": "1–2 days",
     "quality": "Very High",
     "security": "Relatively Low",
-    "cost": "Optimal",
-    "challenger": "Cloud Version: Lovable + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7 + Claude Code"
+    "cost": "Optimal"
   },
   {
     "arena_no": "3",
     "title": "Document Review & Risk Control Demo",
-    "champion": "Private Deployment: LangChain + GLM 5+ Pydantic + unstructured + Faiss",
     "related_references": "LangChain (by LangChain) GitHub: https://github.com/langchain-ai/langchain\nPydantic (by Pydantic) GitHub: https://github.com/pydantic/pydantic\nunstructured (by Unstructured-IO) GitHub: https://github.com/Unstructured-IO/unstructured\nFaiss (by Facebook Research) GitHub: https://github.com/facebookresearch/faiss\nGLM-5 (by Zhipu AI) GitHub: https://github.com/zai-org/GLM-5",
     "verification_status": "Verified",
     "highlights": "Build a document parsing system demo with completeness checks and risk assessment in one week",
@@ -41,13 +36,11 @@
     "speed": "1 week",
     "quality": "Relatively High",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Private Deployment: LangChain + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss"
+    "cost": "Optimal"
   },
   {
     "arena_no": "4",
     "title": "Enterprise Demo Video",
-    "champion": "Private Deployment: Claude Code + Claude Opus 4.6 + FFmpeg + FunASR + PaddleSpeech",
     "related_references": "Claude Code (by Anthropic) GitHub: https://github.com/anthropics/claude-code\nFFmpeg Official Website: https://www.ffmpeg.org/\nFunASR (by Alibaba) GitHub: https://github.com/modelscope/FunASR\nPaddleSpeech (by Baidu) GitHub: https://github.com/PaddlePaddle/PaddleSpeech\nClaude Opus 4.6 (by Anthropic) Official Page: https://www.anthropic.com/claude/opus",
     "verification_status": "Verified",
     "highlights": "Generate an enterprise-level product or feature demo video within 2.5 days at fastest",
@@ -56,13 +49,11 @@
     "speed": "1–2 days",
     "quality": "Medium",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Private Deployment: OpenClaw + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6  + FFmpeg + Qwen3-ASR + Qwen3-TTS"
+    "cost": "Optimal"
   },
   {
     "arena_no": "5",
     "title": "Educational App for Children Demo",
-    "champion": "Private Deployment: BISHENG + GLM 5",
     "related_references": "BISHENG (by DataElement) GitHub: https://github.com/dataelement/bisheng\nGLM-5 (by Zhipu AI) GitHub: https://github.com/zai-org/GLM-5",
     "verification_status": "Verified",
     "highlights": "Build a children's education app demo in one week",
@@ -71,13 +62,11 @@
     "speed": "1 week",
     "quality": "Medium",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Private Deployment: BISHENG + DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6/Minimax M2.7"
+    "cost": "Optimal"
   },
   {
     "arena_no": "6",
     "title": "Long-Term Time Series Forecasting System Demo (Energy)",
-    "champion": "Private Deployment: Autogluon + Neuralforecast + EMTSF",
     "related_references": "AutoGluon (by AWS AI) GitHub: https://github.com/autogluon/autogluon\nNeuralForecast (by Nixtla) GitHub: https://github.com/Nixtla/neuralforecast\nETT dataset SOTA model: https://arxiv.org/pdf/2510.23396",
     "verification_status": "Verified",
     "highlights": "Rapidly build and verify a long-term time series forecasting system demo for the energy sector using low-code in one week",
@@ -86,13 +75,11 @@
     "speed": "1 week",
     "quality": "Medium",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Looking for Challengers"
+    "cost": "Optimal"
   },
   {
     "arena_no": "7",
     "title": "Intelligent Document Translation System Demo",
-    "champion": "Private Deployment: Gemini CLI + Gemini 3.1 Pro",
     "related_references": "Gemini CLI (by Google) GitHub: https://github.com/google-gemini/gemini-cli\nGemini 3.1 Pro (by Google) Official Site: https://deepmind.google/models/gemini/pro/",
     "verification_status": "Verified",
     "highlights": "Rapidly build an intelligent document translation demo in one week",
@@ -101,13 +88,11 @@
     "speed": "1 week",
     "quality": "Medium",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Private Deployment: Claude Code + DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6/Qwen 3.6"
+    "cost": "Optimal"
   },
   {
     "arena_no": "8",
     "title": "Intelligent Contract Legal Review System Demo",
-    "champion": "Private Deployment: BISHENG",
     "related_references": "BISHENG GitHub：https://github.com/dataelement/bisheng",
     "verification_status": "In Verification",
     "highlights": "Build an intelligent contract legal review system demo with element extraction, cross-contract validation, configurability, and traceability in one day",
@@ -116,13 +101,11 @@
     "speed": "1–2 days",
     "quality": "Medium",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Looking for Challengers"
+    "cost": "Optimal"
   },
   {
     "arena_no": "9",
     "title": "Universal Object Detection System Demo",
-    "champion": "Private Deployment: Ultralytics YOLO （YOLO 11）+ Triton + Perf Analyzer",
     "related_references": "Ultralytics YOLO (by Ultralytics): https://docs.ultralytics.com/models/yolo11/\nTriton Inference Server (by NVIDIA) Docs: https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_configuration.md\nPerf Analyzer (by NVIDIA) GitHub: https://github.com/triton-inference-server/perf_analyzer",
     "verification_status": "In Verification",
     "highlights": "Build a high-precision universal object detection system demo with closed-loop data flow and self-evolving capabilities in one week",
@@ -131,13 +114,11 @@
     "speed": "1 week",
     "quality": "Medium",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Looking for Challengers"
+    "cost": "Optimal"
   },
   {
     "arena_no": "10",
     "title": "Universal Practice of SQL Language Intelligent Generation (NL2SQL)",
-    "champion": "Private Deployment: XiYan-SQL（QwenCoder-32B）",
     "related_references": "XiYan-SQL (Alibaba-linked official repo) GitHub: https://github.com/XGenerationLab/XiYan-SQL\nXiYanSQL-QwenCoder (Alibaba-linked official repo) GitHub: https://github.com/XGenerationLab/XiYanSQL-QwenCoder",
     "verification_status": "In Verification",
     "highlights": "Rapidly build a large model that generates SQL scripts through conversation",
@@ -146,13 +127,11 @@
     "speed": "1 week",
     "quality": "Relatively High",
     "security": "Relatively High",
-    "cost": "Medium",
-    "challenger": "Private Deployment: Agentar-Scale-SQL（Agentar-Scale-SQL-Generation-32B）"
+    "cost": "Medium"
   },
   {
     "arena_no": "11",
     "title": "Feature Recommendation Assistant Demo",
-    "champion": "Private Deployment: Coze + GLM 5",
     "related_references": "Coze (by ByteDance): https://www.coze.cn/\nGLM-5 (by Zhipu AI) GitHub: https://github.com/zai-org/GLM-5",
     "verification_status": "In Verification",
     "highlights": "Build a conversational assistant demo with active questioning and recommendation capabilities using low-code in one week",
@@ -161,13 +140,11 @@
     "speed": "1 week",
     "quality": "Relatively Low",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Private Deployment: Coze +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6"
+    "cost": "Optimal"
   },
   {
     "arena_no": "12",
     "title": "Intelligent Credit Report Generation System Demo",
-    "champion": "Private Deployment: LangChain + GLM 5",
     "related_references": "LangChain (by LangChain) GitHub: https://github.com/langchain-ai/langchain\nGLM-5 (by Zhipu AI) GitHub: https://github.com/zai-org/GLM-5",
     "verification_status": "In Verification",
     "highlights": "Build a banking intelligent credit system demo with multi-source data integration, compliance verification, and one-click credit report generation using low-code in one week",
@@ -176,13 +153,11 @@
     "speed": "1 week",
     "quality": "Medium",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Private Deployment: LangChain +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss"
+    "cost": "Optimal"
   },
   {
     "arena_no": "13",
     "title": "Single Industrial Chain Graph",
-    "champion": "Private Deployment: LangChain + GLM 5",
     "related_references": "LangChain (by LangChain) GitHub: https://github.com/langchain-ai/langchain\nGLM-5 (by Zhipu AI) GitHub: https://github.com/zai-org/GLM-5",
     "verification_status": "In Verification",
     "highlights": "Complete the full-process construction of a single national industrial chain graph using low-code in one week",
@@ -191,7 +166,6 @@
     "speed": "1 week",
     "quality": "Medium",
     "security": "Relatively High",
-    "cost": "Optimal",
-    "challenger": "Private Deployment: LangChain +  DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss"
+    "cost": "Optimal"
   }
 ]

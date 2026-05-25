@@ -2,7 +2,10 @@
 """
 自动检测 V1/V2 格式的 xlsx 转换脚本
 输入：List of Arenas.xlsx
-输出：page.zh.json, page.common.json
+输出：
+- page.zh.json：中文本地化内容
+- page.common.json：跨语言共用字段，包括擂主/攻擂中、视频和首页排序
+- List of Arenas.csv：标准化后的 CSV 备份
 """
 from __future__ import annotations
 
@@ -19,6 +22,7 @@ import xml.etree.ElementTree as ET
 OUTPUT_ZH_JSON_NAME = "page.zh.json"
 OUTPUT_COMMON_JSON_NAME = "page.common.json"
 OUTPUT_CSV_NAME = "List of Arenas.csv"
+COMMON_TEXT_FIELDS = {"champion", "challenger"}
 ROW_FIELDS = [
     "arena_no",
     "title",
@@ -39,7 +43,15 @@ ROW_FIELDS = [
     "homepage_display_order",
 ]
 ZH_JSON_FIELDS = [
-    field for field in ROW_FIELDS if field not in {"video_url_zh", "video_url_global", "video_cover_image_url", "homepage_display_order"}
+    field
+    for field in ROW_FIELDS
+    if field not in {
+        *COMMON_TEXT_FIELDS,
+        "video_url_zh",
+        "video_url_global",
+        "video_cover_image_url",
+        "homepage_display_order",
+    }
 ]
 
 # V1（历史）：列 B~Q（索引 1~16），含“关联引用”列
@@ -362,12 +374,16 @@ def split_rows_for_outputs(rows: list[dict[str, str]]) -> tuple[list[dict[str, s
 
     for row in rows:
         zh_rows.append({key: row.get(key, "") for key in ZH_JSON_FIELDS})
+        champion = clean_value(row.get("champion", ""))
+        challenger = clean_value(row.get("challenger", ""))
         video_url_zh = clean_value(row.get("video_url_zh", ""))
         video_url_global = clean_value(row.get("video_url_global", ""))
         video_cover_image_url = clean_value(row.get("video_cover_image_url", ""))
         homepage_display_order = normalize_int_or_text(row.get("homepage_display_order", ""))
         common_rows.append({
             "arena_no": row.get("arena_no", ""),
+            "champion": champion if champion else None,
+            "challenger": challenger if challenger else None,
             "video_url_zh": video_url_zh if video_url_zh else None,
             "video_url_global": video_url_global if video_url_global else None,
             "video_cover_image_url": video_cover_image_url if video_cover_image_url else None,
@@ -425,7 +441,10 @@ def main() -> None:
     default_file = Path(__file__).resolve().parent / "List of Arenas.xlsx"
 
     parser = argparse.ArgumentParser(
-        description="Generate 'page.zh.json' and 'page.common.json' from List of Arenas.xlsx (auto-detect V1/V2 format)."
+        description=(
+            "Generate 'page.zh.json', 'page.common.json', and 'List of Arenas.csv' "
+            "from List of Arenas.xlsx (auto-detect V1/V2 format)."
+        )
     )
     parser.add_argument(
         "xlsx",

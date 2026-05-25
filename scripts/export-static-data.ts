@@ -60,6 +60,10 @@ type ArenaRow = {
 
 type ArenaCommonRow = {
   arena_no?: string | number;
+  champion?: string | null;
+  champion_en?: string | null;
+  challenger?: string | null;
+  challenger_en?: string | null;
   video_url_zh?: string | null;
   video_url_global?: string | null;
   video_cover_image_url?: string | null;
@@ -95,6 +99,26 @@ function readRowsFromJson<T extends Record<string, unknown>>(filePath: string): 
 
 function cleanText(value: unknown): string {
   return String(value ?? '').trim();
+}
+
+function translateCommonArenaTextToEn(value: unknown): string {
+  const text = cleanText(value);
+  if (!text) return '';
+  if (text === '寻找攻擂者') return 'Looking for Challengers';
+  if (text === '暂无') return 'None';
+
+  const prefixMap: Array<[string, string]> = [
+    ['私部署版：', 'Private Deployment: '],
+    ['云端版：', 'Cloud Version: '],
+  ];
+
+  for (const [zhPrefix, enPrefix] of prefixMap) {
+    if (text.startsWith(zhPrefix)) {
+      return `${enPrefix}${text.slice(zhPrefix.length)}`;
+    }
+  }
+
+  return text;
 }
 
 function buildFolderMapByArenaNo(): Map<string, string> {
@@ -161,6 +185,8 @@ function buildArenasFromJson(): Arena[] {
     const enRow = enMap.get(arenaNo);
     const commonRow = commonMap.get(arenaNo);
     const folderId = folderMap.get(arenaNo) || '';
+    const champion = cleanText(commonRow?.champion) || cleanText(row.champion);
+    const challenger = cleanText(commonRow?.challenger) || cleanText(row.challenger);
 
     const titleZh = cleanText(row.title);
     if (!titleZh || titleZh.includes('敬请期待')) {
@@ -179,10 +205,10 @@ function buildArenasFromJson(): Arena[] {
       industry: cleanText(row.industry),
       industryEn: cleanText(enRow?.industry),
       verificationStatus: cleanText(row.verification_status),
-      champion: cleanText(row.champion),
-      championEn: cleanText(enRow?.champion),
-      challenger: cleanText(row.challenger),
-      challengerEn: cleanText(enRow?.challenger),
+      champion,
+      championEn: cleanText(commonRow?.champion_en) || translateCommonArenaTextToEn(champion) || cleanText(enRow?.champion),
+      challenger,
+      challengerEn: cleanText(commonRow?.challenger_en) || translateCommonArenaTextToEn(challenger) || cleanText(enRow?.challenger),
       highlights: cleanText(row.highlights),
       highlightsEn: cleanText(enRow?.highlights),
       metrics: {
