@@ -19,14 +19,10 @@
 **中文**: Real-World AI是什么？
 
 **English Answer**:
-Real-World AI is an academic open-source project focused on **real-world AI adoption**. We share best-practice cases for solving real-world AI adoption problems through open-source code, documentation, and related resources.
-
-The project is currently in internal beta. Feedback and suggestions are welcome :)
+Real-World AI is an academic open-source project focused on **real-world AI adoption**. We share best-practice cases for solving real-world AI adoption problems through open-source code, documentation, and related resources. Feedback and suggestions are welcome :)
 
 **中文回答**:
-Real-World AI是一个学术性开源项目，专注**真实场景的AI落地**。目前主要通过开源代码、文档及其关联的其他资源链接，分享解决真实场景AI落地各种问题的最佳实践案例。
-
-目前项目为内测版本，欢迎大家试用和反馈意见：）
+Real-World AI是一个学术性开源项目，专注**真实场景的AI落地**。目前主要通过开源代码、文档及其关联的其他资源链接，分享解决真实场景AI落地各种问题的最佳实践案例。欢迎大家试用和反馈意见：）
 
 ---
 

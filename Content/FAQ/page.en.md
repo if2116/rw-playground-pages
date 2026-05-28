@@ -2,9 +2,7 @@
 ### About RWAI Arena
 
 #### What is Real-World AI?
-Real-World AI is an academic open-source project focused on **real-world AI adoption**. We share best-practice cases for solving real-world AI adoption problems through open-source code, documentation, and related resources.
-
-The project is currently in internal beta. Feedback and suggestions are welcome :)
+Real-World AI is an academic open-source project focused on **real-world AI adoption**. We share best-practice cases for solving real-world AI adoption problems through open-source code, documentation, and related resources. Feedback and suggestions are welcome :)
 
 #### What is the Arena? Why evaluate best practices through "Arenas"?
 Two of the most common questions in AI adoption are:
