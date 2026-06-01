@@ -11,7 +11,7 @@
   {
     "arena_no": "2",
     "champion": "云端版：Lovable + Kimi K2.5 + Claude Code",
-    "challenger": "云端版：Lovable + Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7 + Claude Code",
+    "challenger": "云端版：Lovable + MiniMax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6 + Claude Code",
     "video_url_zh": "https://www.bilibili.com/video/BV1qxwXzAEME",
     "video_url_global": "https://www.bilibili.com/video/BV1qxwXzAEME",
     "video_cover_image_url": null,
@@ -20,7 +20,7 @@
   {
     "arena_no": "3",
     "champion": "私部署版：LangChain + GLM 5+ Pydantic + unstructured + Faiss",
-    "challenger": "私部署版：LangChain + Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain + Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6  + Pydantic + unstructured + Faiss",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -38,7 +38,7 @@
   {
     "arena_no": "5",
     "champion": "私部署版：BISHENG + GLM 5",
-    "challenger": "私部署版：BISHENG + Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7",
+    "challenger": "私部署版：BISHENG + Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Hy3 preview/Step 3.7 Flash",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -92,7 +92,7 @@
   {
     "arena_no": "11",
     "champion": "私部署版：Coze + GLM 5",
-    "challenger": "私部署版：Coze +  Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6",
+    "challenger": "私部署版：Coze +  Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -101,7 +101,7 @@
   {
     "arena_no": "12",
     "champion": "私部署版：LangChain + GLM 5",
-    "challenger": "私部署版：LangChain +  Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain +  Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6  + Pydantic + unstructured + Faiss",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -110,7 +110,7 @@
   {
     "arena_no": "13",
     "champion": "私部署版：LangChain + GLM 5",
-    "challenger": "私部署版：LangChain +  Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Minimax M2.7/Qwen 3.6  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain +  Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6  + Pydantic + unstructured + Faiss",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
