@@ -4,6 +4,17 @@ const YOUTUBE_HOST_PATTERN = /(^|\.)youtube\.com$/i;
 const YOUTU_BE_HOST_PATTERN = /(^|\.)youtu\.be$/i;
 const YOUTUBE_NOCOOKIE_HOST_PATTERN = /(^|\.)youtube-nocookie\.com$/i;
 
+export type BilibiliEmbedMode = 'player' | 'mobile';
+
+type BilibiliVideoParams = {
+  bvid?: string;
+  aid?: string;
+  cid?: string;
+  page?: string;
+};
+
+const DEFAULT_BILIBILI_EMBED_MODE: BilibiliEmbedMode = 'player';
+
 function parseUrl(rawUrl: string): URL | null {
   if (!rawUrl) return null;
   const input = rawUrl.trim();
@@ -26,55 +37,85 @@ export function isBilibiliUrl(rawUrl: string): boolean {
   return BILIBILI_HOST_PATTERN.test(parsed.hostname) || B23_HOST_PATTERN.test(parsed.hostname);
 }
 
-export function getBilibiliEmbedUrl(rawUrl: string): string | null {
+function getBilibiliVideoParams(parsed: URL): BilibiliVideoParams | null {
+  const hostname = parsed.hostname.toLowerCase();
+  const bvidFromQuery = parsed.searchParams.get('bvid')?.trim();
+  const aidFromQuery = parsed.searchParams.get('aid')?.trim();
+  const cidFromQuery = parsed.searchParams.get('cid')?.trim();
+  const page = parsed.searchParams.get('page')?.trim() || parsed.searchParams.get('p')?.trim() || '1';
+
+  if (hostname === 'player.bilibili.com') {
+    return {
+      bvid: bvidFromQuery || undefined,
+      aid: aidFromQuery || undefined,
+      cid: cidFromQuery || undefined,
+      page,
+    };
+  }
+
+  const pathBvidMatch = parsed.pathname.match(/\/video\/(BV[0-9A-Za-z]+)/i);
+  const pathAidMatch = parsed.pathname.match(/\/video\/av(\d+)/i);
+  const bvid = bvidFromQuery || (pathBvidMatch ? pathBvidMatch[1] : '');
+  const aid = aidFromQuery || (pathAidMatch ? pathAidMatch[1] : '');
+
+  if (!bvid && !aid && !cidFromQuery) {
+    return null;
+  }
+
+  return {
+    bvid: bvid || undefined,
+    aid: aid || undefined,
+    cid: cidFromQuery || undefined,
+    page,
+  };
+}
+
+function buildBilibiliPlayerEmbedUrl(params: BilibiliVideoParams): string {
+  const embedUrl = new URL('https://player.bilibili.com/player.html');
+  if (params.bvid) embedUrl.searchParams.set('bvid', params.bvid);
+  if (params.aid) embedUrl.searchParams.set('aid', params.aid);
+  if (params.cid) embedUrl.searchParams.set('cid', params.cid);
+  embedUrl.searchParams.set('page', params.page || '1');
+  embedUrl.searchParams.set('autoplay', '1');
+  embedUrl.searchParams.set('muted', '1');
+  embedUrl.searchParams.set('loop', '1');
+  embedUrl.searchParams.set('danmaku', '0');
+  embedUrl.searchParams.set('high_quality', '1');
+  embedUrl.searchParams.set('isOutside', 'true');
+  return embedUrl.toString();
+}
+
+function buildBilibiliMobileEmbedUrl(params: BilibiliVideoParams): string {
+  const embedUrl = new URL('https://www.bilibili.com/blackboard/html5mobileplayer.html');
+  if (params.bvid) embedUrl.searchParams.set('bvid', params.bvid);
+  if (params.aid) embedUrl.searchParams.set('aid', params.aid);
+  if (params.cid) embedUrl.searchParams.set('cid', params.cid);
+  embedUrl.searchParams.set('page', params.page || '1');
+  embedUrl.searchParams.set('autoplay', '1');
+  embedUrl.searchParams.set('muted', '1');
+  embedUrl.searchParams.set('loop', '1');
+  embedUrl.searchParams.set('danmaku', '0');
+  return embedUrl.toString();
+}
+
+export function getBilibiliEmbedUrl(
+  rawUrl: string,
+  mode: BilibiliEmbedMode = DEFAULT_BILIBILI_EMBED_MODE,
+): string | null {
   const parsed = parseUrl(rawUrl);
   if (!parsed) return null;
 
-  const hostname = parsed.hostname;
+  const hostname = parsed.hostname.toLowerCase();
   if (!BILIBILI_HOST_PATTERN.test(hostname) && !B23_HOST_PATTERN.test(hostname)) {
     return null;
   }
 
-  const buildBilibiliMobileEmbedUrl = (params: { bvid?: string; aid?: string; cid?: string; page?: string }) => {
-    const embedUrl = new URL('https://www.bilibili.com/blackboard/html5mobileplayer.html');
-    if (params.bvid) embedUrl.searchParams.set('bvid', params.bvid);
-    if (params.aid) embedUrl.searchParams.set('aid', params.aid);
-    if (params.cid) embedUrl.searchParams.set('cid', params.cid);
-    embedUrl.searchParams.set('page', params.page || '1');
-    embedUrl.searchParams.set('autoplay', '1');
-    embedUrl.searchParams.set('muted', '1');
-    embedUrl.searchParams.set('loop', '1');
-    embedUrl.searchParams.set('danmaku', '0');
-    return embedUrl.toString();
-  };
+  const params = getBilibiliVideoParams(parsed);
+  if (!params) return null;
 
-  if (hostname === 'player.bilibili.com') {
-    const bvid = parsed.searchParams.get('bvid')?.trim() || '';
-    const aid = parsed.searchParams.get('aid')?.trim() || '';
-    const cid = parsed.searchParams.get('cid')?.trim() || '';
-    const page = parsed.searchParams.get('page')?.trim() || parsed.searchParams.get('p')?.trim() || '1';
-    return buildBilibiliMobileEmbedUrl({ bvid, aid, cid, page });
-  }
-
-  const bvidFromQuery = parsed.searchParams.get('bvid')?.trim();
-  const aidFromQuery = parsed.searchParams.get('aid')?.trim();
-  const page = parsed.searchParams.get('p')?.trim() || '1';
-
-  const pathBvidMatch = parsed.pathname.match(/\/video\/(BV[0-9A-Za-z]+)/i);
-  const pathAidMatch = parsed.pathname.match(/\/video\/av(\d+)/i);
-
-  const bvid = bvidFromQuery || (pathBvidMatch ? pathBvidMatch[1] : '');
-  const aid = aidFromQuery || (pathAidMatch ? pathAidMatch[1] : '');
-
-  if (bvid) {
-    return buildBilibiliMobileEmbedUrl({ bvid, page });
-  }
-
-  if (aid) {
-    return buildBilibiliMobileEmbedUrl({ aid, page });
-  }
-
-  return null;
+  return mode === 'mobile'
+    ? buildBilibiliMobileEmbedUrl(params)
+    : buildBilibiliPlayerEmbedUrl(params);
 }
 
 export function isYouTubeUrl(rawUrl: string): boolean {
