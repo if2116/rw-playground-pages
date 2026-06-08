@@ -95,7 +95,7 @@
 <p>DeepSeek-V4-Pro(by 深度求索) Hugging Face：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro</p>
 <p>版本状态</p>
 <p>首发日期：2025-11-20</p>
-<p>最近更新：2026-06-01</p>
+<p>最近更新：2026-06-08</p>
 </td>
 </tr>
 </tbody>

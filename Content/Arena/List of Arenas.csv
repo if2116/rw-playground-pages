@@ -16,7 +16,7 @@ FunASR(by 阿里) GitHub：https://github.com/modelscope/FunASR
 PaddleSpeech(by 百度) GitHub：https://github.com/PaddlePaddle/PaddleSpeech
 Claude Opus 4.6(by Anthropic) GitHub：https://www.anthropic.com/claude/opus",已验证,最快2.5日内生成1个企业级产品或功能简要演示视频,"信息技术, 金融贸易, 科研教育","服务, 营销",1~2天,中等,较高,较优,私部署版：OpenClaw + Qwen 3.7/DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6  + FFmpeg + FireRedASR/Qwen3-ASR/GLM-ASR + Qwen3-TTS/Fun-CosyVoice 3.0/GLM-TTS,,,,
 5,儿童教育趣味应用,私部署版：BISHENG + GLM 5,"BISHENG(by 毕昇) GitHub：https://github.com/dataelement/bisheng
-GLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",已验证,一周搭建一个儿童教育应用Demo,"科研教育, 文化体育",服务,一周,中等,较高,较优,私部署版：BISHENG + Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Hy3 preview/Step 3.7 Flash,,,,
+GLM-5(by 智谱) GitHub：https://github.com/zai-org/GLM-5",已验证,一周搭建一个儿童教育应用Demo,"科研教育, 文化体育",服务,一周,中等,较高,较优,私部署版：BISHENG + Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Hy3 preview/Step 3.7 Flash/Ling 2.6 flash,,,,
 6,长时间序列预测系统,私部署版：Autogluon + Neuralforecast + EMTSF,"Autogluon （by AWS AI） GitHub: https://github.com/autogluon/autogluon
 Neuralforecast （by Nixtla） GitHub: https://github.com/Nixtla/neuralforecast
 ETT数据集SOTA 模型：https://arxiv.org/pdf/2510.23396",已验证,一周用低代码快速构建并验证一个面向能源领域的长时间序列预测系统Demo,能源制造,"运营, 风控",一周,中等,较高,较优,寻找攻擂者,,,,
@@ -25,7 +25,7 @@ Gemini 3.1 Pro(by Google) 官网：https://deepmind.google/models/gemini/pro/",�
 8,智能合同法审系统,私部署版：BISHENG,BISHENG GitHub：https://github.com/dataelement/bisheng,验证中,一天搭建出基于要素抽取与跨合同规则校验、可配置与溯源的智能合同法审系统Demo,金融贸易,风控,1~2天,中等,较高,较优,寻找攻擂者,,,,
 9,通用目标检测系统,私部署版：Ultralytics YOLO （YOLO 11）+ Triton + Perf Analyzer,"Ultralytics YOLO （by Ultralytics） : https://docs.ultralytics.com/models/yolo11/
 Triton （by NVIDIA） GitHub : https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_configuration.md
-Perf Analyzer （by NVIDIA） GitHub: https://github.com/triton-inference-server/perf_analyzer",验证中,一周构建1个高精度、含数据流闭环、具备自进化能力的通用目标检测系统Demo,"信息技术, 能源制造, 农林牧渔","运营, 管理, 风控",一周,中等,较高,较优,寻找攻擂者,,,,
+Perf Analyzer （by NVIDIA） GitHub: https://github.com/triton-inference-server/perf_analyzer",验证中,一周构建1个高精度、含数据流闭环、具备自进化能力的通用目标检测系统Demo,"信息技术, 能源制造, 农林牧渔","运营, 管理, 风控",一周,中等,较高,较优,私部署版：Ultralytics YOLO （YOLO 26）+ Triton + Perf Analyzer,,,,
 10,SQL语言智能生成,私部署版：XiYan-SQL（QwenCoder-32B）,"XiYan-SQL(by 阿里) Github：https://github.com/XGenerationLab/XiYan-SQL
 XiYanSQL-QwenCoder(by 阿里) GitHub：https://github.com/XGenerationLab/XiYanSQL-QwenCoder",验证中,快速搭建一个大模型，通过对话生成SQL脚本,信息技术,服务,一周,较高,较高,中等,私部署版：Agentar-Scale-SQL（Agentar-Scale-SQL-Generation-32B）,,,,
 11,功能推荐助手,私部署版：Coze + GLM 5,"Coze （by 字节跳动） : https://www.coze.cn/

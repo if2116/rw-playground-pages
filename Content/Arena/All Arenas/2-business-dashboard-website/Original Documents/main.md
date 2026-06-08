@@ -97,7 +97,7 @@
 <p>Kimi-K2.5(by 月之暗面) GitHub：https://github.com/MoonshotAI/Kimi-K2.5</p>
 <p>版本状态</p>
 <p>首发日期：2025-11-07</p>
-<p>最近更新：2026-06-01</p>
+<p>最近更新：2026-06-08</p>
 </td>
 </tr>
 </tbody>
