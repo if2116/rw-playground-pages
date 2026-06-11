@@ -1,0 +1,67 @@
+[
+  {
+    "id": "xu-liang",
+    "image": "/team/xu-liang.jpg"
+  },
+  {
+    "id": "lu-yibei",
+    "image": "/team/lu-yibei.jpg"
+  },
+  {
+    "id": "mao-xiao",
+    "image": "/team/mao-xiao.jpg",
+    "avatar": {
+      "fit": "cover",
+      "scale": 1.3,
+      "position": "center top"
+    }
+  },
+  {
+    "id": "xu-jiaying",
+    "image": "/team/xu-jiaying.jpeg",
+    "avatar": {
+      "fit": "cover",
+      "scale": 1.05,
+      "position": "center top"
+    }
+  },
+  {
+    "id": "xu-yuyao",
+    "image": "/team/xu-yuyao.png",
+    "avatar": {
+      "fit": "contain",
+      "scale": 0.8,
+      "position": "center center",
+      "background": "#f1f5f9"
+    }
+  },
+  {
+    "id": "zhu-yujin",
+    "image": "/team/zhu-yujin.jpg",
+    "avatar": {
+      "fit": "contain",
+      "scale": 1.2,
+      "position": "center center",
+      "background": "#f1f5f9"
+    }
+  },
+  {
+    "id": "fan-shijian",
+    "image": "/team/fan-shijian.jpeg",
+    "avatar": {
+      "fit": "cover",
+      "scale": 1.1,
+      "position": "center center"
+    }
+  },
+  {
+    "id": "li-chao",
+    "image": "/team/li-chao.png",
+    "avatar": {
+      "fit": "contain",
+      "scale": 0.97,
+      "position": "center center",
+      "background": "#f0f2ef"
+    }
+  }
+]

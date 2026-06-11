@@ -4,6 +4,11 @@ import { useState } from 'react';
 import { HeroBackgroundCanvas } from '@/components/effects/hero-background-canvas';
 import { useParams } from 'next/navigation';
 
+function pseudoRandom(seed: number) {
+  const x = Math.sin(seed * 12.9898 + 78.233) * 43758.5453;
+  return x - Math.floor(x);
+}
+
 export default function BackgroundPreviewPage() {
   const params = useParams();
   const locale = (params?.locale as string) || 'zh';
@@ -207,13 +212,13 @@ function DataFlowBackground() {
             className="data-stream"
             style={{
               left: `${(i * 3.33)}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${3 + Math.random() * 4}s`
+              animationDelay: `${pseudoRandom(i + 100) * 5}s`,
+              animationDuration: `${3 + pseudoRandom(i + 200) * 4}s`
             }}
           >
             {Array(20).fill(0).map((_, j) => (
               <div key={j} className="text-green-500 text-xs font-mono opacity-70">
-                {Math.random() > 0.5 ? '1' : '0'}
+                {pseudoRandom(i * 20 + j) > 0.5 ? '1' : '0'}
               </div>
             ))}
           </div>
@@ -241,16 +246,17 @@ function GeometricBackground() {
       {[...Array(15)].map((_, i) => {
         const shapes = ['triangle', 'square', 'circle'];
         const shape = shapes[i % 3];
+        const size = 30 + pseudoRandom(i + 300) * 40;
         return (
           <div
             key={i}
             className={`geometric-${shape}`}
             style={{
-              left: `${Math.random() * 90}%`,
-              top: `${Math.random() * 90}%`,
-              width: `${30 + Math.random() * 40}px`,
-              height: `${30 + Math.random() * 40}px`,
-              animationDelay: `${Math.random() * 3}s`,
+              left: `${pseudoRandom(i + 100) * 90}%`,
+              top: `${pseudoRandom(i + 200) * 90}%`,
+              width: `${size}px`,
+              height: `${size}px`,
+              animationDelay: `${pseudoRandom(i + 400) * 3}s`,
               opacity: 0.3
             }}
           />
@@ -338,12 +344,12 @@ function ParticleNebulaBackground() {
             key={i}
             className="particle-blue"
             style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              width: `${2 + Math.random() * 4}px`,
-              height: `${2 + Math.random() * 4}px`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${3 + Math.random() * 4}s`
+              left: `${pseudoRandom(i + 100) * 100}%`,
+              top: `${pseudoRandom(i + 200) * 100}%`,
+              width: `${2 + pseudoRandom(i + 300) * 4}px`,
+              height: `${2 + pseudoRandom(i + 400) * 4}px`,
+              animationDelay: `${pseudoRandom(i + 500) * 5}s`,
+              animationDuration: `${3 + pseudoRandom(i + 600) * 4}s`
             }}
           />
         ))}

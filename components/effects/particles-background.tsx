@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 interface Particle {
   x: number;
@@ -20,15 +20,10 @@ interface DataFlow {
 }
 
 export function ParticlesBackground() {
-  const [isClient, setIsClient] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animationFrameRef = useRef<number | undefined>(undefined);
   const particlesRef = useRef<Particle[]>([]);
   const dataFlowsRef = useRef<DataFlow[]>([]);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -158,13 +153,7 @@ export function ParticlesBackground() {
         cancelAnimationFrame(animationFrameRef.current);
       }
     };
-  }, [isClient]);
-
-  if (!isClient) {
-    return (
-      <div className="absolute inset-0 -z-10 bg-[#0A0E17]" />
-    );
-  }
+  }, []);
 
   return (
     <>

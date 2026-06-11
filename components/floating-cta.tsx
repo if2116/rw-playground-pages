@@ -10,14 +10,13 @@ interface FloatingCTAProps {
 }
 
 export function FloatingCTA({ locale }: FloatingCTAProps) {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isHomePageVisible, setIsHomePageVisible] = useState(false);
   const pathname = usePathname();
   const isHomePage = pathname === `/${locale}` || pathname === `/${locale}/`;
+  const isVisible = isHomePage ? isHomePageVisible : true;
 
   useEffect(() => {
     if (!isHomePage) {
-      // Always show on non-homepage
-      setIsVisible(true);
       return;
     }
 
@@ -25,20 +24,22 @@ export function FloatingCTA({ locale }: FloatingCTAProps) {
     const handleScroll = () => {
       const heroSection = document.querySelector('[data-hero-section]');
       if (!heroSection) {
-        setIsVisible(true);
+        setIsHomePageVisible(true);
         return;
       }
 
       const heroBottom = heroSection.getBoundingClientRect().bottom;
       // Show when hero section is completely out of viewport
-      setIsVisible(heroBottom < 0);
+      setIsHomePageVisible(heroBottom < 0);
     };
 
     window.addEventListener('scroll', handleScroll);
-    // Initial check
-    handleScroll();
+    const initialCheck = window.requestAnimationFrame(handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.cancelAnimationFrame(initialCheck);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, [isHomePage]);
 
   if (!isVisible) return null;

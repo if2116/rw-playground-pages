@@ -3,12 +3,14 @@
 import { Mail } from 'lucide-react';
 import Image from 'next/image';
 import { useLocale } from 'next-intl';
+import { getTeamMembers } from '@/lib/team';
 
 export default function AboutPage() {
   const locale = useLocale();
   const isChina = locale === 'zh';
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const withBasePath = (path: string) => `${basePath}${path}`;
+  const teamMembers = getTeamMembers(locale);
 
   const partners = [
     { name: 'Yangtze Delta Region Institute', nameZh: '长三院', logo: withBasePath('/partners/001.png') },
@@ -78,34 +80,56 @@ export default function AboutPage() {
               </p>
             </div>
 
-            {/* Center Director */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-8 shadow-sm">
-              <h3 className="text-xl font-bold text-slate-900 mb-4">
-                {isChina ? '中心主任' : 'Center Director'}
-              </h3>
-              <div className="flex items-start gap-6">
-                <div className="flex-shrink-0">
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center text-white text-2xl font-bold">
-                    {isChina ? '徐亮' : 'XL'}
+            {/* Team Members */}
+            {teamMembers.map((member) => {
+              const avatar = member.avatar ?? {};
+              const avatarFit = avatar.fit ?? 'cover';
+              const avatarScale = avatar.scale ?? 1;
+              const avatarPosition = avatar.position ?? 'center center';
+              const avatarOrigin = avatar.origin ?? avatarPosition;
+
+              return (
+                <div key={member.id} className="bg-white rounded-2xl border border-slate-200 p-8 shadow-sm">
+                  <div className="flex flex-col sm:flex-row items-start gap-6">
+                    <div
+                      className="w-28 h-28 shrink-0 overflow-hidden rounded-full bg-slate-100"
+                      style={{ backgroundColor: avatar.background }}
+                    >
+                      <Image
+                        src={withBasePath(member.image)}
+                        alt={member.name}
+                        width={112}
+                        height={112}
+                        unoptimized
+                        className="h-full w-full"
+                        style={{
+                          objectFit: avatarFit,
+                          objectPosition: avatarPosition,
+                          transform: `scale(${avatarScale})`,
+                          transformOrigin: avatarOrigin,
+                        }}
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-3">
+                        <p className="text-lg font-semibold text-slate-900">{member.name}</p>
+                        <p className="text-sm font-medium text-blue-700">{member.role}</p>
+                      </div>
+                      {member.highlight ? (
+                        <p className="mt-3 text-sm leading-relaxed text-slate-700">{member.highlight}</p>
+                      ) : null}
+                      <div className="mt-3 space-y-3">
+                        {member.bio.map((paragraph) => (
+                          <p key={paragraph} className="text-sm leading-relaxed text-slate-600">
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="flex-1">
-                  <p className="text-lg font-semibold text-slate-900 mb-2">
-                    {isChina ? '徐亮 博士' : 'Xu Liang, Ph.D.'}
-                  </p>
-                  <p className="text-slate-700 leading-relaxed text-sm mb-3">
-                    {isChina
-                      ? '《麻省理工科技评论》"全球35岁以下科技创新35人"'
-                      : 'Named to the MIT Technology Review\'s "Global 35 Innovators Under 35"'}
-                  </p>
-                  <p className="text-slate-600 leading-relaxed text-sm">
-                    {isChina
-                      ? '徐亮博士本科毕业于清华大学，在牛津大学取得博士学位。承担从国家到地方的多个重大项目，为数十家企业提供人工智能解决方案。曾任平安集团混合增强智能部门负责人、总工程师，三次获"中国人工智能最高奖"吴文俊科学技术奖、央行金融科技发展奖，在ACL、《柳叶刀》子刊等发表多篇论文，与CFA等国际机构联合发表多篇专著，获100项以上授权专利。'
-                      : 'Dr. Xu Liang received his bachelor\'s degree from Tsinghua University and his Ph.D. from Oxford University. He has led multiple major projects from national to local levels, provided AI solutions for dozens of enterprises, and previously served as the head and chief engineer of Ping An Group\'s Hybrid Augmented Intelligence Department. He has won the "Chinese AI Highest Award" Wu Wenjun Science and Technology Award three times, the PBOC Financial Technology Development Award, published multiple papers in ACL and The Lancet sub-journals, jointly published multiple monographs with international institutions such as CFA, and obtained over 100 authorized patents.'}
-                  </p>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </section>

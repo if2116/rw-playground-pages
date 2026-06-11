@@ -1,0 +1,87 @@
+[
+  {
+    "id": "xu-liang",
+    "order": 1,
+    "name": "Xu Liang, Ph.D.",
+    "role": "Center Director",
+    "highlight": "Named to the MIT Technology Review's \"Global 35 Innovators Under 35\"",
+    "bio": [
+      "Dr. Xu Liang received his bachelor's degree from Tsinghua University and his Ph.D. from Oxford University. He has led multiple major projects from national to local levels, provided AI solutions for dozens of enterprises, and previously served as the head and chief engineer of Ping An Group's Hybrid Augmented Intelligence Department. He has won the \"Chinese AI Highest Award\" Wu Wenjun Science and Technology Award three times, the PBOC Financial Technology Development Award, published multiple papers in ACL and The Lancet sub-journals, jointly published multiple monographs with international institutions such as CFA, and obtained over 100 authorized patents."
+    ]
+  },
+  {
+    "id": "lu-yibei",
+    "order": 2,
+    "name": "Yibei Lu",
+    "role": "Founding PM",
+    "highlight": "",
+    "bio": [
+      "Previously a Data Scientist at Meta and Senior Consultant at Deloitte before transitioning into product and AI startups. At Lyft, led core product and AI initiatives as a Lead Product Manager, focusing on consumer behavior, growth, and data-driven product development.",
+      "Currently the Founding PM at RWAI, building AI products from 0→1 across product strategy, user workflows, and execution. Interested in turning frontier AI capabilities into products people actually use — not just demos, but systems that meaningfully change how people work and make decisions."
+    ]
+  },
+  {
+    "id": "mao-xiao",
+    "order": 3,
+    "name": "Xiao Mao",
+    "role": "AI Director",
+    "highlight": "",
+    "bio": [
+      "As a core contributor, Xiao Mao participated in China's national Science and Technology Innovation 2030 Major Project for Next Generation Artificial Intelligence. She has long worked in frontier AI and related technology fields. While working at Zhipu AI, a leading foundation-model company, she received an innovation award for her contributions to a global Women in AI initiative. She has also received honors including the PBOC FinTech Development Award. Technology books she authored have been adopted as teaching materials by dozens of primary and secondary schools across China.",
+      "Xiao Mao graduated from Tsinghua University with dual master's degrees in Control Engineering and Engineering Management. Her academic and professional affiliations include Youth Committee Member of the SMP Committee of the Chinese Information Processing Society of China, Professional Member of the Asia-Pacific Artificial Intelligence Association, Senior Member of the China Computer Federation, and Standing Director of the New Quality Productive Forces Artificial Intelligence Committee. She also serves in the Hong Kong Beijing Universities Alumni Alliance. In 2025, she spoke at TEDx, sharing perspectives from China's AI community with a global audience."
+    ]
+  },
+  {
+    "id": "xu-jiaying",
+    "order": 4,
+    "name": "Dr. Kawing Chui",
+    "role": "AI Industry Application Expert",
+    "highlight": "10+ Years Managing AI Deployment & Tech-to-Commercialization in Highly Regulated Industries",
+    "bio": [
+      "Dr. Kawing Chui holds a Ph.D. from Fudan University and a Bachelor's degree from Shanghai Jiao Tong University School of Medicine. Formerly an R&D Scientist at Eli Lilly, her pioneering research was published in 《Nature Medicine》. With over a decade of deep expertise bridging cutting-edge AI with zero-tolerance, highly regulated sectors, she served as the Head of AI Applications for Healthcare at Ping An Technology. As a core team member, her work garnered China’s highest honor in AI—the Wu Wenjun AI Science and Technology Award—alongside the Central Bank’s Financial Technology Development Award, with multiple papers published in premier journals including 《The Lancet》 sub-journal 《Ebiomedicine》.",
+      "Currently, Dr. Chui focuses on AI Demand Engineering and AI-Native Organizational Transformation. She excels at resolving the structural misalignment of black-box algorithms in complex business settings, having successfully orchestrated high-stakes initiatives such as overseas life insurance underwriting risk-control engines and smart power grid infrastructure transformations. Serving as a strategic nexus within complex, heterogeneous ecosystems—bridging corporate clients, implementation vendors, and remote algorithm teams—she bridges the \"context gap between tech and business,\" translating advanced LLM capabilities into deterministic business ROI and sustainable operational leverage.",
+      "Academic & Professional Affiliations: Committee Member of the Med-X Integration Committee, World Federation of Young Scientists; actively driving the development of \"Central-Local Collaborative\" research ecosystems and accelerating tech-to-market commercialization across multiple regions."
+    ]
+  },
+  {
+    "id": "xu-yuyao",
+    "order": 5,
+    "name": "Yuyao Xu",
+    "role": "Assistant Analyst",
+    "highlight": "",
+    "bio": [
+      "Yuyao Xu holds a master's degree from Lancaster University in the United Kingdom. She is responsible for requirements alignment and delivery tracking, supporting the integration of AI technologies into industry scenarios."
+    ]
+  },
+  {
+    "id": "zhu-yujin",
+    "order": 6,
+    "name": "Yujin Zhu, Ph.D.",
+    "role": "Algorithm Director",
+    "highlight": "Core developer of RWAI",
+    "bio": [
+      "Dr. Yujin Zhu received his Ph.D. from East China University of Science and Technology and has published more than 10 papers. His work focuses on natural language processing, large language models, and intelligent AI applications. He is passionate about exploring the practical possibilities of frontier AI."
+    ]
+  },
+  {
+    "id": "fan-shijian",
+    "order": 7,
+    "name": "Shijian Fan",
+    "role": "Algorithm Researcher",
+    "highlight": "Core developer of RWAI",
+    "bio": [
+      "Focuses on the system design, development and research of AI Agents and Large Language Models (LLMs). Deeply engaged in the cutting-edge fields of Artificial Intelligence and Natural Language Processing (NLP), with over 10 years experience in research and technical implementation. Has previously served at major technology companies and top-tier research institutions, including Huawei, Baidu, and Ping An OneConnect. As a key team member, participated in the design and development of the financial table understanding and credit report parsing systems at Ping An OneConnect, as well as the development and optimization of Huawei's internal machine translation products.",
+      "Education Background: Graduated from The George Washington University with a Master of Science in Biomedical Engineering; also holds a Master of Engineering in Electronics and Communication Engineering from Jinan University, and a Bachelor of Engineering in Information Engineering from the South China University of Technology."
+    ]
+  },
+  {
+    "id": "li-chao",
+    "order": 8,
+    "name": "Chao Li",
+    "role": "Algorithm Engineer",
+    "highlight": "Core developer of RWAI",
+    "bio": [
+      "Former Senior Algorithm Engineer at Ping An, focused on large language model applications and AI agent engineering, working to bring frontier AI capabilities into real-world business scenarios."
+    ]
+  }
+]

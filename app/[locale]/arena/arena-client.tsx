@@ -343,7 +343,7 @@ export default function ArenaClient({ params, pageTitle, pageSubtitle, arenas }:
     });
 
     return filtered;
-  }, [searchQuery, selectedIndustries, selectedCategories, sortBy, sortOrder, locale, isChina]);
+  }, [arenas, searchQuery, selectedIndustries, selectedCategories, sortBy, sortOrder, locale, isChina]);
 
   const handleSort = (field: SortField) => {
     if (sortBy === field) {

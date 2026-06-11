@@ -159,7 +159,7 @@ async function HeroSection({ locale }: { locale: string }) {
       <section className="relative overflow-hidden bg-gradient-to-br from-[#0a0a1a] via-[#1a1a3a] to-[#0f0f2a] py-section">
         <ParticlesBackground />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-red-500">Error: Hero Section content not found for locale "{locale}". Please run sync-content or check Content/Homepage/homepage.{locale}.md</p>
+          <p className="text-red-500">Error: Hero Section content not found for locale &quot;{locale}&quot;. Please run sync-content or check Content/Homepage/homepage.{locale}.md</p>
         </div>
       </section>
     );
@@ -402,7 +402,7 @@ async function ValuePropSection({ locale }: { locale: string }) {
   }
   const valueProps = parseValuePropsContent(contentFile.content);
 
-  const icons = [<Zap size={40} />, <CheckCircle2 size={40} />, <Code2 size={40} />, <Layers size={40} />];
+  const icons = [Zap, CheckCircle2, Code2, Layers];
 
   return (
     <section className="relative w-full max-w-7xl mx-auto mb-0">
@@ -411,7 +411,10 @@ async function ValuePropSection({ locale }: { locale: string }) {
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
       <div className="relative grid grid-cols-1 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-white/10 border-x border-white/10">
-        {valueProps.map((prop, idx) => (
+        {valueProps.map((prop, idx) => {
+          const Icon = icons[idx] || Zap;
+
+          return (
           <div key={idx} className="relative group p-8 md:p-10 flex flex-col items-center justify-center text-center transition-all hover:bg-white/[0.02] overflow-hidden">
 
             {/* Shine effect on hover */}
@@ -425,7 +428,7 @@ async function ValuePropSection({ locale }: { locale: string }) {
             {/* Icon - Larger with enhanced hover effects */}
             <div className="relative z-10 mb-8">
               <div className="w-16 h-16 flex items-center justify-center text-blue-500 bg-blue-500/10 rounded-lg ring-1 ring-blue-500/20 group-hover:scale-125 group-hover:bg-blue-600 group-hover:text-white group-hover:shadow-[0_0_50px_-15px_#3B82F6] transition-all duration-500">
-                {icons[idx] || <Zap size={40} />}
+                <Icon size={40} />
               </div>
             </div>
 
@@ -439,7 +442,8 @@ async function ValuePropSection({ locale }: { locale: string }) {
               </p>
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
@@ -730,7 +734,7 @@ async function RealWorldTestingSection({ locale }: { locale: string }) {
   }
   const content = parseRealWorldTestingContent(contentFile.content);
 
-  const icons = [<FlaskRound className="w-14 h-14" />, <Trophy className="w-14 h-14" />, <Copy className="w-14 h-14" />, <Shield className="w-14 h-14" />];
+  const icons = [FlaskRound, Trophy, Copy, Shield];
 
   return (
     <section className="py-section bg-bg-secondary">
@@ -743,13 +747,19 @@ async function RealWorldTestingSection({ locale }: { locale: string }) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {content.valuePoints.map((point, index) => (
+          {content.valuePoints.map((point, index) => {
+            const Icon = icons[index] || FlaskRound;
+
+            return (
             <div key={index} className="text-center">
-              <div className="flex justify-center mb-4 text-primary">{icons[index]}</div>
+              <div className="flex justify-center mb-4 text-primary">
+                <Icon className="w-14 h-14" />
+              </div>
               <h3 className="text-h3 text-text-primary mb-3 font-bold">{point.title}</h3>
               <p className="text-text-secondary">{point.description}</p>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
