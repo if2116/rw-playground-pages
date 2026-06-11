@@ -21,8 +21,8 @@ export interface TeamMember {
   bio: string[];
 }
 
-type LocalizedTeamMember = Omit<TeamMember, 'image' | 'avatar'>;
-type TeamMemberMedia = Pick<TeamMember, 'id' | 'image' | 'avatar'>;
+type LocalizedTeamMember = Omit<TeamMember, 'image' | 'avatar' | 'order'>;
+type TeamMemberMedia = Pick<TeamMember, 'id' | 'order' | 'image' | 'avatar'>;
 
 const teamMediaById = new Map(
   (teamMedia as TeamMemberMedia[]).map((member) => [member.id, member])
@@ -40,6 +40,7 @@ export function getTeamMembers(locale: string): TeamMember[] {
 
       return {
         ...member,
+        order: media.order,
         image: media.image,
         avatar: media.avatar,
       };

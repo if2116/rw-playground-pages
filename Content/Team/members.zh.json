@@ -1,7 +1,6 @@
 [
   {
     "id": "xu-liang",
-    "order": 1,
     "name": "徐亮 博士",
     "role": "中心主任",
     "highlight": "《麻省理工科技评论》\"全球35岁以下科技创新35人\"",
@@ -11,7 +10,6 @@
   },
   {
     "id": "lu-yibei",
-    "order": 2,
     "name": "卢艺北",
     "role": "Founding PM",
     "highlight": "",
@@ -22,7 +20,6 @@
   },
   {
     "id": "mao-xiao",
-    "order": 3,
     "name": "毛潇",
     "role": "AI 总监",
     "highlight": "",
@@ -33,7 +30,6 @@
   },
   {
     "id": "xu-jiaying",
-    "order": 4,
     "name": "徐嘉颖 博士",
     "role": "AI产业应用专家",
     "highlight": "10年强监管行业 AI 落地与产学研变现操盘手",
@@ -45,7 +41,6 @@
   },
   {
     "id": "xu-yuyao",
-    "order": 5,
     "name": "徐俞耀",
     "role": "分析师助理",
     "highlight": "",
@@ -55,7 +50,6 @@
   },
   {
     "id": "zhu-yujin",
-    "order": 6,
     "name": "朱昱锦 博士",
     "role": "算法总监",
     "highlight": "RWAI 核心开发者",
@@ -65,7 +59,6 @@
   },
   {
     "id": "fan-shijian",
-    "order": 7,
     "name": "范诗剑",
     "role": "算法研究员",
     "highlight": "RWAI 核心开发者",
@@ -76,7 +69,6 @@
   },
   {
     "id": "li-chao",
-    "order": 8,
     "name": "李超",
     "role": "算法工程师",
     "highlight": "RWAI 核心开发者",

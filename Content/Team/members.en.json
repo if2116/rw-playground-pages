@@ -1,17 +1,15 @@
 [
   {
     "id": "xu-liang",
-    "order": 1,
-    "name": "Xu Liang, Ph.D.",
+    "name": "Liang Xu, Ph.D.",
     "role": "Center Director",
     "highlight": "Named to the MIT Technology Review's \"Global 35 Innovators Under 35\"",
     "bio": [
-      "Dr. Xu Liang received his bachelor's degree from Tsinghua University and his Ph.D. from Oxford University. He has led multiple major projects from national to local levels, provided AI solutions for dozens of enterprises, and previously served as the head and chief engineer of Ping An Group's Hybrid Augmented Intelligence Department. He has won the \"Chinese AI Highest Award\" Wu Wenjun Science and Technology Award three times, the PBOC Financial Technology Development Award, published multiple papers in ACL and The Lancet sub-journals, jointly published multiple monographs with international institutions such as CFA, and obtained over 100 authorized patents."
+      "Dr. Liang Xu received his bachelor's degree from Tsinghua University and his Ph.D. from Oxford University. He has led multiple major projects from national to local levels, provided AI solutions for dozens of enterprises, and previously served as the head and chief engineer of Ping An Group's Hybrid Augmented Intelligence Department. He has won the \"Chinese AI Highest Award\" Wu Wenjun Science and Technology Award three times, the PBOC Financial Technology Development Award, published multiple papers in ACL and The Lancet sub-journals, jointly published multiple monographs with international institutions such as CFA, and obtained over 100 authorized patents."
     ]
   },
   {
     "id": "lu-yibei",
-    "order": 2,
     "name": "Yibei Lu",
     "role": "Founding PM",
     "highlight": "",
@@ -22,7 +20,6 @@
   },
   {
     "id": "mao-xiao",
-    "order": 3,
     "name": "Xiao Mao",
     "role": "AI Director",
     "highlight": "",
@@ -33,7 +30,6 @@
   },
   {
     "id": "xu-jiaying",
-    "order": 4,
     "name": "Dr. Kawing Chui",
     "role": "AI Industry Application Expert",
     "highlight": "10+ Years Managing AI Deployment & Tech-to-Commercialization in Highly Regulated Industries",
@@ -45,7 +41,6 @@
   },
   {
     "id": "xu-yuyao",
-    "order": 5,
     "name": "Yuyao Xu",
     "role": "Assistant Analyst",
     "highlight": "",
@@ -55,7 +50,6 @@
   },
   {
     "id": "zhu-yujin",
-    "order": 6,
     "name": "Yujin Zhu, Ph.D.",
     "role": "Algorithm Director",
     "highlight": "Core developer of RWAI",
@@ -65,7 +59,6 @@
   },
   {
     "id": "fan-shijian",
-    "order": 7,
     "name": "Shijian Fan",
     "role": "Algorithm Researcher",
     "highlight": "Core developer of RWAI",
@@ -76,7 +69,6 @@
   },
   {
     "id": "li-chao",
-    "order": 8,
     "name": "Chao Li",
     "role": "Algorithm Engineer",
     "highlight": "Core developer of RWAI",

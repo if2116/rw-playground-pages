@@ -23,17 +23,6 @@
 
 ---
 
-**Heading**: Center Director
-**Chinese**: 中心主任
-
-**Name**: Xu Liang, Ph.D.
-**Chinese**: 徐亮 博士
-
-**Description**: Named to the MIT Technology Review's "Global 35 Innovators Under 35", focusing on research and application of AI technology for industrial empowerment. Dr. Xu Liang received his bachelor's degree from Tsinghua University and his Ph.D. from Oxford University. He has led multiple major projects from national to local levels, provided AI solutions for dozens of enterprises, and previously served as the head and chief engineer of Ping An Group's Hybrid Augmented Intelligence Department. He has won the "Chinese AI Highest Award" Wu Wenjun Science and Technology Award three times, the PBOC Financial Technology Development Award, published multiple papers in ACL and The Lancet sub-journals, jointly published multiple monographs with international institutions such as CFA, and obtained over 100 authorized patents.
-**Chinese**: 《麻省理工科技评论》"全球35岁以下科技创新35人"，专注人工智能技术赋能产业的研发和应用。徐亮博士本科毕业于清华大学，在牛津大学取得博士学位。承担从国家到地方的多个重大项目，为数十家企业提供人工智能解决方案。曾任平安集团混合增强智能部门负责人、总工程师，三次获"中国人工智能最高奖"吴文俊科学技术奖、央行金融科技发展奖，在ACL、《柳叶刀》子刊等发表多篇论文，与CFA等国际机构联合发表多篇专著，获100项以上授权专利。
-
----
-
 **Heading**: Contact us
 **Chinese**: 联系我们
 **Email**: xuyuyao@tsinghua-zj.edu.cn
