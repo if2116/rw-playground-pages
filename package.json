@@ -10,6 +10,7 @@
     "start:static": "npx serve@latest out -l ${PORT:-8080}",
     "lint": "eslint .",
     "sync-content": "tsx scripts/sync-content.ts",
+    "sync-arena": "python3 Content/Arena/xlsx_to_json.py && python3 \"Content/Arena/All Arenas/update_date.py\"",
     "export-static-data": "tsx scripts/export-static-data.ts",
     "sync-arena-list": "tsx scripts/sync-arena-list.ts",
     "check-i18n": "tsx scripts/check-i18n.ts"

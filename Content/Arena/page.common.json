@@ -2,7 +2,7 @@
   {
     "arena_no": "1",
     "champion": "私部署版：Claude Code + DeepSeek V4 Pro + StepSearch",
-    "challenger": "私部署版：Hermes Agent + Qwen 3.7/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6+ Metaso",
+    "challenger": "私部署版：Hermes Agent + GLM 5.2/Qwen 3.7/MiMo V2.5 Pro/Kimi K2.6+ Metaso",
     "video_url_zh": "https://www.bilibili.com/video/BV1FxFYzyEk8",
     "video_url_global": "https://www.bilibili.com/video/BV1FxFYzyEk8",
     "video_cover_image_url": null,
@@ -11,7 +11,7 @@
   {
     "arena_no": "2",
     "champion": "云端版：Lovable + Kimi K2.5 + Claude Code",
-    "challenger": "云端版：Lovable + MiniMax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6 + Claude Code",
+    "challenger": "云端版：Lovable + Kimi K2.7 Code/GLM 5.2/MiniMax M3/Qwen 3.7/DeepSeek V4 Pro/Kimi K2.6 + Claude Code",
     "video_url_zh": "https://www.bilibili.com/video/BV1qxwXzAEME",
     "video_url_global": "https://www.bilibili.com/video/BV1qxwXzAEME",
     "video_cover_image_url": null,
@@ -20,7 +20,7 @@
   {
     "arena_no": "3",
     "champion": "私部署版：LangChain + GLM 5+ Pydantic + unstructured + Faiss",
-    "challenger": "私部署版：LangChain + Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain + GLM 5.2/Minimax M3/Qwen 3.7/DeepSeek V4 Pro/Kimi K2.6  + Pydantic + unstructured + Faiss",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -29,7 +29,7 @@
   {
     "arena_no": "4",
     "champion": "私部署版：Claude Code + Claude Opus 4.6 + FFmpeg + FunASR + PaddleSpeech",
-    "challenger": "私部署版：OpenClaw + Qwen 3.7/DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6  + FFmpeg + FireRedASR/Qwen3-ASR/GLM-ASR + Qwen3-TTS/Fun-CosyVoice 3.0/GLM-TTS",
+    "challenger": "私部署版：OpenClaw + Kimi K2.7 Code/GLM 5.2/Qwen 3.7/DeepSeek V4 Pro/MiMo V2.5 Pro/Kimi K2.6  + FFmpeg + FireRedASR/Qwen3-ASR/GLM-ASR + VoxCPM/Qwen3-TTS/Fun-CosyVoice 3.0/GLM-TTS",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -38,7 +38,7 @@
   {
     "arena_no": "5",
     "champion": "私部署版：BISHENG + GLM 5",
-    "challenger": "私部署版：BISHENG + Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6/Hy3 preview/Step 3.7 Flash/Ling 2.6 flash",
+    "challenger": "私部署版：BISHENG + GLM 5.2/Minimax M3/Qwen 3.7/DeepSeek V4 Pro/Kimi K2.6/Hy3 preview/Step 3.7 Flash/Ling 2.6 flash",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -56,7 +56,7 @@
   {
     "arena_no": "7",
     "champion": "私部署版：Gemini CLI + Gemini 3.1 Pro",
-    "challenger": "私部署版：Claude Code + Qwen 3.7/DeepSeek V4 Pro/MiMo V2.5 Pro/GLM 5.1/Kimi K2.6",
+    "challenger": "私部署版：Claude Code + GLM 5.2/Kimi K2.7 Code/Qwen 3.7/DeepSeek V4 Pro/MiMo V2.5 Pro/Kimi K2.6",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -92,7 +92,7 @@
   {
     "arena_no": "11",
     "champion": "私部署版：Coze + GLM 5",
-    "challenger": "私部署版：Coze +  Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6",
+    "challenger": "私部署版：Coze +  GLM 5.2/Minimax M3/Qwen 3.7/DeepSeek V4 Pro/Kimi K2.6",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -101,7 +101,7 @@
   {
     "arena_no": "12",
     "champion": "私部署版：LangChain + GLM 5",
-    "challenger": "私部署版：LangChain +  Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain +  GLM 5.2/Minimax M3/Qwen 3.7/DeepSeek V4 Pro/Kimi K2.6  + Pydantic + unstructured + Faiss",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,
@@ -110,7 +110,7 @@
   {
     "arena_no": "13",
     "champion": "私部署版：LangChain + GLM 5",
-    "challenger": "私部署版：LangChain +  Minimax M3/Qwen 3.7/DeepSeek V4 Pro/GLM 5.1/Kimi K2.6  + Pydantic + unstructured + Faiss",
+    "challenger": "私部署版：LangChain +  Kimi K2.7 Code/GLM 5.2/Minimax M3/Qwen 3.7/DeepSeek V4 Pro/Kimi K2.6  + Pydantic + unstructured + Faiss",
     "video_url_zh": null,
     "video_url_global": null,
     "video_cover_image_url": null,

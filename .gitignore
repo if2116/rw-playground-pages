@@ -52,4 +52,5 @@ __pycache__/
 
 # custom
 /run.sh
+/run-sync-arena.sh
 !lib
